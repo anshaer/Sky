@@ -22,6 +22,10 @@
         "semiMajorAU": 0.3871,
         "periodDays": 87.969,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 2.8,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -36,6 +40,10 @@
         "semiMajorAU": 0.7233,
         "periodDays": 224.701,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 4.6,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -50,6 +58,10 @@
         "semiMajorAU": 1,
         "periodDays": 365.256,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 5.5,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -106,6 +118,10 @@
         "semiMajorAU": 1.5237,
         "periodDays": 686.98,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 4.6,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -150,6 +166,10 @@
         "semiMajorAU": 5.2028,
         "periodDays": 4332.59,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 12,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -1004,6 +1024,10 @@
         "semiMajorAU": 9.5388,
         "periodDays": 10759.22,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 11.2,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -1813,6 +1837,10 @@
         "semiMajorAU": 19.1914,
         "periodDays": 30688.5,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 8,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -2232,6 +2260,10 @@
         "semiMajorAU": 30.0611,
         "periodDays": 60182,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 7.8,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -2456,6 +2488,10 @@
         "semiMajorAU": 39.482,
         "periodDays": 90560,
         "source": "NASA/JPL mean parameters; compressed display"
+      },
+      "display": {
+        "size": 3,
+        "satelliteLayout": "flat-ring"
       }
     },
     {
@@ -2585,7 +2621,8 @@
       "key": "probe:pascal_b",
       "parentId": "P00",
       "modelId": "craft-pascal_b",
-      "color": "#f43f5e"
+      "color": "#f43f5e",
+      "description": "Pascal-B 鐵井蓋收藏：依惡趣味設定，展示位置刻意放在航海家與其他深空探測器之外。真實去向未獲追蹤證實，距離是娛樂設定。"
     },
     {
       "id": "A-007",
@@ -12286,8 +12323,11 @@
       "parentId": null,
       "modelId": "memorial-threebody-e",
       "color": "#72ccda",
-      "description": "以《三體》為主題的紀念行星 E。Sun1、Sun2、Sun3 依收藏設定作為它的衛星；這是裝飾性軌道，不是三體重力模擬。",
-      "fictional": true
+      "description": "三體紀念行星 E：小型行星搭配三顆更大的發光衛星。三顆共用較大軌道半徑、相同角速度，軌道方向與起始位置各錯開120度，避免互撞。純紀念配置，非三體引力模擬。",
+      "fictional": true,
+      "display": {
+        "size": 1.6
+      }
     },
     {
       "id": "3BODY-SUN1",
@@ -12298,7 +12338,13 @@
       "modelId": "memorial-threebody-sun1",
       "color": "#ffc85c",
       "description": "《三體》收藏用發光衛星；純粹示意，非真實三體運算。",
-      "fictional": true
+      "fictional": true,
+      "display": {
+        "size": 3.6,
+        "orbitRadius": 24,
+        "nodeDeg": 0,
+        "phaseDeg": 0
+      }
     },
     {
       "id": "3BODY-SUN2",
@@ -12309,7 +12355,13 @@
       "modelId": "memorial-threebody-sun2",
       "color": "#ff8862",
       "description": "《三體》收藏用發光衛星；純粹示意，非真實三體運算。",
-      "fictional": true
+      "fictional": true,
+      "display": {
+        "size": 3.6,
+        "orbitRadius": 24,
+        "nodeDeg": 120,
+        "phaseDeg": 120
+      }
     },
     {
       "id": "3BODY-SUN3",
@@ -12320,7 +12372,13 @@
       "modelId": "memorial-threebody-sun3",
       "color": "#badfff",
       "description": "《三體》收藏用發光衛星；純粹示意，非真實三體運算。",
-      "fictional": true
+      "fictional": true,
+      "display": {
+        "size": 3.6,
+        "orbitRadius": 24,
+        "nodeDeg": 240,
+        "phaseDeg": 240
+      }
     },
     {
       "id": "F-WATNEY",
