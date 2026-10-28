@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "name": "工具箱",
+  "links": [
+    {
+      "id": "tool-1",
+      "name": "我的工具網頁",
+      "url": "https://example.com/#tool-1",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-01",
+      "linkText": "開啟 我的工具網頁 的網頁 ↗"
+    },
+    {
+      "id": "tool-2",
+      "name": "圖片工具",
+      "url": "https://example.com/#tool-2",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-02",
+      "linkText": "開啟 圖片工具 的網頁 ↗"
+    },
+    {
+      "id": "tool-3",
+      "name": "模型工具",
+      "url": "https://example.com/#tool-3",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-03",
+      "linkText": "開啟 模型工具 的網頁 ↗"
+    },
+    {
+      "id": "tool-4",
+      "name": "時鐘工具",
+      "url": "https://example.com/#tool-4",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-04",
+      "linkText": "開啟 時鐘工具 的網頁 ↗"
+    },
+    {
+      "id": "tool-5",
+      "name": "直播工具",
+      "url": "https://example.com/#tool-5",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-05",
+      "linkText": "開啟 直播工具 的網頁 ↗"
+    },
+    {
+      "id": "tool-6",
+      "name": "網頁工具",
+      "url": "https://example.com/#tool-6",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-06",
+      "linkText": "開啟 網頁工具 的網頁 ↗"
+    },
+    {
+      "id": "tool-7",
+      "name": "動畫工具",
+      "url": "https://example.com/#tool-7",
+      "description": "示範工具連結，請在 toolbox.json 修改。",
+      "modelId": "ship-07",
+      "linkText": "開啟 動畫工具 的網頁 ↗"
+    }
+  ],
+  "floating": {
+    "refreshSeconds": 60
+  }
+}

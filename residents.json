@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "residents": [
+    {
+      "id": "resident-1",
+      "name": "法外狂徒張三",
+      "url": "https://example.com/#resident-1",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-01",
+      "linkText": "開啟 法外狂徒張三 的網頁 ↗"
+    },
+    {
+      "id": "resident-2",
+      "name": "隔壁老王",
+      "url": "https://example.com/#resident-2",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-02",
+      "linkText": "開啟 隔壁老王 的網頁 ↗"
+    },
+    {
+      "id": "resident-3",
+      "name": "星際旅人",
+      "url": "https://example.com/#resident-3",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-03",
+      "linkText": "開啟 星際旅人 的網頁 ↗"
+    },
+    {
+      "id": "resident-4",
+      "name": "太空水電工",
+      "url": "https://example.com/#resident-4",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-04",
+      "linkText": "開啟 太空水電工 的網頁 ↗"
+    },
+    {
+      "id": "resident-5",
+      "name": "月球便利商店",
+      "url": "https://example.com/#resident-5",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-05",
+      "linkText": "開啟 月球便利商店 的網頁 ↗"
+    },
+    {
+      "id": "resident-6",
+      "name": "銀河郵差",
+      "url": "https://example.com/#resident-6",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-06",
+      "linkText": "開啟 銀河郵差 的網頁 ↗"
+    },
+    {
+      "id": "resident-7",
+      "name": "迷路的船長",
+      "url": "https://example.com/#resident-7",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-07",
+      "linkText": "開啟 迷路的船長 的網頁 ↗"
+    },
+    {
+      "id": "resident-8",
+      "name": "宇宙貓咪",
+      "url": "https://example.com/#resident-8",
+      "description": "這是示範居民，請在 GitHub 的 residents.json 修改名字、網址與這段說明。",
+      "bodyId": "P03",
+      "modelId": "ship-08",
+      "linkText": "開啟 宇宙貓咪 的網頁 ↗"
+    },
+    {
+      "id": "moon-1",
+      "bodyId": "S03-001",
+      "name": "月球便利商店",
+      "url": "https://example.com/#moon-1",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "ship-09",
+      "linkText": "開啟 月球便利商店 的網頁 ↗"
+    },
+    {
+      "id": "moon-2",
+      "bodyId": "S03-001",
+      "name": "月面郵差",
+      "url": "https://example.com/#moon-2",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "ship-10",
+      "linkText": "開啟 月面郵差 的網頁 ↗"
+    },
+    {
+      "id": "moon-3",
+      "bodyId": "S03-001",
+      "name": "環月旅人",
+      "url": "https://example.com/#moon-3",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "astronaut-01",
+      "linkText": "開啟 環月旅人 的網頁 ↗"
+    },
+    {
+      "id": "moon-4",
+      "bodyId": "S03-001",
+      "name": "月兔船長",
+      "url": "https://example.com/#moon-4",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "astronaut-02",
+      "linkText": "開啟 月兔船長 的網頁 ↗"
+    },
+    {
+      "id": "moon-5",
+      "bodyId": "S03-001",
+      "name": "月坑茶館",
+      "url": "https://example.com/#moon-5",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "astronaut-03",
+      "linkText": "開啟 月坑茶館 的網頁 ↗"
+    },
+    {
+      "id": "moon-6",
+      "bodyId": "S03-001",
+      "name": "月光水電工",
+      "url": "https://example.com/#moon-6",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "astronaut-04",
+      "linkText": "開啟 月光水電工 的網頁 ↗"
+    },
+    {
+      "id": "moon-7",
+      "bodyId": "S03-001",
+      "name": "寧靜海住戶",
+      "url": "https://example.com/#moon-7",
+      "description": "月球示範居民；在 GitHub 的 residents.json 修改。",
+      "modelId": "astronaut-05",
+      "linkText": "開啟 寧靜海住戶 的網頁 ↗"
+    },
+    {
+      "id": "iss-1",
+      "bodyId": "A03-001",
+      "name": "太空站補給員",
+      "url": "https://example.com/#iss-1",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "astronaut-06",
+      "linkText": "開啟 太空站補給員 的網頁 ↗"
+    },
+    {
+      "id": "iss-2",
+      "bodyId": "A03-001",
+      "name": "軌道咖啡館",
+      "url": "https://example.com/#iss-2",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "astronaut-07",
+      "linkText": "開啟 軌道咖啡館 的網頁 ↗"
+    },
+    {
+      "id": "iss-3",
+      "bodyId": "A03-001",
+      "name": "星際維修員",
+      "url": "https://example.com/#iss-3",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "astronaut-08",
+      "linkText": "開啟 星際維修員 的網頁 ↗"
+    },
+    {
+      "id": "iss-4",
+      "bodyId": "A03-001",
+      "name": "漂流商人",
+      "url": "https://example.com/#iss-4",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "astronaut-09",
+      "linkText": "開啟 漂流商人 的網頁 ↗"
+    },
+    {
+      "id": "iss-5",
+      "bodyId": "A03-001",
+      "name": "軌道郵差",
+      "url": "https://example.com/#iss-5",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "astronaut-10",
+      "linkText": "開啟 軌道郵差 的網頁 ↗"
+    },
+    {
+      "id": "iss-6",
+      "bodyId": "A03-001",
+      "name": "觀星旅人",
+      "url": "https://example.com/#iss-6",
+      "description": "ISS 示範居民；以人造物編號對應。",
+      "modelId": "satellite-01",
+      "linkText": "開啟 觀星旅人 的網頁 ↗"
+    },
+    {
+      "id": "star-demo-1",
+      "bodyId": "H-Ori-001",
+      "name": "參宿觀星客",
+      "url": "https://example.com/#independent-1",
+      "description": "這位居民只屬於 H-Ori-001，不與其他天體共用名單。請修改為自己的名稱與連結。",
+      "modelId": "satellite-02",
+      "linkText": "開啟 參宿觀星客 的網頁 ↗"
+    },
+    {
+      "id": "star-demo-2",
+      "bodyId": "H-Ori-001",
+      "name": "獵戶星際郵差",
+      "url": "https://example.com/#independent-2",
+      "description": "這位居民只屬於 H-Ori-001，不與其他天體共用名單。請修改為自己的名稱與連結。",
+      "modelId": "satellite-03",
+      "linkText": "開啟 獵戶星際郵差 的網頁 ↗"
+    },
+    {
+      "id": "star-demo-3",
+      "bodyId": "H-Ori-002",
+      "name": "獵戶第二星住戶",
+      "url": "https://example.com/#independent-3",
+      "description": "這位居民只屬於 H-Ori-002，不與其他天體共用名單。請修改為自己的名稱與連結。",
+      "modelId": "satellite-04",
+      "linkText": "開啟 獵戶第二星住戶 的網頁 ↗"
+    },
+    {
+      "id": "star-demo-4",
+      "bodyId": "P04",
+      "name": "火星老王",
+      "url": "https://example.com/#independent-4",
+      "description": "這位居民只屬於 P04，不與其他天體共用名單。請修改為自己的名稱與連結。",
+      "modelId": "satellite-05",
+      "linkText": "開啟 火星老王 的網頁 ↗"
+    },
+    {
+      "id": "star-demo-5",
+      "bodyId": "S04-001",
+      "name": "火衛一修船工",
+      "url": "https://example.com/#independent-5",
+      "description": "這位居民只屬於 S04-001，不與其他天體共用名單。請修改為自己的名稱與連結。",
+      "modelId": "satellite-06",
+      "linkText": "開啟 火衛一修船工 的網頁 ↗"
+    },
+    {
+      "id": "traveler-01",
+      "name": "地球快遞員",
+      "bodyId": "P03",
+      "modelId": "ship-01",
+      "url": "",
+      "linkText": "查看 地球快遞員 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "P04",
+        "durationSeconds": 105,
+        "phaseOffsetSeconds": 23
+      }
+    },
+    {
+      "id": "traveler-02",
+      "name": "地球外派同事",
+      "bodyId": "P03",
+      "modelId": "ship-02",
+      "url": "",
+      "linkText": "查看 地球外派同事 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "S03-001",
+        "durationSeconds": 120,
+        "phaseOffsetSeconds": 46
+      }
+    },
+    {
+      "id": "traveler-03",
+      "name": "地球摸魚旅人",
+      "bodyId": "P03",
+      "modelId": "ship-03",
+      "url": "",
+      "linkText": "查看 地球摸魚旅人 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "S05-002",
+        "durationSeconds": 135,
+        "phaseOffsetSeconds": 69
+      }
+    },
+    {
+      "id": "traveler-04",
+      "name": "火星馬鈴薯商人",
+      "bodyId": "P04",
+      "modelId": "ship-04",
+      "url": "",
+      "linkText": "查看 火星馬鈴薯商人 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "P03",
+        "durationSeconds": 150,
+        "phaseOffsetSeconds": 92
+      }
+    },
+    {
+      "id": "traveler-05",
+      "name": "火星出差專員",
+      "bodyId": "P04",
+      "modelId": "ship-05",
+      "url": "",
+      "linkText": "查看 火星出差專員 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "S05-002",
+        "durationSeconds": 165,
+        "phaseOffsetSeconds": 115
+      }
+    },
+    {
+      "id": "traveler-06",
+      "name": "火星夜班領航員",
+      "bodyId": "P04",
+      "modelId": "ship-06",
+      "url": "",
+      "linkText": "查看 火星夜班領航員 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "S03-001",
+        "durationSeconds": 180,
+        "phaseOffsetSeconds": 138
+      }
+    },
+    {
+      "id": "traveler-07",
+      "name": "木衛二冰釣客",
+      "bodyId": "S05-002",
+      "modelId": "ship-07",
+      "url": "",
+      "linkText": "查看 木衛二冰釣客 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "P03",
+        "durationSeconds": 195,
+        "phaseOffsetSeconds": 161
+      }
+    },
+    {
+      "id": "traveler-08",
+      "name": "木衛二送餐員",
+      "bodyId": "S05-002",
+      "modelId": "ship-08",
+      "url": "",
+      "linkText": "查看 木衛二送餐員 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "P04",
+        "durationSeconds": 210,
+        "phaseOffsetSeconds": 184
+      }
+    },
+    {
+      "id": "traveler-09",
+      "name": "木衛二觀光代表",
+      "bodyId": "S05-002",
+      "modelId": "ship-09",
+      "url": "",
+      "linkText": "查看 木衛二觀光代表 的網頁 ↗",
+      "description": "示範往返居民：可在編輯頁修改姓名、目的地、單程秒數及連結。",
+      "travel": {
+        "enabled": true,
+        "destinationId": "S03-001",
+        "durationSeconds": 225,
+        "phaseOffsetSeconds": 207
+      }
+    },
+    {
+      "id": "resident-rolf-robertson",
+      "name": "羅爾夫·羅伯遜（Deliver Us the Moon）",
+      "bodyId": "S03-001",
+      "modelId": "astronaut-rolf",
+      "url": "",
+      "linkText": "查看月球任務 ↗",
+      "description": "《Deliver Us the Moon》紀念居民，以太空人造型固定繞月球。選取月球時保留顯示，不會被每分鐘的隨機輪替抽掉。",
+      "alwaysVisible": true
+    }
+  ],
+  "floating": {
+    "refreshSeconds": 60
+  }
+}
