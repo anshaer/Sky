@@ -25891,7 +25891,7 @@
       ]
     },
     "planet-saturn": {
-      "name": "土星與環",
+      "name": "土星本體（無模型星環）",
       "category": "body",
       "generator": "parts",
       "scale": [
@@ -25928,22 +25928,6 @@
             1,
             1
           ]
-        },
-        {
-          "shape": "ring",
-          "args": [
-            1.4,
-            2.3,
-            48
-          ],
-          "color": "#fde047",
-          "rotation": [
-            1.0471975511965976,
-            0,
-            0
-          ],
-          "opacity": 0.65,
-          "unlit": true
         }
       ]
     },
