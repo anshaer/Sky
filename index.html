@@ -1235,9 +1235,9 @@
                 mesh.traverse(child => { if(child.isMesh) child.userData = mesh.userData; });
                 if(pr.anchor && pr.anchor!=='sun'){
                     const parent=planetMeshes.find(p=>p.userData.id===pr.anchor);
-                    parent.add(mesh);mesh.position.set(pr.localRadius*Math.cos(pr.angle),0,pr.localRadius*Math.sin(pr.angle));
+                    const frame=new THREE.Group();parent.add(frame);neutralizeParentScale(frame,parent);frame.add(mesh);mesh.position.set(pr.localRadius*Math.cos(pr.angle),0,pr.localRadius*Math.sin(pr.angle));
                     const pts=[];for(let i=0;i<=96;i++){const a=i/96*Math.PI*2;pts.push(new THREE.Vector3(pr.localRadius*Math.cos(a),0,pr.localRadius*Math.sin(a)));}
-                    const track=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:pr.color,transparent:true,opacity:.16}));parent.add(track);orbitLineMeshes.push(track);
+                    const track=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:pr.color,transparent:true,opacity:.16}));frame.add(track);orbitLineMeshes.push(track);
                 }else celestialSphereGroup.add(mesh);
                 probeMeshes.push(mesh);
                 if(pr.anchor==='sun'&&!pr.comet){const points=[];for(let j=0;j<=128;j++){const a=j/128*Math.PI*2;points.push(new THREE.Vector3(pr.orbitRadius*Math.cos(a),pr.height||0,pr.orbitRadius*Math.sin(a)));}const guide=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color:pr.color,transparent:true,opacity:.12}));celestialSphereGroup.add(guide);orbitLineMeshes.push(guide);}
@@ -1364,6 +1364,7 @@
 
             activeSatelliteGroup = new THREE.Group();
             planetMesh.add(activeSatelliteGroup);
+            neutralizeParentScale(activeSatelliteGroup,planetMesh);
             activeSatelliteData = [];
 
             const labelsContainer = document.getElementById('labels-container');
@@ -2071,7 +2072,7 @@
         function validJourney(row){return row.travel?.enabled===true&&row.travel.destinationId!==row.bodyId&&getBody(row.travel.destinationId)&&getBody(row.bodyId)&&Number.isFinite(row.travel.durationSeconds)&&row.travel.durationSeconds>=10&&row.travel.durationSeconds<=86400;}
         function journeyLeg(row,now=Date.now()){const d=row.travel.durationSeconds*1000,phase=(((now+(row.travel.phaseOffsetSeconds||0)*1000)/d)%2+2)%2,back=phase>=1;return {from:back?row.travel.destinationId:row.bodyId,to:back?row.bodyId:row.travel.destinationId,progress:phase%1};}
         function residentName(row,bodyId){if(!validJourney(row))return row.name+(row.alwaysVisible?' · 常駐':'');return row.name+' · '+(journeyLeg(row).from===bodyId?'出發中':'抵達中');}
-        function bodyPosition(id){const b=getBody(id);if(!b)return null;let mesh;if(b.key.startsWith('planet:'))mesh=planetMeshes.find(m=>m.userData.id===b.key.slice(7));else if(b.key.startsWith('probe:'))mesh=probeMeshes.find(m=>m.userData.id===b.key.slice(6));else if(b.type==='star'){const g=constellationGroups.find(g=>g.userData.id===b.constellationId);mesh=g?.children.find(m=>m.userData.starIndex===b.starIndex);}else if(b.key.startsWith('moon:')){const p=SOLAR_SYSTEM_DATA.find(p=>p.bodyId===b.parentId),sat=p?.satellites.find(s=>s.bodyId===id);mesh=activeSatelliteGroup?.children.find(m=>m.userData.residentKey===b.key);if(!mesh&&p&&sat){const parent=planetMeshes.find(m=>m.userData.id===p.id);return parent?celestialSphereGroup.worldToLocal(parent.localToWorld(satellitePosition(p,sat))):null;}}return mesh?celestialSphereGroup.worldToLocal(mesh.getWorldPosition(new THREE.Vector3())):null;}
+        function bodyPosition(id){const b=getBody(id);if(!b)return null;let mesh;if(b.key.startsWith('planet:'))mesh=planetMeshes.find(m=>m.userData.id===b.key.slice(7));else if(b.key.startsWith('probe:'))mesh=probeMeshes.find(m=>m.userData.id===b.key.slice(6));else if(b.type==='star'){const g=constellationGroups.find(g=>g.userData.id===b.constellationId);mesh=g?.children.find(m=>m.userData.starIndex===b.starIndex);}else if(b.key.startsWith('moon:')){const p=SOLAR_SYSTEM_DATA.find(p=>p.bodyId===b.parentId),sat=p?.satellites.find(s=>s.bodyId===id);mesh=activeSatelliteGroup?.children.find(m=>m.userData.residentKey===b.key);if(!mesh&&p&&sat){const parent=planetMeshes.find(m=>m.userData.id===p.id);return parent?celestialSphereGroup.worldToLocal(parent.localToWorld(satellitePosition(p,sat).multiply(inverseModelScale(parent)))):null;}}return mesh?celestialSphereGroup.worldToLocal(mesh.getWorldPosition(new THREE.Vector3())):null;}
         let lastDirectoryUpdate=0;
         function updateTravelDirectory(){if(performance.now()-lastDirectoryUpdate<1000)return;lastDirectoryUpdate=performance.now();document.querySelectorAll('[data-resident-id]').forEach(el=>{const row=residentConfig.residents.find(r=>r.id===el.dataset.residentId);if(row)el.textContent=residentName(row,getBody(residentTargetKey)?.id)+(row.url?' ↗':'');});}
         function solarDisplayDistance(au){return 42+130*Math.log1p(au);}
@@ -2100,6 +2101,8 @@
                 for(const probe of PROBES_DATA.filter(x=>x.anchor===p.id)){const i=PROBES_DATA.filter(x=>x.anchor===p.id).indexOf(probe),n=getBody(probe.bodyId)?.distanceScale??1;probe.localRadius=Math.max(p.size+probe.size+1,p.size+(probe.size*1.4+1+i*.45)*n);}
             }
         }
+        function inverseModelScale(model){return new THREE.Vector3(...['x','y','z'].map(axis=>Math.abs(model.scale[axis])>1e-8?1/model.scale[axis]:1));}
+        function neutralizeParentScale(frame,parent){frame.scale.copy(inverseModelScale(parent));}
         function satelliteOrbitPoint(sat,a){const v=new THREE.Vector3(sat.radius*Math.cos(a),sat.radius*Math.sin(a)*Math.sin(sat.inclination||0),sat.radius*Math.sin(a)*Math.cos(sat.inclination||0));return sat.node?v.applyAxisAngle(new THREE.Vector3(0,1,0),-sat.node):v;}
         function satellitePosition(p,sat){const a=(sat.phase??0)+simulationTime*sat.speed;if(sat.key==='JWST'){const parent=planetMeshes.find(m=>m.userData.id===p.id),out=parent.position.clone().normalize().multiplyScalar(sat.radius);out.y+=Math.sin(a)*.5;return out;}return satelliteOrbitPoint(sat,a);}
         function updateProbePositions(frameScale){const earth=planetMeshes.find(m=>m.userData.id==='earth');for(const mesh of probeMeshes){const d=mesh.userData.data;if(d.comet)continue;if(d.id==='soho'||d.id==='gaia'){const radial=earth.position.clone().normalize(),distance=pseudoLagrangeGap(d.id),sign=d.id==='soho'?-1:1;mesh.position.copy(earth.position).addScaledVector(radial,sign*distance);mesh.position.y=Math.sin(simulationTime*.006)*.7;continue;}if(settings.autoRotate&&!d.escape)d.angle+=(d.orbitSpeed??.001)*settings.speedMultiplier*frameScale;if(d.anchor&&d.anchor!=='sun')mesh.position.set(d.localRadius*Math.cos(d.angle),0,d.localRadius*Math.sin(d.angle));else if(!d.escape)mesh.position.set(d.orbitRadius*Math.cos(d.angle),d.height||0,d.orbitRadius*Math.sin(d.angle));}}
