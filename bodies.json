@@ -73,7 +73,7 @@
       "modelId": "natural-moon",
       "color": "#e2e8f0",
       "orbit": {
-        "distanceKm": 384400.0,
+        "distanceKm": 384400,
         "periodDays": 27.322,
         "inclinationDeg": 5.16,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -133,7 +133,7 @@
       "modelId": "natural-moon",
       "color": "#d1d5db",
       "orbit": {
-        "distanceKm": 9375.0,
+        "distanceKm": 9375,
         "periodDays": 0.3187,
         "inclinationDeg": 1.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -148,7 +148,7 @@
       "modelId": "natural-moon",
       "color": "#9ca3af",
       "orbit": {
-        "distanceKm": 23457.0,
+        "distanceKm": 23457,
         "periodDays": 1.2625,
         "inclinationDeg": 1.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -181,9 +181,9 @@
       "modelId": "natural-moon",
       "color": "#fef08a",
       "orbit": {
-        "distanceKm": 421800.0,
+        "distanceKm": 421800,
         "periodDays": 1.762732,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -196,7 +196,7 @@
       "modelId": "natural-moon",
       "color": "#e0f2fe",
       "orbit": {
-        "distanceKm": 671100.0,
+        "distanceKm": 671100,
         "periodDays": 3.525463,
         "inclinationDeg": 0.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -211,7 +211,7 @@
       "modelId": "natural-moon",
       "color": "#d1d5db",
       "orbit": {
-        "distanceKm": 1070400.0,
+        "distanceKm": 1070400,
         "periodDays": 7.155588,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -226,7 +226,7 @@
       "modelId": "natural-moon",
       "color": "#9ca3af",
       "orbit": {
-        "distanceKm": 1882700.0,
+        "distanceKm": 1882700,
         "periodDays": 16.69044,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -241,7 +241,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 181400.0,
+        "distanceKm": 181400,
         "periodDays": 0.499918,
         "inclinationDeg": 0.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -256,7 +256,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 221900.0,
+        "distanceKm": 221900,
         "periodDays": 0.676105,
         "inclinationDeg": 1.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -271,9 +271,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 129000.0,
+        "distanceKm": 129000,
         "periodDays": 0.29826,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -286,9 +286,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 128000.0,
+        "distanceKm": 128000,
         "periodDays": 0.294779,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -301,7 +301,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11439000.0,
+        "distanceKm": 11439000,
         "periodDays": 249.909,
         "inclinationDeg": 28.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -316,7 +316,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11710700.0,
+        "distanceKm": 11710700,
         "periodDays": 258.8861,
         "inclinationDeg": 27.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -331,7 +331,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11699100.0,
+        "distanceKm": 11699100,
         "periodDays": 258.5035,
         "inclinationDeg": 27.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -346,7 +346,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11145200.0,
+        "distanceKm": 11145200,
         "periodDays": 240.3264,
         "inclinationDeg": 28.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -361,7 +361,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23463200.0,
+        "distanceKm": 23463200,
         "periodDays": 734.4215,
         "inclinationDeg": 148.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -376,7 +376,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23679300.0,
+        "distanceKm": 23679300,
         "periodDays": 744.5951,
         "inclinationDeg": 157.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -391,7 +391,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23139200.0,
+        "distanceKm": 23139200,
         "periodDays": 719.2806,
         "inclinationDeg": 164.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -406,7 +406,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 21029500.0,
+        "distanceKm": 21029500,
         "periodDays": 623.1097,
         "inclinationDeg": 147.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -421,7 +421,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 7397000.0,
+        "distanceKm": 7397000,
         "periodDays": 129.9681,
         "inclinationDeg": 44.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -436,7 +436,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23789400.0,
+        "distanceKm": 23789400,
         "periodDays": 749.791,
         "inclinationDeg": 144.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -451,7 +451,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23103400.0,
+        "distanceKm": 23103400,
         "periodDays": 717.5917,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -466,7 +466,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22926300.0,
+        "distanceKm": 22926300,
         "periodDays": 709.3625,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -481,7 +481,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20887500.0,
+        "distanceKm": 20887500,
         "periodDays": 616.7833,
         "inclinationDeg": 147.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -496,7 +496,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23298000.0,
+        "distanceKm": 23298000,
         "periodDays": 726.7007,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -511,7 +511,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 21062300.0,
+        "distanceKm": 21062300,
         "periodDays": 624.5479,
         "inclinationDeg": 148.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -526,7 +526,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23027200.0,
+        "distanceKm": 23027200,
         "periodDays": 714.0542,
         "inclinationDeg": 164.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -541,7 +541,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22976300.0,
+        "distanceKm": 22976300,
         "periodDays": 711.6604,
         "inclinationDeg": 164.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -556,7 +556,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20931100.0,
+        "distanceKm": 20931100,
         "periodDays": 618.7229,
         "inclinationDeg": 148.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -571,7 +571,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23640100.0,
+        "distanceKm": 23640100,
         "periodDays": 742.7715,
         "inclinationDeg": 149.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -586,7 +586,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23785200.0,
+        "distanceKm": 23785200,
         "periodDays": 749.6097,
         "inclinationDeg": 150.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -601,7 +601,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20972700.0,
+        "distanceKm": 20972700,
         "periodDays": 620.5875,
         "inclinationDeg": 147.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -616,7 +616,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 21103600.0,
+        "distanceKm": 21103600,
         "periodDays": 626.3799,
         "inclinationDeg": 150.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -631,7 +631,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23059400.0,
+        "distanceKm": 23059400,
         "periodDays": 715.5396,
         "inclinationDeg": 164.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -646,7 +646,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22894500.0,
+        "distanceKm": 22894500,
         "periodDays": 707.8569,
         "inclinationDeg": 148.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -661,7 +661,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20822900.0,
+        "distanceKm": 20822900,
         "periodDays": 613.9278,
         "inclinationDeg": 148.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -676,7 +676,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19261900.0,
+        "distanceKm": 19261900,
         "periodDays": 546.1778,
         "inclinationDeg": 145.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -691,7 +691,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20897800.0,
+        "distanceKm": 20897800,
         "periodDays": 617.2347,
         "inclinationDeg": 144.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -706,7 +706,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23538700.0,
+        "distanceKm": 23538700,
         "periodDays": 737.9542,
         "inclinationDeg": 149.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -721,7 +721,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23047800.0,
+        "distanceKm": 23047800,
         "periodDays": 715.016,
         "inclinationDeg": 164.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -736,7 +736,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22840800.0,
+        "distanceKm": 22840800,
         "periodDays": 705.409,
         "inclinationDeg": 164.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -751,7 +751,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23342600.0,
+        "distanceKm": 23342600,
         "periodDays": 728.7743,
         "inclinationDeg": 152.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -766,7 +766,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20815800.0,
+        "distanceKm": 20815800,
         "periodDays": 613.6104,
         "inclinationDeg": 147.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -781,7 +781,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23773100.0,
+        "distanceKm": 23773100,
         "periodDays": 749.0708,
         "inclinationDeg": 155.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -796,7 +796,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20972300.0,
+        "distanceKm": 20972300,
         "periodDays": 620.5458,
         "inclinationDeg": 150.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -811,7 +811,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23093200.0,
+        "distanceKm": 23093200,
         "periodDays": 717.1056,
         "inclinationDeg": 164.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -826,7 +826,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23017100.0,
+        "distanceKm": 23017100,
         "periodDays": 713.5931,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -841,7 +841,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20911400.0,
+        "distanceKm": 20911400,
         "periodDays": 617.8625,
         "inclinationDeg": 154.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -856,7 +856,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17039500.0,
+        "distanceKm": 17039500,
         "periodDays": 454.4,
         "inclinationDeg": 53.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -871,7 +871,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23062400.0,
+        "distanceKm": 23062400,
         "periodDays": 715.6868,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -886,7 +886,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23650000.0,
+        "distanceKm": 23650000,
         "periodDays": 743.2062,
         "inclinationDeg": 146.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -901,7 +901,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 24203300.0,
+        "distanceKm": 24203300,
         "periodDays": 769.4229,
         "inclinationDeg": 141.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -916,7 +916,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23146700.0,
+        "distanceKm": 23146700,
         "periodDays": 719.6264,
         "inclinationDeg": 164.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -931,7 +931,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 12257900.0,
+        "distanceKm": 12257900,
         "periodDays": 277.2472,
         "inclinationDeg": 29.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -946,7 +946,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23051300.0,
+        "distanceKm": 23051300,
         "periodDays": 715.191,
         "inclinationDeg": 164.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -961,7 +961,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22600200.0,
+        "distanceKm": 22600200,
         "periodDays": 694.2042,
         "inclinationDeg": 146.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -976,7 +976,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20763400.0,
+        "distanceKm": 20763400,
         "periodDays": 611.316,
         "inclinationDeg": 147.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -991,7 +991,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11479600.0,
+        "distanceKm": 11479600,
         "periodDays": 251.2319,
         "inclinationDeg": 28.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1006,9 +1006,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11399400.0,
+        "distanceKm": 11399400,
         "periodDays": 248.6153,
-        "inclinationDeg": 29.0,
+        "inclinationDeg": 29,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1039,7 +1039,7 @@
       "modelId": "natural-moon",
       "color": "#fba518",
       "orbit": {
-        "distanceKm": 1221900.0,
+        "distanceKm": 1221900,
         "periodDays": 15.945448,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1054,9 +1054,9 @@
       "modelId": "natural-moon",
       "color": "#ffffff",
       "orbit": {
-        "distanceKm": 238400.0,
+        "distanceKm": 238400,
         "periodDays": 1.370218,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1069,7 +1069,7 @@
       "modelId": "natural-moon",
       "color": "#d6d3d1",
       "orbit": {
-        "distanceKm": 186000.0,
+        "distanceKm": 186000,
         "periodDays": 0.942422,
         "inclinationDeg": 1.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1084,7 +1084,7 @@
       "modelId": "natural-moon",
       "color": "#a8a29e",
       "orbit": {
-        "distanceKm": 3561700.0,
+        "distanceKm": 3561700,
         "periodDays": 79.331002,
         "inclinationDeg": 7.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1099,7 +1099,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 295000.0,
+        "distanceKm": 295000,
         "periodDays": 1.887802,
         "inclinationDeg": 1.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1114,9 +1114,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 377700.0,
+        "distanceKm": 377700,
         "periodDays": 2.736916,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1129,7 +1129,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 527200.0,
+        "distanceKm": 527200,
         "periodDays": 4.517503,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1144,7 +1144,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 1481500.0,
+        "distanceKm": 1481500,
         "periodDays": 21.276658,
         "inclinationDeg": 0.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1159,7 +1159,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 12929400.0,
+        "distanceKm": 12929400,
         "periodDays": 550.30391,
         "inclinationDeg": 175.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1174,7 +1174,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 151500.0,
+        "distanceKm": 151500,
         "periodDays": 0.697353,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1189,7 +1189,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 151400.0,
+        "distanceKm": 151400,
         "periodDays": 0.697012,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1204,7 +1204,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 377600.0,
+        "distanceKm": 377600,
         "periodDays": 2.736916,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1219,7 +1219,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 295000.0,
+        "distanceKm": 295000,
         "periodDays": 1.887802,
         "inclinationDeg": 1.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1234,7 +1234,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 295000.0,
+        "distanceKm": 295000,
         "periodDays": 1.887803,
         "inclinationDeg": 1.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1249,9 +1249,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 137700.0,
+        "distanceKm": 137700,
         "periodDays": 0.604602,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1264,9 +1264,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 139400.0,
+        "distanceKm": 139400,
         "periodDays": 0.615878,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1279,9 +1279,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 141700.0,
+        "distanceKm": 141700,
         "periodDays": 0.631369,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1294,9 +1294,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 133600.0,
+        "distanceKm": 133600,
         "periodDays": 0.575051,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1309,9 +1309,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 136500.0,
+        "distanceKm": 136500,
         "periodDays": 0.59408,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1324,9 +1324,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 194700.0,
+        "distanceKm": 194700,
         "periodDays": 1.009549,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1339,7 +1339,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 212300.0,
+        "distanceKm": 212300,
         "periodDays": 1.156059,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1354,7 +1354,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 377600.0,
+        "distanceKm": 377600,
         "periodDays": 2.736916,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1369,9 +1369,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 198100.0,
+        "distanceKm": 198100,
         "periodDays": 1.038898,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1384,9 +1384,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 167500.0,
+        "distanceKm": 167500,
         "periodDays": 0.808115,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1399,7 +1399,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22955600.0,
+        "distanceKm": 22955600,
         "periodDays": 1298.6819,
         "inclinationDeg": 172.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1414,7 +1414,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 14997700.0,
+        "distanceKm": 14997700,
         "periodDays": 685.7153,
         "inclinationDeg": 48.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1429,7 +1429,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 18216600.0,
+        "distanceKm": 18216600,
         "periodDays": 917.984,
         "inclinationDeg": 37.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1444,7 +1444,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11344700.0,
+        "distanceKm": 11344700,
         "periodDays": 451.1201,
         "inclinationDeg": 49.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1459,7 +1459,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19391900.0,
+        "distanceKm": 19391900,
         "periodDays": 1008.2451,
         "inclinationDeg": 175.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1474,9 +1474,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 11307400.0,
+        "distanceKm": 11307400,
         "periodDays": 448.9076,
-        "inclinationDeg": 48.0,
+        "inclinationDeg": 48,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1489,7 +1489,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 18588200.0,
+        "distanceKm": 18588200,
         "periodDays": 946.2903,
         "inclinationDeg": 167.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1504,7 +1504,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 16329200.0,
+        "distanceKm": 16329200,
         "periodDays": 779.0701,
         "inclinationDeg": 36.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1519,7 +1519,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 15575400.0,
+        "distanceKm": 15575400,
         "periodDays": 725.7313,
         "inclinationDeg": 151.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1534,7 +1534,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17506900.0,
+        "distanceKm": 17506900,
         "periodDays": 864.9236,
         "inclinationDeg": 37.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1549,7 +1549,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17881100.0,
+        "distanceKm": 17881100,
         "periodDays": 892.6799,
         "inclinationDeg": 47.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1564,9 +1564,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20330500.0,
+        "distanceKm": 20330500,
         "periodDays": 1082.2292,
-        "inclinationDeg": 175.0,
+        "inclinationDeg": 175,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1579,7 +1579,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19285000.0,
+        "distanceKm": 19285000,
         "periodDays": 999.9417,
         "inclinationDeg": 142.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1594,7 +1594,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20664400.0,
+        "distanceKm": 20664400,
         "periodDays": 1109.1278,
         "inclinationDeg": 166.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1609,7 +1609,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17027300.0,
+        "distanceKm": 17027300,
         "periodDays": 829.6437,
         "inclinationDeg": 38.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1624,7 +1624,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19268100.0,
+        "distanceKm": 19268100,
         "periodDays": 998.6187,
         "inclinationDeg": 158.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1639,7 +1639,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20337800.0,
+        "distanceKm": 20337800,
         "periodDays": 1082.9444,
         "inclinationDeg": 138.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1654,7 +1654,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20290700.0,
+        "distanceKm": 20290700,
         "periodDays": 1079.1243,
         "inclinationDeg": 156.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1669,7 +1669,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22330800.0,
+        "distanceKm": 22330800,
         "periodDays": 1245.9215,
         "inclinationDeg": 164.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1684,9 +1684,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 24936800.0,
+        "distanceKm": 24936800,
         "periodDays": 1470.3618,
-        "inclinationDeg": 170.0,
+        "inclinationDeg": 170,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1699,7 +1699,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19695000.0,
+        "distanceKm": 19695000,
         "periodDays": 1032.0236,
         "inclinationDeg": 165.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1714,7 +1714,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 18340900.0,
+        "distanceKm": 18340900,
         "periodDays": 927.4569,
         "inclinationDeg": 149.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1729,9 +1729,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22032100.0,
+        "distanceKm": 22032100,
         "periodDays": 1220.9757,
-        "inclinationDeg": 153.0,
+        "inclinationDeg": 153,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1744,7 +1744,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22919200.0,
+        "distanceKm": 22919200,
         "periodDays": 1295.5243,
         "inclinationDeg": 168.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1759,7 +1759,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17623400.0,
+        "distanceKm": 17623400,
         "periodDays": 873.5736,
         "inclinationDeg": 159.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1774,7 +1774,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22748000.0,
+        "distanceKm": 22748000,
         "periodDays": 1281.1396,
         "inclinationDeg": 168.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1789,9 +1789,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 19273500.0,
+        "distanceKm": 19273500,
         "periodDays": 999.1271,
-        "inclinationDeg": 163.0,
+        "inclinationDeg": 163,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1804,7 +1804,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 18380000.0,
+        "distanceKm": 18380000,
         "periodDays": 930.4389,
         "inclinationDeg": 174.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1819,7 +1819,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17751000.0,
+        "distanceKm": 17751000,
         "periodDays": 882.8514,
         "inclinationDeg": 48.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1852,7 +1852,7 @@
       "modelId": "natural-moon",
       "color": "#e2e8f0",
       "orbit": {
-        "distanceKm": 436298.0,
+        "distanceKm": 436298,
         "periodDays": 8.705869,
         "inclinationDeg": 0.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1867,7 +1867,7 @@
       "modelId": "natural-moon",
       "color": "#c084fc",
       "orbit": {
-        "distanceKm": 583511.0,
+        "distanceKm": 583511,
         "periodDays": 13.463237,
         "inclinationDeg": 0.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1882,9 +1882,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 190929.0,
+        "distanceKm": 190929,
         "periodDays": 2.520379,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -1897,7 +1897,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 265986.0,
+        "distanceKm": 265986,
         "periodDays": 4.144177,
         "inclinationDeg": 0.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1912,7 +1912,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 129846.0,
+        "distanceKm": 129846,
         "periodDays": 1.413479,
         "inclinationDeg": 4.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1927,7 +1927,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 49755.0,
+        "distanceKm": 49755,
         "periodDays": 0.3347,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1942,7 +1942,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 53765.0,
+        "distanceKm": 53765,
         "periodDays": 0.3764,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1957,7 +1957,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 59170.0,
+        "distanceKm": 59170,
         "periodDays": 0.4347,
         "inclinationDeg": 2.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1972,7 +1972,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 61770.0,
+        "distanceKm": 61770,
         "periodDays": 0.4639,
         "inclinationDeg": 1.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -1987,7 +1987,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 62663.0,
+        "distanceKm": 62663,
         "periodDays": 0.4736,
         "inclinationDeg": 3.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2002,9 +2002,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 64362.0,
+        "distanceKm": 64362,
         "periodDays": 0.4931,
-        "inclinationDeg": 3.0,
+        "inclinationDeg": 3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2017,7 +2017,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 66101.0,
+        "distanceKm": 66101,
         "periodDays": 0.5132,
         "inclinationDeg": 2.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2032,7 +2032,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 69930.0,
+        "distanceKm": 69930,
         "periodDays": 0.5583,
         "inclinationDeg": 1.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2047,7 +2047,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 75258.0,
+        "distanceKm": 75258,
         "periodDays": 0.6236,
         "inclinationDeg": 1.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2062,7 +2062,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 86007.0,
+        "distanceKm": 86007,
         "periodDays": 0.7618,
         "inclinationDeg": 1.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2077,8 +2077,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 7167000.0,
-        "periodDays": 580.0,
+        "distanceKm": 7167000,
+        "periodDays": 580,
         "inclinationDeg": 141.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2092,9 +2092,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 12193200.0,
-        "periodDays": 1286.0,
-        "inclinationDeg": 157.0,
+        "distanceKm": 12193200,
+        "periodDays": 1286,
+        "inclinationDeg": 157,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2107,8 +2107,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 16221000.0,
-        "periodDays": 1974.0,
+        "distanceKm": 16221000,
+        "periodDays": 1974,
         "inclinationDeg": 149.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2122,8 +2122,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 17519800.0,
-        "periodDays": 2215.0,
+        "distanceKm": 17519800,
+        "periodDays": 2215,
         "inclinationDeg": 153.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2137,8 +2137,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 7951400.0,
-        "periodDays": 677.0,
+        "distanceKm": 7951400,
+        "periodDays": 677,
         "inclinationDeg": 143.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2152,8 +2152,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 8502600.0,
-        "periodDays": 749.0,
+        "distanceKm": 8502600,
+        "periodDays": 749,
         "inclinationDeg": 167.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2167,8 +2167,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 4275700.0,
-        "periodDays": 267.0,
+        "distanceKm": 4275700,
+        "periodDays": 267,
         "inclinationDeg": 146.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2182,8 +2182,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 14425000.0,
-        "periodDays": 1655.0,
+        "distanceKm": 14425000,
+        "periodDays": 1655,
         "inclinationDeg": 60.5,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2197,8 +2197,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 20421400.0,
-        "periodDays": 2788.0,
+        "distanceKm": 20421400,
+        "periodDays": 2788,
         "inclinationDeg": 169.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2212,7 +2212,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 76418.0,
+        "distanceKm": 76418,
         "periodDays": 0.6382,
         "inclinationDeg": 1.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2227,7 +2227,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 97737.0,
+        "distanceKm": 97737,
         "periodDays": 0.9229,
         "inclinationDeg": 1.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2242,9 +2242,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 74396.0,
+        "distanceKm": 74396,
         "periodDays": 0.6125,
-        "inclinationDeg": 2.0,
+        "inclinationDeg": 2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2275,7 +2275,7 @@
       "modelId": "natural-moon",
       "color": "#a5f3fc",
       "orbit": {
-        "distanceKm": 354800.0,
+        "distanceKm": 354800,
         "periodDays": 5.8792,
         "inclinationDeg": 157.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2290,7 +2290,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 5513900.0,
+        "distanceKm": 5513900,
         "periodDays": 360.133039,
         "inclinationDeg": 5.1,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2305,7 +2305,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 48300.0,
+        "distanceKm": 48300,
         "periodDays": 0.2951,
         "inclinationDeg": 4.7,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2320,7 +2320,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 50100.0,
+        "distanceKm": 50100,
         "periodDays": 0.3118,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2335,9 +2335,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 52600.0,
+        "distanceKm": 52600,
         "periodDays": 0.3347,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2350,9 +2350,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 62000.0,
+        "distanceKm": 62000,
         "periodDays": 0.4292,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2365,7 +2365,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 73600.0,
+        "distanceKm": 73600,
         "periodDays": 0.5549,
         "inclinationDeg": 0.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2380,7 +2380,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 117700.0,
+        "distanceKm": 117700,
         "periodDays": 1.1229,
         "inclinationDeg": 0.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2395,8 +2395,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 16590500.0,
-        "periodDays": 1879.0,
+        "distanceKm": 16590500,
+        "periodDays": 1879,
         "inclinationDeg": 119.6,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2410,8 +2410,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 47646600.0,
-        "periodDays": 9149.0,
+        "distanceKm": 47646600,
+        "periodDays": 9149,
         "inclinationDeg": 127.8,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2425,8 +2425,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 22239900.0,
-        "periodDays": 2919.0,
+        "distanceKm": 22239900,
+        "periodDays": 2919,
         "inclinationDeg": 50.2,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2440,8 +2440,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 23499900.0,
-        "periodDays": 3168.0,
+        "distanceKm": 23499900,
+        "periodDays": 3168,
         "inclinationDeg": 36.9,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2455,8 +2455,8 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 49897800.0,
-        "periodDays": 9805.0,
+        "distanceKm": 49897800,
+        "periodDays": 9805,
         "inclinationDeg": 128.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
@@ -2470,7 +2470,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 105300.0,
+        "distanceKm": 105300,
         "periodDays": 0.9507,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2503,9 +2503,9 @@
       "modelId": "natural-moon",
       "color": "#d6d3d1",
       "orbit": {
-        "distanceKm": 19600.0,
+        "distanceKm": 19600,
         "periodDays": 6.387222,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2518,9 +2518,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 49300.0,
+        "distanceKm": 49300,
         "periodDays": 24.85,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
@@ -2533,7 +2533,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 65200.0,
+        "distanceKm": 65200,
         "periodDays": 38.2,
         "inclinationDeg": 0.3,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2548,7 +2548,7 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 58300.0,
+        "distanceKm": 58300,
         "periodDays": 32.17,
         "inclinationDeg": 0.4,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
@@ -2563,9 +2563,9 @@
       "modelId": "natural-moon",
       "color": "#a8b3c7",
       "orbit": {
-        "distanceKm": 43200.0,
+        "distanceKm": 43200,
         "periodDays": 20.16,
-        "inclinationDeg": 0.0,
+        "inclinationDeg": 0,
         "source": "https://ssd.jpl.nasa.gov/sats/elem/"
       }
     },
