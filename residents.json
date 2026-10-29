@@ -1488,6 +1488,6 @@
   "floating": {
      "refreshSeconds": 60,
   "maxCountPortrait": 30,
-  "maxCountLandscape": 120
+  "maxCountLandscape": 120,
   }
 }
