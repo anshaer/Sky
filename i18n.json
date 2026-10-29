@@ -246,7 +246,11 @@
         "models version 須為1、bodies version 須為2": "models version 須為1、bodies version 須為2",
         "無效母星編號 ": "無效母星編號 ",
         "說明欄位須為文字": "說明欄位須為文字",
-        "模型設定：": "模型設定："
+        "模型設定：": "模型設定：",
+        "GLB 載入中…": "GLB 載入中…",
+        "GLB 載入失敗，使用原模型": "GLB 載入失敗，使用原模型",
+        "GLB 已就緒；拉近顯示": "GLB 已就緒；拉近顯示",
+        "GLB 待命；拉近時載入": "GLB 待命；拉近時載入"
       },
       "bodies": {
         "P00": {
@@ -3780,7 +3784,11 @@
         "models version 須為1、bodies version 須為2": "models version は1、bodies version は2です",
         "無效母星編號 ": "無効な母天体 ID ",
         "說明欄位須為文字": "説明欄は文字列で指定してください",
-        "模型設定：": "モデル設定："
+        "模型設定：": "モデル設定：",
+        "GLB 載入中…": "GLB 読み込み中…",
+        "GLB 載入失敗，使用原模型": "GLB 読み込み失敗、元のモデルを使用",
+        "GLB 已就緒；拉近顯示": "GLB 準備完了・拡大すると表示",
+        "GLB 待命；拉近時載入": "GLB 待機中・拡大時に読み込み"
       },
       "bodies": {
         "P00": {
@@ -8395,7 +8403,11 @@
         "models version 須為1、bodies version 須為2": "models version must be 1; bodies version must be 2",
         "無效母星編號 ": "Invalid parent body ID: ",
         "說明欄位須為文字": "Description fields must be text",
-        "模型設定：": "Model configuration: "
+        "模型設定：": "Model configuration: ",
+        "GLB 載入中…": "Loading GLB…",
+        "GLB 載入失敗，使用原模型": "GLB failed; using original model",
+        "GLB 已就緒；拉近顯示": "GLB ready; zoom in to display",
+        "GLB 待命；拉近時載入": "GLB on standby; loads when zoomed in"
       },
       "bodies": {
         "P00": {
@@ -13010,7 +13022,11 @@
         "models version 須為1、bodies version 須為2": "models version은 1, bodies version은 2여야 합니다",
         "無效母星編號 ": "잘못된 모천체 ID: ",
         "說明欄位須為文字": "설명 필드는 텍스트여야 합니다",
-        "模型設定：": "모델 설정: "
+        "模型設定：": "모델 설정: ",
+        "GLB 載入中…": "GLB 불러오는 중…",
+        "GLB 載入失敗，使用原模型": "GLB 불러오기 실패, 기존 모델 사용",
+        "GLB 已就緒；拉近顯示": "GLB 준비 완료, 확대하면 표시",
+        "GLB 待命；拉近時載入": "GLB 대기 중, 확대 시 불러오기"
       },
       "bodies": {
         "P00": {
@@ -17625,7 +17641,11 @@
         "models version 須為1、bodies version 須為2": "models version doit être 1 ; bodies version doit être 2",
         "無效母星編號 ": "Identifiant de corps parent incorrect : ",
         "說明欄位須為文字": "Les champs de description doivent être du texte",
-        "模型設定：": "Configuration du modèle : "
+        "模型設定：": "Configuration du modèle : ",
+        "GLB 載入中…": "Chargement du GLB…",
+        "GLB 載入失敗，使用原模型": "Échec du GLB ; modèle d’origine utilisé",
+        "GLB 已就緒；拉近顯示": "GLB prêt ; zoomer pour l’afficher",
+        "GLB 待命；拉近時載入": "GLB en attente ; chargement au zoom"
       },
       "bodies": {
         "P00": {

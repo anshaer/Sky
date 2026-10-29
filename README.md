@@ -2,6 +2,37 @@
 
 把壓縮包內所有檔案放在 GitHub Pages 專案同一層。主頁為 `index.html`，居民編輯頁為 `editor.html`，模型目錄為 `model_gallery.html`。頁面使用網路上的 Three.js、OrbitControls、樣式與字型。
 
+## 共用分享圖片與居民 GLB 更新
+
+主頁已加入 Open Graph／X 大圖分享標籤，圖片網址固定為 `https://anshaer.github.io/Sky/sky.png`。請把自己的 `sky.png` 放在 `index.html` 同一層；本次沒有附帶這張圖片。若網站網域或資料夾改變，要同時修改 index.html 的 og:image 與 twitter:image 絕對網址。所有居民分享沿用同一張圖與全站介紹。平台可能快取舊預覽，更新圖片後未必立即反映。
+
+居民可選填 `glbUrl`，例如：
+
+```json
+{
+  "id": "p03-resident-1",
+  "bodyId": "P03",
+  "name": "隔壁老王",
+  "modelId": "astronaut-07",
+  "glbUrl": "models/laowang.glb",
+  "url": "https://example.com/",
+  "linkText": "開啟老王的網頁",
+  "description": "居民介紹維持原文"
+}
+```
+
+- 未填或空字串：完全沿用現有模型與原有近距細節，不請求 GLB 檔案。
+- 有連結：只有目前聚焦的居民，在螢幕上的模型投影達96像素時載入；縮小到64像素以下切回現有模型，避免切換閃爍。
+- 載入中、逾時、網址失效或模型不相容時保留現有模型，說明欄顯示狀態；不會每一幀重試失敗連結。
+- GLB 自動置中並對齊原有模型大小；外層位置與鏡頭追蹤物件保持不變，居民軌道、移動、名稱、分享與連結繼續可用。
+- 主頁最多同時顯示一位居民的 GLB，最多保留兩個 GLB 場景快取；離開該天體／刷新名單時清理對應資源。若模型有動畫，顯示時播放第一段動畫。
+- 編輯器新增「近距 GLB 模型連結」欄位，輸入後離開欄位即可更新預覽。選「近距細節」強制預覽、選「遠距簡模」看原模型。GLB 欄位隨 residents.json 匯出；原有未填此欄的居民檔案仍可使用。
+- 可以填公開的 http／https 直連或網站相對路徑。請填實際模型下載網址，不能填模型介紹頁、需要登入的分享頁。外站必須允許 CORS；相對路徑以網頁資料夾為準。本機相對檔案請透過本機伺服器開啟。
+- 載入器固定使用與既有程式相同的 Three.js r128，首次需要 GLB 時才取得 GLTFLoader／DRACOLoader；一般 GLB 與 Draco 網格壓縮可用，Draco 解碼器按需下載。需要 KTX2／Meshopt 等額外解碼器的模型目前可能回退原模型。建議先以一般自包含 GLB 測試。
+- 建議單模型約1～3 MB，貼圖以1024為主；檔案大小不等於顯示記憶體需求。GLB 與貼圖不會寫入瀏覽器永久離線快取，由一般 HTTP 快取決定是否重用。
+
+本次更新 `index.html`、新增 `resident-glb.js`、`resident-data.js`、`editor.html`、`editor.js`、`i18n.json`；另自行放入 sky.png。既有 residents.json、bodies.json、models.json 等檔案可沿用，只有需要 GLB 的居民才新增 glbUrl。README.md 為操作說明。
+
 ## 編輯居民並更新 GitHub
 
 1. 開啟 `editor.html`，會自動讀取同一層的 JSON。
@@ -74,6 +105,7 @@
 | descriptions.json | 天體／星座中文說明，version 1 |
 | i18n.json | 五語介面、天體名稱與外語簡介 |
 | resident-data.js | 居民／工具資料容錯讀取、驗證與分隔格式 |
+| resident-glb.js | 居民選填 GLB、延遲載入、近距切換、狀態與資源清理 |
 
 ## 編號與獨立住址
 
