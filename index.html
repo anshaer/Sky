@@ -193,7 +193,7 @@
                     <div style="position:relative;min-width:0"><input id="resident-search" aria-label="搜尋居民、星球、衛星與星座" placeholder="搜尋居民／天體／星座…" aria-controls="resident-search-results" aria-expanded="false" autocomplete="off" style="width:100%;max-width:180px;background:#111e30;color:#e2e8f0;border:1px solid #42556d;border-radius:6px;padding:6px;font-size:12px"><div id="resident-search-results" hidden style="position:absolute;top:36px;right:0;width:min(340px,calc(100vw - 32px));max-height:360px;overflow:auto;background:#101e30;border:1px solid #42556d;border-radius:6px;z-index:99"></div></div>
                 </div>
                 <div class="flex items-center gap-1.5">
-                    <button id="toolbox-btn" title="連結工具箱" class="text-xs bg-slate-800 text-amber-300 w-8 h-8 rounded-lg border border-slate-600/40">🧰</button>
+                    <button id="language-btn" title="語言" aria-label="語言" aria-expanded="false" aria-controls="language-menu" class="text-xs bg-slate-800 text-amber-300 w-8 h-8 rounded-lg border border-slate-600/40">🌐</button>
                     <!-- Reset & Sun Lock Button ☀️ -->
                     <button id="reset-cam-btn" title="重置視野並鎖定太陽" class="text-xs bg-amber-500/20 hover:bg-amber-500/40 text-amber-300 w-8 h-8 rounded-lg border border-amber-400/40 transition-all flex items-center justify-center font-orbitron shadow-lg">
                         ☀️
@@ -204,6 +204,7 @@
                 </div>
             </div>
 
+            <div id="language-menu" hidden style="padding:8px;background:#0f172a;border-bottom:1px solid #334155;display:none;gap:5px;flex-wrap:wrap"><button data-language="zh-Hant" lang="zh-Hant">繁體中文</button><button data-language="ja" lang="ja">日本語</button><button data-language="en" lang="en">English</button><button data-language="ko" lang="ko">한국어</button><button data-language="fr" lang="fr">Français</button></div>
             <details id="resident-load-report" hidden style="padding:6px 10px;border-bottom:1px solid #334155;color:#fcd34d;font-size:10px"><summary id="resident-load-summary" style="cursor:pointer"></summary><div id="resident-load-issues" style="max-height:180px;overflow:auto;touch-action:pan-y;white-space:pre-wrap;margin-top:5px;user-select:text"></div></details>
             <!-- Panel Content Container (Defaults Collapsed) -->
             <div id="panel-body" class="flex flex-col flex-1 overflow-hidden transition-all duration-300 max-h-0 opacity-0 pointer-events-none">
@@ -246,6 +247,7 @@
                         <span id="speed-val" class="text-amber-400 font-bold">0.05x</span>
                     </div>
                     
+                    <div style="display:flex;align-items:center;gap:6px;font-size:11px;flex-wrap:wrap"><label for="resident-limit">居民顯示上限</label><input id="resident-limit" type="number" min="0" max="200" step="1" value="20" style="width:62px;background:#17243a;border:1px solid #475569;padding:4px;color:#e2e8f0"><button id="resident-shuffle" style="padding:4px 7px;border:1px solid #475569;border-radius:4px">隨機刷新</button></div>
                     <!-- Speed Control Slider -->
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-gauge-high text-xs text-amber-400"></i>
@@ -343,7 +345,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-    <script src="resident-data.js?v=separator-1"></script>
+    <script src="resident-data.js?v=languages-share-2"></script>
     <script src="model-renderer.js"></script>
     <script>
         // --- SOLAR SYSTEM DATA (WITH SATELLITES FOR ALL PLANETS) ---
@@ -844,6 +846,97 @@
         PROBES_DATA.forEach(p=>{p.bodyId=p.comet?p.bodyId:'A-'+String(FIXED_PROBE_IDS.indexOf(p.id)+1).padStart(3,'0');BODY_CATALOG.push({id:p.bodyId,name:p.name,type:p.comet?'comet':'artificial',...(p.comet?{modelId:'moon-07'}:{}),key:'probe:'+p.id,parentId:p.anchor?SOLAR_SYSTEM_DATA.find(x=>x.id===p.anchor)?.bodyId:null});});
         CONSTELLATIONS_DATA.forEach(c=>c.stars.forEach((star,i)=>{star.bodyId='H-'+c.id+'-'+String(i+1).padStart(3,'0');BODY_CATALOG.push({id:star.bodyId,name:star.name,type:'star',key:'star:'+c.id+':'+i,parentId:null,constellation:c.name,constellationId:c.id,starIndex:i});}));
         const BODY_BY_ID=new Map(BODY_CATALOG.map(b=>[b.id,b])),BODY_BY_KEY=new Map(BODY_CATALOG.map(b=>[b.key,b]));
+        // Fixed dictionaries; resident names, descriptions and custom link labels are never translated.
+        let interfaceLanguages={languages:{}},interfaceLanguage='zh-Hant',languageSources=[],staticLanguageNodes=[],staticLanguageAttributes=[];
+        function tr(text){return interfaceLanguages.languages?.[interfaceLanguage]?.ui?.[text]??text;}
+        async function loadInterfaceLanguages(){try{const r=await fetch(new URL('i18n.json',document.baseURI),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(data.version!==1||!data.languages?.['zh-Hant'])throw Error('Invalid language dictionary');interfaceLanguages=data;}catch(e){configWarnings.push('i18n.json: '+e.message);}}
+        function collectStaticLanguageNodes(){
+            const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;
+            while(node=walker.nextNode()){if(node.parentElement?.closest('script,style,#copyright-footer,#language-menu'))continue;const key=node.textContent.trim();if(interfaceLanguages.languages?.['en']?.ui?.[key])staticLanguageNodes.push({node,key,before:node.textContent.match(/^\s*/)[0],after:node.textContent.match(/\s*$/)[0]});}
+            for(const el of document.querySelectorAll('[title],[placeholder],[aria-label]'))for(const attr of ['title','placeholder','aria-label']){const key=el.getAttribute(attr);if(key&&interfaceLanguages.languages?.en?.ui?.[key])staticLanguageAttributes.push({el,attr,key});}
+        }
+        function translateStaticInterface(){
+            document.documentElement.lang=interfaceLanguage;
+            for(const {node,key,before,after} of staticLanguageNodes)if(node.isConnected)node.textContent=before+tr(key)+after;
+            for(const {el,attr,key} of staticLanguageAttributes)el.setAttribute(attr,tr(key));
+            document.querySelectorAll('[data-language]').forEach(button=>{const active=button.dataset.language===interfaceLanguage;button.setAttribute('aria-pressed',String(active));button.style.cssText='padding:6px 8px;border:1px solid '+(active?'#fbbf24':'#475569')+';background:'+(active?'#334155':'#17243a')+';border-radius:4px;font-size:12px';});
+        }
+        function initializeLanguage(){
+            collectStaticLanguageNodes();
+            const add=(object,kind,id)=>{const source={};for(const field of ['name','type','diameter','distance','period','sector','coords','speed','status','alpha'])if(typeof object[field]==='string')source[field]=object[field];if(kind==='body'&&getBody(id))source.name=getBody(id).name;languageSources.push({object,kind,id,source});};
+            BODY_CATALOG.forEach(b=>{b.originalName=b.name;add(b,'catalog',b.id);});
+            SOLAR_SYSTEM_DATA.forEach(p=>{add(p,'body',p.bodyId);p.satellites.forEach(s=>add(s,'body',s.bodyId));});
+            PROBES_DATA.forEach(p=>add(p,'body',p.bodyId));
+            CONSTELLATIONS_DATA.forEach(c=>{c.originalName=c.name;add(c,'constellation',c.id);c.stars.forEach(st=>add(st,'body',st.bodyId));});
+            let desired='zh-Hant';try{desired=localStorage.getItem('anshaer.star.language')||desired;}catch{}
+            desired=new URL(location.href).searchParams.get('lang')||desired;
+            interfaceLanguage=interfaceLanguages.languages?.[desired]?desired:'zh-Hant';applyLanguageData();translateStaticInterface();
+        }
+        function astronomyText(text,field){
+            const direct=tr(text);if(direct!==text||interfaceLanguage==='zh-Hant'||!/[\u3400-\u9fff]/.test(text))return direct;
+            const units={'億公里':'×10⁸ km','萬公里':'×10⁴ km','公里':' km','小時':' h','分鐘':' min','年':' yr','天':' d','日':' d','度':'°','約':'≈','秒':' s'};
+            let result=text;for(const phrase of ['平均距母星 ','發射','核試驗'])result=result.split(phrase).join(tr(phrase));for(const [a,b] of Object.entries(units))result=result.split(a).join(b);
+            if(!/[\u3400-\u9fff]/.test(result))return result;
+            return tr(({type:'天體',sector:'展示位置',coords:'天球投影',status:'娛樂展示',speed:'展示週期',period:'展示週期',alpha:'未標註'})[field]||'未標註');
+        }
+        function applyLanguageData(){
+            const lang=interfaceLanguages.languages?.[interfaceLanguage];
+            for(const {object,kind,id,source} of languageSources){
+                const entry=kind==='constellation'?lang?.constellations?.[id]:lang?.bodies?.[id];
+                object.name=interfaceLanguage==='zh-Hant'?source.name:entry?.name||source.name;
+                // Body catalog type/key/ID remain machine-readable and stable.
+                if(kind!=='catalog')for(const [field,value] of Object.entries(source))if(field!=='name')object[field]=astronomyText(value,field);
+                if(kind==='catalog'&&object.constellationId)object.constellation=lang?.constellations?.[object.constellationId]?.name||CONSTELLATIONS_DATA.find(c=>c.id===object.constellationId)?.name;
+            }
+        }
+        function localizeBodyDescription(data,mode){
+            if(!data)return data;const id=mode==='constellation'?data.id:getBody(residentKey(data,mode))?.id,lang=interfaceLanguages.languages?.[interfaceLanguage],entry=mode==='constellation'?lang?.constellations?.[id]:lang?.bodies?.[id];
+            const result={...data,name:(interfaceLanguage==='zh-Hant'?getBody(id)?.name||data.name:entry?.name||getBody(id)?.name||data.name)};
+            if(interfaceLanguage!=='zh-Hant'){
+                if(entry?.description||entry?.descriptionKey)result.desc=entry.description||tr(entry.descriptionKey);
+                for(const field of ['type','diameter','distance','period','sector','coords','speed','alpha'])if(typeof result[field]==='string')result[field]=astronomyText(entry?.[field]??result[field],field);
+            }
+            return result;
+        }
+        function updateLanguageLabels(){
+            for(const item of planetLabels)item.element.textContent=(item.data.symbol||'')+' ['+item.data.bodyId+'] '+item.data.name;
+            for(const item of probeLabels)item.element.textContent=(item.data.symbol||'')+' ['+item.data.bodyId+'] '+item.data.name;
+            for(const item of constellationLabels)item.element.textContent=(item.data.symbol||'')+' '+item.data.name;
+            for(const item of starLabels){const b=getBody(item.mesh?.userData.residentKey)||getBody(item.mesh?.userData.data?.bodyId);if(b)item.element.textContent='['+b.id+'] '+b.name;}
+            for(const item of satelliteLabels){const b=getBody(item.mesh.userData.residentKey);if(b)item.element.textContent='['+b.id+'] '+b.name;}
+            // Star labels hold their catalog address in their original displayed prefix.
+            for(const item of starLabels){const id=item.element.textContent.match(/^\[([^\]]+)\]/)?.[1],b=getBody(id);if(b)item.element.textContent='['+b.id+'] '+b.name;}
+            stableConstellationLayout.clear();constellationLayoutTime=-Infinity;renderResidentLoadReport();
+        }
+        function setInterfaceLanguage(language){
+            if(!interfaceLanguages.languages?.[language])return;interfaceLanguage=language;try{localStorage.setItem('anshaer.star.language',language);}catch{}
+            applyLanguageData();translateStaticInterface();updateLanguageLabels();switchTab(activeTab);
+            const focused=residentFocus;
+            if(focused)focusResident(focused.row,focused.kind,true);
+            else if(lastModalData){showModalCard(lastModalData,lastModalMode,true);if(lastModalMode==='star'){const b=getBody(residentKey(lastModalData,'star'));if(b){document.getElementById('meta-sector-label').textContent=tr('隸屬星座');document.getElementById('meta-sector').textContent=b.constellation;document.getElementById('meta-alpha-label').textContent=tr('恆星名稱');document.getElementById('meta-alpha').textContent=b.name;const parent=CONSTELLATIONS_DATA.find(c=>c.id===b.constellationId),picker=document.getElementById('moon-picker');picker.style.display='block';const back=document.createElement('button');back.textContent=tr('← 返回')+parent.name;back.onclick=()=>selectConstellation(parent.id);picker.appendChild(back);appendStarPicker(picker,parent,b.starIndex);document.getElementById('meta-dist-label').textContent=tr('距離');document.getElementById('meta-dist').textContent=tr('未列入距離資料');document.getElementById('meta-extra-label').textContent=tr('星圖編號');document.getElementById('meta-extra').textContent=(b.starIndex+1)+' / '+parent.stars.length;document.getElementById('meta-coords').textContent=tr('J2000 天球投影位置');}}if(orbitKind==='toolbox'){showToolboxLinks();document.getElementById('resident-panel').style.display='none';}}
+            if(!focused)updateInfoPanel(lastInfoData,lastInfoName,lastInfoMode);
+            const input=document.getElementById('resident-search');if(input.value)input.oninput();
+        }
+        function setupInterfaceControls(){
+            const button=document.getElementById('language-btn'),menu=document.getElementById('language-menu');
+            button.onclick=()=>{menu.hidden=!menu.hidden;menu.style.display=menu.hidden?'none':'flex';button.setAttribute('aria-expanded',String(!menu.hidden));};
+            menu.querySelectorAll('[data-language]').forEach(el=>el.onclick=()=>{setInterfaceLanguage(el.dataset.language);menu.hidden=true;menu.style.display='none';button.setAttribute('aria-expanded','false');});
+            document.getElementById('resident-limit').onchange=e=>{const n=Number(e.target.value);residentDisplayLimit=Number.isFinite(n)?Math.min(200,Math.max(0,Math.round(n))):20;e.target.value=residentDisplayLimit;adjustResidentLimit(true);};
+            document.getElementById('resident-shuffle').onclick=()=>adjustResidentLimit(true);
+        }
+        function renderResidentShare(row){
+            const panel=document.getElementById('resident-link-panel');panel.hidden=false;
+            const button=document.createElement('button');button.type='button';button.textContent=tr('分享居民');button.style.cssText='padding:6px 8px;border:1px solid #475569;color:#c4b5fd;margin:3px 0 8px';
+            const field=document.createElement('input');field.type='text';field.readOnly=true;field.hidden=true;field.setAttribute('aria-label',tr('複製分享網址'));field.style.cssText='width:100%;font-size:11px;padding:6px;background:#17243a;color:#e2e8f0';
+            button.onclick=async()=>{const url=new URL(location.href);url.searchParams.set('resident',row.id);url.searchParams.set('lang',interfaceLanguage);url.hash='';field.value=url.href;try{if(!navigator.clipboard?.writeText)throw Error();await navigator.clipboard.writeText(url.href);button.textContent=tr('已複製分享網址');}catch{field.hidden=false;field.focus();field.select();button.textContent=tr('複製分享網址');}};
+            panel.append(button,field);
+        }
+        function openSharedResident(){
+            const id=new URL(location.href).searchParams.get('resident');if(!id)return;const row=residentConfig.residents.find(r=>r.id===id);
+            if(row){navigateBody(row.bodyId);focusResident(row);}
+            else {const note=document.createElement('div');note.textContent=tr('找不到分享的居民')+' · '+id;note.style.cssText='position:fixed;bottom:25px;left:10px;z-index:50;padding:8px;background:#17243a;color:#fde68a;font-size:12px;max-width:90vw;overflow-wrap:anywhere';document.body.appendChild(note);setTimeout(()=>note.remove(),10000);}
+        }
+
         function getBody(key){return BODY_BY_ID.get(key)||BODY_BY_KEY.get(key);}
         function residentsFor(key){const body=getBody(key);if(!body)return [];return residentConfig.residents.filter(r=>r.bodyId===body.id||(validJourney(r)&&r.travel.destinationId===body.id));}
         let residentListCategory='planet',orbitKind='resident',residentCycleStarted=0,pairFocus=null;
@@ -871,11 +964,11 @@
         let residentFocus=null;
         async function loadModelConfiguration(){
             async function read(file){const response=await fetch(new URL(file,document.baseURI),{cache:'no-cache'});if(!response.ok)throw Error(file+' HTTP '+response.status);return response.json();}
-            try{const [models,bodies]=await Promise.all([read('models.json'),read('bodies.json')]);if(models.version!==1||!models.models||bodies.version!==2||!Array.isArray(bodies.bodies))throw Error('models version 須為1、bodies version 須為2');
-                for(const [id,def] of Object.entries(models.models)){if(!['sphere','moon','craft','resident','parts'].includes(def.generator))throw Error('未知模型產生器 '+id);if(def.parts&&(!Array.isArray(def.parts)||def.parts.length>250))throw Error('模型零件數過多 '+id);for(const part of def.parts||[]){if(!['box','sphere','cylinder','cone','torus','ring','icosahedron','octahedron','lathe','buffer'].includes(part.shape)||!Array.isArray(part.args)||(part.shape!=='lathe'&&part.args.some(v=>!Number.isFinite(v))))throw Error('無效模型零件 '+id);}}
-                for(const row of bodies.bodies){if(!getBody(row.id))continue;if(!models.models[row.modelId])throw Error(row.id+' 缺少模型 '+row.modelId);if(row.description!==undefined&&typeof row.description!=='string')throw Error('介紹須為文字 '+row.id);if(row.distanceScale!==undefined&&(!Number.isFinite(row.distanceScale)||row.distanceScale<.1||row.distanceScale>20))throw Error('相對距離須為0.1至20 '+row.id);if(row.parentId&&!getBody(row.parentId))throw Error('無效母星編號 '+row.parentId);}
+            try{const [models,bodies]=await Promise.all([read('models.json'),read('bodies.json')]);if(models.version!==1||!models.models||bodies.version!==2||!Array.isArray(bodies.bodies))throw Error(tr('models version 須為1、bodies version 須為2'));
+                for(const [id,def] of Object.entries(models.models)){if(!['sphere','moon','craft','resident','parts'].includes(def.generator))throw Error(tr('未知模型產生器 ')+id);if(def.parts&&(!Array.isArray(def.parts)||def.parts.length>250))throw Error(tr('模型零件數過多 ')+id);for(const part of def.parts||[]){if(!['box','sphere','cylinder','cone','torus','ring','icosahedron','octahedron','lathe','buffer'].includes(part.shape)||!Array.isArray(part.args)||(part.shape!=='lathe'&&part.args.some(v=>!Number.isFinite(v))))throw Error(tr('無效模型零件 ')+id);}}
+                for(const row of bodies.bodies){if(!getBody(row.id))continue;if(!models.models[row.modelId])throw Error(row.id+tr(' 缺少模型 ')+row.modelId);if(row.description!==undefined&&typeof row.description!=='string')throw Error(tr('介紹須為文字 ')+row.id);if(row.distanceScale!==undefined&&(!Number.isFinite(row.distanceScale)||row.distanceScale<.1||row.distanceScale>20))throw Error(tr('相對距離須為0.1至20 ')+row.id);if(row.parentId&&!getBody(row.parentId))throw Error(tr('無效母星編號 ')+row.parentId);}
                 modelDefinitions=models.models;StarModelLibrary.setModels(modelDefinitions);for(const row of bodies.bodies){const known=getBody(row.id);if(known){Object.assign(known,row);known.modelId=row.modelId;if(row.color!==undefined)known.color=row.color;known.parentId=row.parentId??known.parentId;}}
-            }catch(e){configWarnings.push('模型設定：'+e.message);}
+            }catch(e){configWarnings.push(tr('模型設定：')+e.message);}
         }
         function createConfiguredModel(id,context={}){return StarModelLibrary.create(id,context);}
         function createBodyModel(bodyId,context){const body=getBody(bodyId);return createConfiguredModel(body?.modelId,{...context,color:body?.color??context.color});}
@@ -883,43 +976,45 @@
         function appendBodySatellitePicker(container,data){
             const planet=SOLAR_SYSTEM_DATA.find(p=>p.id===data.id);if(!planet)return;
             const entries=BODY_CATALOG.filter(b=>b.parentId===planet.bodyId);if(!entries.length)return;
-            const select=document.createElement('select');select.id='body-satellites';select.style.cssText='width:100%;background:#17243a;color:#e2e8f0;padding:7px;border:1px solid #475569';select.add(new Option('衛星／人造物近看（'+entries.length+'）',''));
-            for(const [type,label] of [['satellite','衛星（天然／虛構）'],['artificial','人造衛星／歷史物件'],['comet','彗星']]){const group=document.createElement('optgroup');group.label=label;entries.filter(b=>b.type===type).forEach(b=>group.appendChild(new Option('['+b.id+'] '+b.name,b.id)));if(group.children.length)select.appendChild(group);}select.onchange=()=>{if(select.value)navigateBody(select.value);};container.style.display='block';container.appendChild(select);
+            const select=document.createElement('select');select.id='body-satellites';select.style.cssText='width:100%;background:#17243a;color:#e2e8f0;padding:7px;border:1px solid #475569';select.add(new Option(tr('衛星／人造物近看（')+entries.length+'）',''));
+            for(const [type,label] of [['satellite',tr('衛星（天然／虛構）')],['artificial',tr('人造衛星／歷史物件')],['comet',tr('彗星')]]){const group=document.createElement('optgroup');group.label=label;entries.filter(b=>b.type===type).forEach(b=>group.appendChild(new Option('['+b.id+'] '+b.name,b.id)));if(group.children.length)select.appendChild(group);}select.onchange=()=>{if(select.value)navigateBody(select.value);};container.style.display='block';container.appendChild(select);
         }
-        function focusResident(row,kind='resident'){
+        function focusResident(row,kind='resident',refreshOnly=false){
             const bodyId=kind==='toolbox'?getBody('probe:links_toolbox')?.id:(validJourney(row)&&[row.bodyId,row.travel.destinationId].includes(getBody(residentTargetKey)?.id)?getBody(residentTargetKey).id:row.bodyId),body=getBody(bodyId);if(!body)return;
             if(!residentAnchor||getBody(residentTargetKey)?.id!==bodyId||orbitKind!==kind)navigateBody(bodyId);
             if(!residentOrbiters.some(r=>r.row.id===row.id)){populateResidentOrbit(performance.now(),row);updateResidentOrbits(0);}
             const selected=residentOrbiters.find(r=>r.row.id===row.id);if(!selected)return;
             residentFocus={row,kind,bodyId,mesh:selected.dot};selectedObject='resident:'+row.id;clearPairFocus();
-            const modal=document.getElementById('info-modal');modal.classList.remove('opacity-0','pointer-events-none','translate-y-8');modal.classList.add('opacity-100','pointer-events-auto','translate-y-0');
-            document.getElementById('resident-panel').style.display='none';document.getElementById('toolbox-links').hidden=true;const picker=document.getElementById('moon-picker');picker.replaceChildren();picker.style.display='block';const back=document.createElement('button');back.textContent='← 返回 ['+body.id+'] '+body.name;back.onclick=()=>navigateBody(body.id);picker.appendChild(back);
-            document.getElementById('modal-symbol').innerText='🚀';document.getElementById('modal-title').innerText=row.name;document.getElementById('modal-latin').innerText=row.modelId||'';document.getElementById('modal-desc').innerText=(row.description||'尚無居民說明。')+(validJourney(row)?'\n往返：'+getBody(row.bodyId).name+' ↔ '+getBody(row.travel.destinationId).name+' · 單程 '+row.travel.durationSeconds+' 秒':'');if(validJourney(row)){for(const endpoint of [row.bodyId,row.travel.destinationId]){const b=getBody(endpoint),button=document.createElement('button');button.textContent='前往 '+b.name;button.onclick=()=>navigateBody(endpoint);picker.appendChild(button);}}
-            const fields={'meta-sector-label':'所屬天體','meta-sector':'['+body.id+'] '+body.name,'meta-alpha-label':'使用模型','meta-alpha':modelDefinitions[row.modelId]?.name||row.modelId||'—','meta-mag':'—','meta-dist-label':'居民編號','meta-dist':row.id||'—','meta-extra-label':'模型類別','meta-extra':({spaceship:'太空船',astronaut:'太空人',satellite:'人造衛星',moon:'天體衛星',planet:'天體',debris:'太空遺失物',legacy:'原有模型',body:'天體'})[modelDefinitions[row.modelId]?.category]||'—','meta-coords':row.modelId||'—'};for(const [id,value] of Object.entries(fields))document.getElementById(id).innerText=value;
-            const links=document.getElementById('resident-link-panel');links.replaceChildren();links.hidden=!row.url;if(row.url){const link=document.createElement('a');link.href=row.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=row.linkText||'開啟 '+row.name+' 的網頁 ↗';link.style.cssText='display:block;padding:8px;color:#7dd3fc;font-size:12px;border:1px solid #334155;margin-bottom:8px';links.appendChild(link);}
-            document.getElementById('info-title').innerText=row.name;document.getElementById('info-sub').innerText=row.modelId||'';document.getElementById('info-star').innerText='聚焦居民 · '+body.name;
-            const bound=new THREE.Box3().setFromObject(selected.dot).getSize(new THREE.Vector3()).length()*.5;focusCameraOnTarget(selected.dot,Math.max(.15,bound),true);
+            const modal=document.getElementById('info-modal');if(!refreshOnly){modal.classList.remove('opacity-0','pointer-events-none','translate-y-8');modal.classList.add('opacity-100','pointer-events-auto','translate-y-0');}
+            document.getElementById('resident-panel').style.display='none';document.getElementById('toolbox-links').hidden=true;const picker=document.getElementById('moon-picker');picker.replaceChildren();picker.style.display='block';const back=document.createElement('button');back.textContent=tr('← 返回 [')+body.id+'] '+body.name;back.onclick=()=>navigateBody(body.id);picker.appendChild(back);
+            document.getElementById('modal-symbol').innerText='🚀';document.getElementById('modal-title').innerText=row.name;document.getElementById('modal-latin').innerText=row.modelId||'';document.getElementById('modal-desc').innerText=(row.description||tr('尚無居民說明。'))+(validJourney(row)?tr('\n往返：')+getBody(row.bodyId).name+' ↔ '+getBody(row.travel.destinationId).name+tr(' · 單程 ')+row.travel.durationSeconds+tr(' 秒'):'');if(validJourney(row)){for(const endpoint of [row.bodyId,row.travel.destinationId]){const b=getBody(endpoint),button=document.createElement('button');button.textContent=tr('前往 ')+b.name;button.onclick=()=>navigateBody(endpoint);picker.appendChild(button);}}
+            const fields={'meta-sector-label':tr('所屬天體'),'meta-sector':'['+body.id+'] '+body.name,'meta-alpha-label':tr('使用模型'),'meta-alpha':modelDefinitions[row.modelId]?.name||row.modelId||'—','meta-mag':'—','meta-dist-label':tr('居民編號'),'meta-dist':row.id||'—','meta-extra-label':tr('模型類別'),'meta-extra':({spaceship:tr('太空船'),astronaut:tr('太空人'),satellite:tr('人造衛星'),moon:tr('天體衛星'),planet:tr('天體'),debris:tr('太空遺失物'),legacy:tr('原有模型'),body:tr('天體')})[modelDefinitions[row.modelId]?.category]||'—','meta-coords':row.modelId||'—'};for(const [id,value] of Object.entries(fields))document.getElementById(id).innerText=value;
+            const links=document.getElementById('resident-link-panel');links.replaceChildren();links.hidden=!row.url;if(row.url){const link=document.createElement('a');link.href=row.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=row.linkText||tr('開啟 ')+row.name+tr(' 的網頁 ↗');link.style.cssText='display:block;padding:8px;color:#7dd3fc;font-size:12px;border:1px solid #334155;margin-bottom:8px';links.appendChild(link);}
+            document.getElementById('info-title').innerText=row.name;document.getElementById('info-sub').innerText=row.modelId||'';document.getElementById('info-star').innerText=tr('聚焦居民 · ')+body.name;
+            const bound=new THREE.Box3().setFromObject(selected.dot).getSize(new THREE.Vector3()).length()*.5;if(!refreshOnly)focusCameraOnTarget(selected.dot,Math.max(.15,bound),true);
+            if(kind==='resident')renderResidentShare(row);
         }
 
-        let residentConfig={version:2,residents:[],floating:{refreshSeconds:60,maxCountPortrait:20,maxCountLandscape:60},departure:{}},toolboxConfig={version:2,name:'工具箱',links:[],floating:{refreshSeconds:60,maxCountPortrait:20,maxCountLandscape:60},departure:{}};
+        let residentConfig={version:2,residents:[],floating:{refreshSeconds:60,maxCountPortrait:20,maxCountLandscape:60},departure:{}},toolboxConfig={version:2,name:tr('工具箱'),links:[],floating:{refreshSeconds:60,maxCountPortrait:20,maxCountLandscape:60},departure:{}};
         let residentLoadReports=[];
         let configWarnings=[],residentTargetKey='planet:sun',residentOrbitGroup=null,residentOrbiters=[],residentAnchor=null,currentResidentRows=[],residentActiveLimit=null;
         async function loadHostedConfig(){
-            async function read(path){const response=await fetch(new URL(path,document.baseURI),{cache:'no-cache'});if(!response.ok)throw Error(path+' 載入失敗（'+response.status+'）');return ResidentData.parse(await response.text());}
+            async function read(path){const response=await fetch(new URL(path,document.baseURI),{cache:'no-cache'});if(!response.ok)throw Error(path+tr(' 載入失敗（')+response.status+'）');return ResidentData.parse(await response.text());}
             residentLoadReports=[];const results=await Promise.allSettled([read('residents.json'),read('toolbox.json')]);
             results.forEach((result,i)=>{const source=i===0?'residents.json':'toolbox.json';try{if(result.status!=='fulfilled')throw result.reason;const checked=ResidentData.normalize(result.value,{bodyExists:id=>!!getBody(id),modelExists:Object.keys(modelDefinitions).length?id=>!!modelDefinitions[id]:undefined},i===0?'residents':'links'),doc=checked.doc;
-                residentLoadReports.push({source,...checked});if(checked.issues.length)configWarnings.push(source+'：已載入 '+checked.loaded+' 筆，略過 '+checked.skipped+' 筆；展開資料提醒可查看原因。');
-                if(i===0)residentConfig=doc;else toolboxConfig={...doc,name:typeof doc.name==='string'?doc.name:'工具箱'};
-            }catch(e){configWarnings.push(source+'：'+e.message);residentLoadReports.push({source,loaded:0,skipped:0,issues:[{kind:'error',id:'檔案',reason:e.message}],failed:true});}});
+                residentLoadReports.push({source,...checked});if(checked.issues.length)configWarnings.push(source+tr('：已載入 ')+checked.loaded+tr(' 筆，略過 ')+checked.skipped+tr(' 筆；展開資料提醒可查看原因。'));
+                if(i===0)residentConfig=doc;else toolboxConfig={...doc,name:typeof doc.name==='string'?doc.name:tr('工具箱')};
+            }catch(e){configWarnings.push(source+'：'+e.message);residentLoadReports.push({source,loaded:0,skipped:0,issues:[{kind:'error',id:tr('檔案'),reason:e.message}],failed:true});}});
             const d=PROBES_DATA.find(p=>p.id==='links_toolbox');d.name=toolboxConfig.name;
         }
-        function renderResidentLoadReport(){const box=document.getElementById('resident-load-report'),summary=document.getElementById('resident-load-summary'),list=document.getElementById('resident-load-issues'),all=residentLoadReports.flatMap(report=>report.issues.map(issue=>({source:report.source,issue})));box.hidden=!all.length;if(!all.length)return;summary.textContent='居民 '+residentConfig.residents.length+' 位 · 略過 '+residentLoadReports.reduce((n,r)=>n+(r.skipped||0),0)+' 筆 · '+all.length+' 則資料提醒';list.replaceChildren();for(const {source,issue}of all.slice(0,200)){const line=document.createElement('div');line.textContent=source+' · '+ResidentData.issueText(issue);line.style.cssText='padding:4px 0;border-top:1px solid #26364b';list.appendChild(line);}if(all.length>200){const note=document.createElement('div');note.textContent='還有 '+(all.length-200)+' 則提醒，請用編輯器匯入並匯出問題原文查看。';list.appendChild(note);}}
+        function renderResidentLoadReport(){const box=document.getElementById('resident-load-report'),summary=document.getElementById('resident-load-summary'),list=document.getElementById('resident-load-issues'),all=residentLoadReports.flatMap(report=>report.issues.map(issue=>({source:report.source,issue})));box.hidden=!all.length;if(!all.length)return;summary.textContent=tr('居民 ')+residentConfig.residents.length+tr(' 位 · 略過 ')+residentLoadReports.reduce((n,r)=>n+(r.skipped||0),0)+tr(' 筆 · ')+all.length+tr(' 則資料提醒');list.replaceChildren();for(const {source,issue}of all.slice(0,200)){const line=document.createElement('div');line.textContent=source+' · '+ResidentData.issueText(issue);line.style.cssText='padding:4px 0;border-top:1px solid #26364b';list.appendChild(line);}if(all.length>200){const note=document.createElement('div');note.textContent=tr('還有 ')+(all.length-200)+tr(' 則提醒，請用編輯器匯入並匯出問題原文查看。');list.appendChild(note);}}
         function residentKey(data,mode){if(data.residentKey)return data.residentKey;if(mode==='probe')return 'probe:'+data.id;if(mode==='constellation')return 'constellation:'+data.id;return 'planet:'+data.id;}
-        function floatingLimit(config){const f=config.floating||{};return window.innerHeight>=window.innerWidth?(f.maxCountPortrait??f.maxCount??20):(f.maxCountLandscape??f.maxCount??60);}
-        function adjustResidentLimit(){
-            if(!residentAnchor||!residentOrbitGroup)return;const config=orbitKind==='toolbox'?toolboxConfig:residentConfig;if(floatingLimit(config)===residentActiveLimit)return;
+        let residentDisplayLimit=20;
+        function floatingLimit(config){return residentDisplayLimit;}
+        function adjustResidentLimit(force=false){
+            if(!residentAnchor||!residentOrbitGroup)return;const config=orbitKind==='toolbox'?toolboxConfig:residentConfig;if(!force&&floatingLimit(config)===residentActiveLimit)return;
             const focus=residentFocus,old=focus?residentOrbiters.find(r=>r.row.id===focus.row.id):null;populateResidentOrbit(performance.now(),focus?.row);
-            if(focus){const replacement=residentOrbiters.find(r=>r.row.id===focus.row.id);if(replacement){if(old)for(const key of ['radius','minorRadius','angle','speed','plane'])replacement[key]=old[key];focus.mesh=replacement.dot;residentFocus=focus;if(trackingTargetMesh===old?.dot){trackingTargetMesh=replacement.dot;focusSerial++;}}}
+            if(focus){const replacement=residentOrbiters.find(r=>r.row.id===focus.row.id);if(replacement){if(old)for(const key of ['radius','minorRadius','angle','speed','plane'])replacement[key]=old[key];focus.mesh=replacement.dot;residentFocus=focus;trackingTargetMesh=replacement.dot;focusSerial++;}}
             updateResidentOrbits(0);
         }
         function randomSample(rows,count){const copy=rows.slice();for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy.slice(0,count);}
@@ -929,15 +1024,15 @@
 
         function renderResidents(key){
             residentTargetKey=key;const body=getBody(key),rows=residentsFor(key);
-            document.getElementById('resident-summary').textContent=body?'['+body.id+'] '+body.name+' · 居民 '+rows.length:'此天體居民 0';
+            document.getElementById('resident-summary').textContent=body?'['+body.id+'] '+body.name+tr(' · 居民 ')+rows.length:tr('此天體居民 0');
             const panel=document.getElementById('resident-list');panel.replaceChildren();
-            if(body){const address=document.createElement('div');address.className='resident-address';address.textContent='獨立住址：'+body.id+(body.constellation?' · '+body.constellation:'');panel.appendChild(address);}
+            if(body){const address=document.createElement('div');address.className='resident-address';address.textContent=tr('獨立住址：')+body.id+(body.constellation?' · '+body.constellation:'');panel.appendChild(address);}
             const list=document.createElement('div');list.id='resident-directory';list.className='resident-directory';panel.appendChild(list);
             if(rows.length){const grid=document.createElement('div');grid.className='resident-names';rows.forEach(row=>{const btn=document.createElement('button');btn.className='resident-person';btn.textContent=residentName(row,body?.id)+(row.url?' ↗':'');btn.dataset.residentId=row.id;btn.title=row.description;btn.disabled=false;btn.onclick=()=>showDeparture(row);grid.appendChild(btn);});list.appendChild(grid);}
-            else {const empty=document.createElement('div');empty.className='resident-empty';empty.textContent=!residentConfig.residents.length&&configWarnings.length?configWarnings.join('\n'):'此天體尚無居民';list.appendChild(empty);}
-            const locator=document.createElement('details');const heading=document.createElement('summary');heading.textContent='依編號切換天體';locator.appendChild(heading);
-            const select=document.createElement('select');select.style.cssText='width:100%;margin-top:5px;padding:5px;background:#17243a;color:#e2e8f0;font-size:10px';select.setAttribute('aria-label','依編號定位天體');select.add(new Option('選擇星球／衛星／恆星…',''));
-            [['planet','星球'],['satellite','衛星（天然／虛構）'],['artificial','人造物'],['comet','彗星'],['star','星座恆星']].forEach(([type,label])=>{const group=document.createElement('optgroup');group.label=label;BODY_CATALOG.filter(b=>b.type===type).forEach(b=>{const option=new Option(b.id+' · '+b.name+(b.constellation?'（'+b.constellation+'）':'')+' · '+residentsFor(b.id).length+' 人',b.id);group.appendChild(option);});select.appendChild(group);});select.value=body?.id||'';select.onchange=()=>{if(select.value)navigateBody(select.value);};locator.appendChild(select);panel.appendChild(locator);
+            else {const empty=document.createElement('div');empty.className='resident-empty';empty.textContent=!residentConfig.residents.length&&configWarnings.length?configWarnings.join('\n'):tr('此天體尚無居民');list.appendChild(empty);}
+            const locator=document.createElement('details');const heading=document.createElement('summary');heading.textContent=tr('依編號切換天體');locator.appendChild(heading);
+            const select=document.createElement('select');select.style.cssText='width:100%;margin-top:5px;padding:5px;background:#17243a;color:#e2e8f0;font-size:10px';select.setAttribute('aria-label',tr('依編號定位天體'));select.add(new Option(tr('選擇星球／衛星／恆星…'),''));
+            [['planet',tr('星球')],['satellite',tr('衛星（天然／虛構）')],['artificial',tr('人造物')],['comet',tr('彗星')],['star',tr('星座恆星')]].forEach(([type,label])=>{const group=document.createElement('optgroup');group.label=label;BODY_CATALOG.filter(b=>b.type===type).forEach(b=>{const option=new Option(b.id+' · '+b.name+(b.constellation?'（'+b.constellation+'）':'')+' · '+residentsFor(b.id).length+tr(' 人'),b.id);group.appendChild(option);});select.appendChild(group);});select.value=body?.id||'';select.onchange=()=>{if(select.value)navigateBody(select.value);};locator.appendChild(select);panel.appendChild(locator);
         }
         function refreshResidentMarkers(){}
         function setupResidents(){}
@@ -956,7 +1051,7 @@
         }
         function populateResidentOrbit(now=performance.now(),forcedRow=null){
             if(!residentAnchor||!residentOrbitGroup)return;residentOrbiters.forEach(r=>{r.label.remove();StarModelLibrary.dispose(r.dot);residentOrbitGroup.remove(r.dot);});residentOrbiters=[];
-            const config=orbitKind==='toolbox'?toolboxConfig:residentConfig,limit=floatingLimit(config);residentActiveLimit=limit;const candidates=orbitKind==='toolbox'?toolboxConfig.links:residentsFor(residentTargetKey);const previous=currentResidentRows;const pinned=candidates.filter(r=>r.alwaysVisible);const priority=[...(forcedRow?[forcedRow]:[]),...pinned.filter(r=>r.id!==forcedRow?.id)].slice(0,limit);currentResidentRows=[...priority,...randomSample(candidates.filter(r=>!priority.some(p=>p.id===r.id)),limit-priority.length)];if(!forcedRow&&candidates.length>limit && currentResidentRows.every(r=>previous.includes(r))){const outsider=candidates.filter(r=>!previous.includes(r)),slot=currentResidentRows.findIndex(r=>!r.alwaysVisible);if(slot>=0&&outsider.length)currentResidentRows[slot]=outsider[Math.floor(Math.random()*outsider.length)];}residentCycleStarted=now;
+            const config=orbitKind==='toolbox'?toolboxConfig:residentConfig,configuredLimit=floatingLimit(config),limit=forcedRow?Math.max(1,configuredLimit):configuredLimit;residentActiveLimit=configuredLimit;const candidates=orbitKind==='toolbox'?toolboxConfig.links:residentsFor(residentTargetKey);const previous=currentResidentRows;const pinned=candidates.filter(r=>r.alwaysVisible);const priority=[...(forcedRow?[forcedRow]:[]),...pinned.filter(r=>r.id!==forcedRow?.id)].slice(0,limit);currentResidentRows=[...priority,...randomSample(candidates.filter(r=>!priority.some(p=>p.id===r.id)),limit-priority.length)];if(!forcedRow&&candidates.length>limit && currentResidentRows.every(r=>previous.includes(r))){const outsider=candidates.filter(r=>!previous.includes(r)),slot=currentResidentRows.findIndex(r=>!r.alwaysVisible);if(slot>=0&&outsider.length)currentResidentRows[slot]=outsider[Math.floor(Math.random()*outsider.length)];}residentCycleStarted=now;
             const bodyRadius=residentAnchor.userData.radius||new THREE.Box3().setFromObject(residentAnchor).getSize(new THREE.Vector3()).length()*.5||1;
             currentResidentRows.forEach((row,i)=>{
                 const clearance=Math.max(1.3,bodyRadius*1.45),radius=clearance+Math.random()*Math.max(2,bodyRadius*2.2),minorRadius=clearance+Math.random()*(radius-clearance);
@@ -975,7 +1070,7 @@
             residentOrbiters.forEach(r=>{r.label.textContent=residentName(r.row,getBody(residentTargetKey)?.id);if(validJourney(r.row)){const leg=journeyLeg(r.row),a=bodyPosition(leg.from),b=bodyPosition(leg.to);if(a&&b){const tangent=b.clone().sub(a),distance=tangent.length(),pos=a.lerp(b,leg.progress);if(distance>.001)r.dot.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,-1),tangent.normalize());pos.y+=Math.sin(Math.PI*leg.progress)*Math.min(28,distance*.12+3);r.dot.position.copy(pos.sub(center));return;}}if(settings.autoRotate)r.angle+=r.speed*frameScale*settings.speedMultiplier;const pos=new THREE.Vector3(Math.cos(r.angle)*r.radius,0,Math.sin(r.angle)*r.minorRadius).applyQuaternion(r.plane);r.dot.position.copy(pos);const tangent=new THREE.Vector3(-Math.sin(r.angle)*r.radius*Math.sign(r.speed),0,Math.cos(r.angle)*r.minorRadius*Math.sign(r.speed)).applyQuaternion(r.plane);r.dot.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,-1),tangent.normalize());});
         }
         function updateResidentLabels(){const projected=new THREE.Vector3();residentOrbiters.forEach(r=>{r.dot.getWorldPosition(projected);projected.project(camera);const show=settings.showLabels&&projected.z>=-1&&projected.z<=1&&Math.abs(projected.x)<.98&&Math.abs(projected.y)<.98;r.label.style.display=show?'block':'none';if(show){r.label.style.left=((projected.x*.5+.5)*window.innerWidth)+'px';r.label.style.top=((-projected.y*.5+.5)*window.innerHeight-5)+'px';}});}
-        function showToolboxLinks(){const panel=document.getElementById('toolbox-links');panel.hidden=false;const title=document.createElement('div');title.textContent=toolboxConfig.name+' · 全部 '+toolboxConfig.links.length+' 個連結';title.style.cssText='font-size:11px;color:#fbbf24;margin:5px 0';const rows=document.createElement('div');rows.className='toolbox-directory';appendLinkRows(rows,toolboxConfig.links,'toolbox');panel.replaceChildren(title,rows);if(!toolboxConfig.links.length){const text=document.createElement('div');text.textContent=configWarnings.find(x=>x.startsWith('toolbox.json'))||'尚無工具連結';panel.appendChild(text);}}
+        function showToolboxLinks(){const panel=document.getElementById('toolbox-links');panel.hidden=false;const title=document.createElement('div');title.textContent=toolboxConfig.name+tr(' · 全部 ')+toolboxConfig.links.length+tr(' 個連結');title.style.cssText='font-size:11px;color:#fbbf24;margin:5px 0';const rows=document.createElement('div');rows.className='toolbox-directory';appendLinkRows(rows,toolboxConfig.links,'toolbox');panel.replaceChildren(title,rows);if(!toolboxConfig.links.length){const text=document.createElement('div');text.textContent=configWarnings.find(x=>x.startsWith('toolbox.json'))||tr('尚無工具連結');panel.appendChild(text);}}
         function focusConstellationFromSun(group){
             const serial=++focusSerial;trackingTargetMesh=null;clearPairFocus();clearResidentOrbit();
             scene.updateMatrixWorld(true);const sun=planetMeshes.find(m=>m.userData.id==='sun').getWorldPosition(new THREE.Vector3());
@@ -992,23 +1087,23 @@
             const mesh=group?.children.find(m=>m.userData.starIndex===index);if(!star||!mesh)return;
             clearSatellites();selectedObject=constellationId;
             const parent=group.userData.data;
-            const data={...parent,name:star.name,latin:parent.latin+' · Star '+(index+1),residentKey:'star:'+constellationId+':'+index,desc:'隸屬'+parent.name+'。恆星位置依 J2000 星位投影在天球；顯示大小與顏色用於辨識，不代表實際半徑或光譜色。',magnitude:star.mag===undefined?'—':star.mag+' mag'};
+            const data={...parent,name:star.name,latin:parent.latin+' · Star '+(index+1),residentKey:'star:'+constellationId+':'+index,desc:tr('隸屬')+parent.name+tr('。恆星位置依 J2000 星位投影在天球；顯示大小與顏色用於辨識，不代表實際半徑或光譜色。'),magnitude:star.mag===undefined?'—':star.mag+' mag'};
             showModalCard(data,'star');updateInfoPanel(data,star.name,'star');
             const picker=document.getElementById('moon-picker');picker.style.display='block';
-            const back=document.createElement('button');back.textContent='← 返回'+parent.name;back.onclick=()=>selectConstellation(constellationId);picker.appendChild(back);
+            const back=document.createElement('button');back.textContent=tr('← 返回')+parent.name;back.onclick=()=>selectConstellation(constellationId);picker.appendChild(back);
             appendStarPicker(picker,parent,index);
-            document.getElementById('meta-sector-label').textContent='隸屬星座';document.getElementById('meta-sector').textContent=parent.name;
-            document.getElementById('meta-alpha-label').textContent='恆星名稱';document.getElementById('meta-alpha').textContent=star.name;
-            document.getElementById('meta-dist-label').textContent='距離';document.getElementById('meta-dist').textContent='未列入距離資料';
-            document.getElementById('meta-extra-label').textContent='星圖編號';document.getElementById('meta-extra').textContent=(index+1)+' / '+parent.stars.length;
-            document.getElementById('meta-coords').textContent='J2000 天球投影位置';
+            document.getElementById('meta-sector-label').textContent=tr('隸屬星座');document.getElementById('meta-sector').textContent=parent.name;
+            document.getElementById('meta-alpha-label').textContent=tr('恆星名稱');document.getElementById('meta-alpha').textContent=star.name;
+            document.getElementById('meta-dist-label').textContent=tr('距離');document.getElementById('meta-dist').textContent=tr('未列入距離資料');
+            document.getElementById('meta-extra-label').textContent=tr('星圖編號');document.getElementById('meta-extra').textContent=(index+1)+' / '+parent.stars.length;
+            document.getElementById('meta-coords').textContent=tr('J2000 天球投影位置');
             constellationGroups.forEach(g=>{const line=g.getObjectByName('constellation_lines');if(line)line.material.opacity=settings.showLines?(g===group?1:.22):0;});
             startResidentOrbit(mesh,star.bodyId);
             focusCameraOnTarget(mesh,mesh.userData.radius*1.5,true);
         }
         function appendStarPicker(container,data,selected=-1){
-            const select=document.createElement('select');select.style.cssText='width:100%;background:#17243a;color:#e2e8f0;padding:7px;margin-top:5px;border:1px solid #475569';select.setAttribute('aria-label','選擇恆星');
-            select.add(new Option('選擇恆星近看（'+data.stars.length+'）',''));data.stars.forEach((st,i)=>select.add(new Option('['+st.bodyId+'] '+st.name,i)));select.value=selected<0?'':String(selected);select.onchange=()=>{if(select.value!=='')selectStar(data.id,+select.value);};container.appendChild(select);
+            const select=document.createElement('select');select.style.cssText='width:100%;background:#17243a;color:#e2e8f0;padding:7px;margin-top:5px;border:1px solid #475569';select.setAttribute('aria-label',tr('選擇恆星'));
+            select.add(new Option(tr('選擇恆星近看（')+data.stars.length+'）',''));data.stars.forEach((st,i)=>select.add(new Option('['+st.bodyId+'] '+st.name,i)));select.value=selected<0?'':String(selected);select.onchange=()=>{if(select.value!=='')selectStar(data.id,+select.value);};container.appendChild(select);
         }
 
         // --- GLOBAL VARIABLES & STATE ---
@@ -1104,7 +1199,7 @@
             sunGroup.position.set(0, 0, 0);
 
             const sunData = SOLAR_SYSTEM_DATA.find(d => d.id === 'sun');
-            sunGroup.userData = { id: 'sun', type: 'solar', data: sunData, name: '太陽', radius: 12 };
+            sunGroup.userData = { id: 'sun', type: 'solar', data: sunData, name: tr('太陽'), radius: 12 };
             sunGroup.traverse(m=>{if(m.isMesh)m.userData=sunGroup.userData;});
 
             celestialSphereGroup.add(sunGroup);
@@ -1113,7 +1208,7 @@
             const labelsContainer = document.getElementById('labels-container');
             const pLabel = document.createElement('div');
             pLabel.className = 'badge-label planet-label';
-            pLabel.innerHTML = `<span class="mr-1 font-orbitron">☀️</span><span>太陽 (Sun)</span>`;
+            pLabel.innerHTML = `<span class="mr-1 font-orbitron">☀️</span><span>${sunData.name} (Sun)</span>`;
             pLabel.onclick = () => selectSolarObject('sun');
             labelsContainer.appendChild(pLabel);
 
@@ -1609,7 +1704,7 @@
             updateInfoPanel(pData, pData.name, 'solar');
             showModalCard(pData, 'solar');
             startResidentOrbit(mesh,'planet:'+id);
-            document.getElementById('modal-desc').innerText += `\n\n已收錄 ${pData.satellites.length} 個衛星／人造物。點選衛星標籤可近看與讀取資料。未收錄全部暫定編號小衛星；大小、間距與公轉速度為展示比例。`; 
+            document.getElementById('modal-desc').innerText += '\n\n'+pData.satellites.length+tr(' 個衛星／人造物；大小、間距與公轉速度為展示比例。'); 
 
             focusCameraOnTarget(mesh, Math.max(mesh.userData.radius || 4, 12, pData.size*2), true);
         }
@@ -1721,67 +1816,68 @@
 
         let descriptionConfig={version:1,bodies:{},constellations:{}};
         async function loadDescriptions(){
-            try{const response=await fetch(new URL('descriptions.json',document.baseURI),{cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);const doc=await response.json();if(doc.version!==1)throw Error('version 必須為 1');for(const section of ['bodies','constellations']){if(!doc[section]||typeof doc[section]!=='object'||Array.isArray(doc[section]))throw Error(section+' 須為物件');for(const entry of Object.values(doc[section])){if(!entry||typeof entry!=='object'||Array.isArray(entry)||Object.values(entry).some(v=>typeof v!=='string'))throw Error('說明欄位須為文字');}}descriptionConfig=doc;}catch(e){configWarnings.push('descriptions.json：'+e.message);}
+            try{const response=await fetch(new URL('descriptions.json',document.baseURI),{cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);const doc=await response.json();if(doc.version!==1)throw Error(tr('version 必須為 1'));for(const section of ['bodies','constellations']){if(!doc[section]||typeof doc[section]!=='object'||Array.isArray(doc[section]))throw Error(section+tr(' 須為物件'));for(const entry of Object.values(doc[section])){if(!entry||typeof entry!=='object'||Array.isArray(entry)||Object.values(entry).some(v=>typeof v!=='string'))throw Error(tr('說明欄位須為文字'));}}descriptionConfig=doc;}catch(e){configWarnings.push('descriptions.json：'+e.message);}
         }
-        function withDescription(data,mode){if(!data)return data;const key=mode==='constellation'?data.id:getBody(residentKey(data,mode))?.id,base=(mode==='constellation'?descriptionConfig.constellations:descriptionConfig.bodies)[key],override=mode!=='constellation'?getBody(key)?.description:undefined,entry=typeof override==='string'?{...base,description:override}:base;if(!entry)return data;const result={...data};const allowed=['type','diameter','magnitude','distance','period','coords','sector','alpha'];for(const field of allowed)if(typeof entry[field]==='string')result[field]=entry[field];if(typeof entry.description==='string')result.desc=entry.description;return result;}
+        function withDescription(data,mode){return localizeBodyDescription(baseDescription(data,mode),mode);}
+        function baseDescription(data,mode){if(!data)return data;const key=mode==='constellation'?data.id:getBody(residentKey(data,mode))?.id,base=(mode==='constellation'?descriptionConfig.constellations:descriptionConfig.bodies)[key],override=mode!=='constellation'?getBody(key)?.description:undefined,entry=typeof override==='string'?{...base,description:override}:base;if(!entry)return data;const result={...data};const allowed=['type','diameter','magnitude','distance','period','coords','sector','alpha'];for(const field of allowed)if(typeof entry[field]==='string')result[field]=entry[field];if(typeof entry.description==='string')result.desc=entry.description;return result;}
 
-        function showModalCard(data, mode) {
-            data=withDescription(data,mode);
+        let lastModalData=null,lastModalMode=null,lastInfoData=null,lastInfoName='',lastInfoMode=null;
+        function showModalCard(data, mode,refreshOnly=false) {
+            lastModalData=data;lastModalMode=mode;data=withDescription(data,mode);
             document.getElementById('resident-link-panel').hidden=true;
-            clearResidentOrbit();renderResidents(residentKey(data,mode));
+            if(!refreshOnly)clearResidentOrbit();renderResidents(residentKey(data,mode));
             document.getElementById('toolbox-links').hidden=true;
-            document.getElementById('resident-panel').open=false;
+            if(!refreshOnly)document.getElementById('resident-panel').open=false;
             document.getElementById('resident-panel').style.display=mode==='constellation'?'none':'block';
             const modal = document.getElementById('info-modal');
             const picker=document.getElementById('moon-picker');picker.replaceChildren();picker.style.display='none';
             if(mode==='solar' && SOLAR_SYSTEM_DATA.some(p=>p.id===data.id)){appendBodySatellitePicker(picker,data);
             } else if(selectedObject==='satellite' && activeSatelliteGroup){
-                picker.style.display='block';const btn=document.createElement('button');btn.textContent='← 返回母星與衛星清單';btn.onclick=()=>selectSolarObject(activeSatelliteGroup.parent.userData.id);picker.appendChild(btn);
+                picker.style.display='block';const btn=document.createElement('button');btn.textContent=tr('← 返回母星與衛星清單');btn.onclick=()=>selectSolarObject(activeSatelliteGroup.parent.userData.id);picker.appendChild(btn);
             }
 
             if(mode==='constellation'){picker.style.display='block';appendStarPicker(picker,data);}
             document.getElementById('modal-symbol').innerText = data.symbol || '☀️';
             document.getElementById('modal-title').innerText = (getBody(residentKey(data,mode))?'['+getBody(residentKey(data,mode)).id+'] ':'')+data.name;
             document.getElementById('modal-latin').innerText = data.latin || '';
-            document.getElementById('modal-desc').innerText = data.desc || '暫無詳細描述。';
+            document.getElementById('modal-desc').innerText = data.desc || tr('暫無詳細描述。');
 
             if (mode === 'solar') {
-                document.getElementById('meta-sector-label').innerText = '天體類別';
+                document.getElementById('meta-sector-label').innerText = tr('天體類別');
                 document.getElementById('meta-sector').innerText = data.type;
-                document.getElementById('meta-alpha-label').innerText = '天體直徑';
+                document.getElementById('meta-alpha-label').innerText = tr('天體直徑');
                 document.getElementById('meta-alpha').innerText = data.diameter;
                 document.getElementById('meta-mag').innerText = data.magnitude;
-                document.getElementById('meta-dist-label').innerText = '距太陽距離';
+                document.getElementById('meta-dist-label').innerText = tr('距太陽距離');
                 document.getElementById('meta-dist').innerText = data.distance;
-                document.getElementById('meta-extra-label').innerText = '公轉週期';
+                document.getElementById('meta-extra-label').innerText = tr('公轉週期');
                 document.getElementById('meta-extra').innerText = data.period;
                 document.getElementById('meta-coords').innerText = data.coords;
             } else if (mode === 'probe') {
-                document.getElementById('meta-sector-label').innerText = '任務類型';
+                document.getElementById('meta-sector-label').innerText = tr('任務類型');
                 document.getElementById('meta-sector').innerText = data.type;
-                document.getElementById('meta-alpha-label').innerText = '任務／歷史狀態';
+                document.getElementById('meta-alpha-label').innerText = tr('任務／歷史狀態');
                 document.getElementById('meta-alpha').innerText = data.sector;
                 document.getElementById('meta-mag').innerText = data.speed;
-                document.getElementById('meta-dist-label').innerText = '參考距離';
+                document.getElementById('meta-dist-label').innerText = tr('參考距離');
                 document.getElementById('meta-dist').innerText = data.distance;
-                document.getElementById('meta-extra-label').innerText = '任務年份';
+                document.getElementById('meta-extra-label').innerText = tr('任務年份');
                 document.getElementById('meta-extra').innerText = data.period;
-                document.getElementById('meta-coords').innerText = data.anchor ? '歷史／任務展示軌道（非即時星曆）' : '深空軌道示意';
+                document.getElementById('meta-coords').innerText = data.anchor ? tr('歷史／任務展示軌道（非即時星曆）') : tr('深空軌道示意');
             } else {
-                document.getElementById('meta-sector-label').innerText = '隸屬天區';
-                document.getElementById('meta-sector').innerText = data.sector || '全天天區';
-                document.getElementById('meta-alpha-label').innerText = '代表恆星／星圖';
-                document.getElementById('meta-alpha').innerText = data.alpha || '未標註';
+                document.getElementById('meta-sector-label').innerText = tr('隸屬天區');
+                document.getElementById('meta-sector').innerText = data.sector || tr('全天天區');
+                document.getElementById('meta-alpha-label').innerText = tr('代表恆星／星圖');
+                document.getElementById('meta-alpha').innerText = data.alpha || tr('未標註');
                 document.getElementById('meta-mag').innerText = data.magnitude || '-';
-                document.getElementById('meta-dist-label').innerText = '主星距離';
-                document.getElementById('meta-dist').innerText = data.distance || '未知';
-                document.getElementById('meta-extra-label').innerText = '主要恆星數';
-                document.getElementById('meta-extra').innerText = `${data.stars.length} 顆主要恆星`;
+                document.getElementById('meta-dist-label').innerText = tr('主星距離');
+                document.getElementById('meta-dist').innerText = data.distance || tr('未知');
+                document.getElementById('meta-extra-label').innerText = tr('主要恆星數');
+                document.getElementById('meta-extra').innerText = data.stars.length+tr(' 顆主要恆星');
                 document.getElementById('meta-coords').innerText = data.coords || 'RA/Dec --';
             }
 
-            modal.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-8');
-            modal.classList.add('opacity-100', 'pointer-events-auto', 'translate-y-0');
+            if(!refreshOnly){modal.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-8');modal.classList.add('opacity-100', 'pointer-events-auto', 'translate-y-0');}
         }
 
         function hideDetailedModal() {
@@ -1791,7 +1887,7 @@
         }
 
         function updateInfoPanel(data, targetName, mode) {
-            data=withDescription(data,mode);
+            lastInfoData=data;lastInfoName=targetName;lastInfoMode=mode;data=withDescription(data,mode);
             const infoSymbol = document.getElementById('info-symbol');
             const infoTitle = document.getElementById('info-title');
             const infoSub = document.getElementById('info-sub');
@@ -1801,14 +1897,14 @@
                 infoSymbol.innerText = data.symbol;
                 infoTitle.innerText = data.name;
                 infoSub.innerText = data.latin;
-                if (mode === 'solar') infoStar.innerText = `鏡頭追蹤中：${data.type}`;
-                else if (mode === 'probe') infoStar.innerText = `鏡頭追蹤中：${data.type}`;
-                else infoStar.innerText = `觀測目標：${targetName}`;
+                if (mode === 'solar') infoStar.innerText = tr('鏡頭追蹤中：')+tr(data.type);
+                else if (mode === 'probe') infoStar.innerText = tr('鏡頭追蹤中：')+tr(data.type);
+                else infoStar.innerText = tr('觀測目標：')+(data?.name||targetName);
             } else {
                 infoSymbol.innerText = '☀️';
-                infoTitle.innerText = '日心太陽系 + 深空星座';
+                infoTitle.innerText = tr('日心太陽系 + 深空星座');
                 infoSub.innerText = 'Heliocentric System Explorer';
-                infoStar.innerText = '點擊星球將解鎖鏡頭動態軌道追蹤 (30% 佔比)';
+                infoStar.innerText = tr('點擊星球將解鎖鏡頭動態軌道追蹤 (30% 佔比)');
             }
         }
 
@@ -1986,7 +2082,7 @@
             window.addEventListener('pointercancel',()=>pressStart=null);
 
             document.getElementById('reset-cam-btn').onclick = resetCameraToSun;
-            document.getElementById('toolbox-btn').onclick=()=>selectProbeObject('links_toolbox');
+            setupInterfaceControls();
             document.getElementById('toggle-panel-btn').onclick = togglePanel;
             document.getElementById('close-modal-btn').onclick = hideDetailedModal;
 
@@ -1995,7 +2091,7 @@
             document.getElementById('tab-constellation').onclick = () => switchTab('constellation');
             
             document.getElementById('panel-toggle-header').onclick = (e) => {
-                if (e.target.closest('button,input,#resident-search-results')) return;
+                if (e.target.closest('button,input,select,#resident-search-results')) return;
                 togglePanel();
             };
 
@@ -2093,7 +2189,7 @@
 
         function validJourney(row){return row.travel?.enabled===true&&row.travel.destinationId!==row.bodyId&&getBody(row.travel.destinationId)&&getBody(row.bodyId)&&Number.isFinite(row.travel.durationSeconds)&&row.travel.durationSeconds>=10&&row.travel.durationSeconds<=86400;}
         function journeyLeg(row,now=Date.now()){const d=row.travel.durationSeconds*1000,phase=(((now+(row.travel.phaseOffsetSeconds||0)*1000)/d)%2+2)%2,back=phase>=1;return {from:back?row.travel.destinationId:row.bodyId,to:back?row.bodyId:row.travel.destinationId,progress:phase%1};}
-        function residentName(row,bodyId){if(!validJourney(row))return row.name+(row.alwaysVisible?' · 常駐':'');return row.name+' · '+(journeyLeg(row).from===bodyId?'出發中':'抵達中');}
+        function residentName(row,bodyId){if(!validJourney(row))return row.name+(row.alwaysVisible?tr(' · 常駐'):'');return row.name+' · '+(journeyLeg(row).from===bodyId?tr('出發中'):tr('抵達中'));}
         function bodyPosition(id){const b=getBody(id);if(!b)return null;let mesh;if(b.key.startsWith('planet:'))mesh=planetMeshes.find(m=>m.userData.id===b.key.slice(7));else if(b.key.startsWith('probe:'))mesh=probeMeshes.find(m=>m.userData.id===b.key.slice(6));else if(b.type==='star'){const g=constellationGroups.find(g=>g.userData.id===b.constellationId);mesh=g?.children.find(m=>m.userData.starIndex===b.starIndex);}else if(b.key.startsWith('moon:')){const p=SOLAR_SYSTEM_DATA.find(p=>p.bodyId===b.parentId),sat=p?.satellites.find(s=>s.bodyId===id);mesh=activeSatelliteGroup?.children.find(m=>m.userData.residentKey===b.key);if(!mesh&&p&&sat){const parent=planetMeshes.find(m=>m.userData.id===p.id);return parent?celestialSphereGroup.worldToLocal(parent.localToWorld(satellitePosition(p,sat).multiply(inverseModelScale(parent)))):null;}}return mesh?celestialSphereGroup.worldToLocal(mesh.getWorldPosition(new THREE.Vector3())):null;}
         let lastDirectoryUpdate=0;
         function updateTravelDirectory(){if(performance.now()-lastDirectoryUpdate<1000)return;lastDirectoryUpdate=performance.now();document.querySelectorAll('[data-resident-id]').forEach(el=>{const row=residentConfig.residents.find(r=>r.id===el.dataset.residentId);if(row)el.textContent=residentName(row,getBody(residentTargetKey)?.id)+(row.url?' ↗':'');});}
@@ -2131,16 +2227,16 @@
         function pseudoLagrangeGap(id){const earth=SOLAR_SYSTEM_DATA.find(p=>p.id==='earth'),scale=getBody('probe:'+id)?.distanceScale??1;return Math.max(earth.size+2,Math.min(earth.orbitRadius*.35,(earth.size+2+1.6*Math.log1p(1500000/6371))*scale));}
         function searchUniverse(query){
             const q=query.trim().toLocaleLowerCase();if(!q)return [];const results=[],match=(...text)=>text.filter(Boolean).join(' ').toLocaleLowerCase().includes(q);
-            for(const body of BODY_CATALOG)if(match(body.id,body.name,body.key,body.constellation))results.push({kind:'body',group:({planet:'星球',satellite:'衛星',artificial:'人造物',star:'恆星',comet:'彗星'})[body.type]||'天體',id:body.id,title:'['+body.id+'] '+body.name,subtitle:body.constellation||getBody(body.parentId)?.name||'',body});
-            for(const c of CONSTELLATIONS_DATA)if(match(c.id,c.name,c.latin))results.push({kind:'constellation',group:'星座',id:c.id,title:c.name,subtitle:c.latin+' · '+c.id,constellation:c});
-            for(const row of residentConfig.residents)if(match(row.id,row.name))results.push({kind:'resident',group:'居民',id:row.id,title:row.name,subtitle:(getBody(row.bodyId)?.name||row.bodyId)+(validJourney(row)?' ↔ '+getBody(row.travel.destinationId).name:''),row});
+            for(const body of BODY_CATALOG)if(match(body.id,body.name,body.originalName,body.key,body.constellation,...Object.values(interfaceLanguages.languages||{}).map(l=>l.bodies?.[body.id]?.name)))results.push({kind:'body',group:({planet:tr('星球'),satellite:tr('衛星'),artificial:tr('人造物'),star:tr('恆星'),comet:tr('彗星')})[body.type]||tr('天體'),id:body.id,title:'['+body.id+'] '+body.name,subtitle:body.constellation||getBody(body.parentId)?.name||'',body});
+            for(const c of CONSTELLATIONS_DATA)if(match(c.id,c.name,c.originalName,c.latin,...Object.values(interfaceLanguages.languages||{}).map(l=>l.constellations?.[c.id]?.name)))results.push({kind:'constellation',group:tr('星座'),id:c.id,title:c.name,subtitle:c.latin+' · '+c.id,constellation:c});
+            for(const row of residentConfig.residents)if(match(row.id,row.name))results.push({kind:'resident',group:tr('居民'),id:row.id,title:row.name,subtitle:(getBody(row.bodyId)?.name||row.bodyId)+(validJourney(row)?' ↔ '+getBody(row.travel.destinationId).name:''),row});
             const score=r=>r.id.toLocaleLowerCase()===q||r.title.toLocaleLowerCase()===q||r.body?.name.toLocaleLowerCase()===q||r.constellation?.name.toLocaleLowerCase()===q?0:r.title.toLocaleLowerCase().startsWith(q)?1:2;return results.sort((a,b)=>score(a)-score(b));
         }
         function openUniverseResult(result){if(result.kind==='resident'){navigateBody(result.row.bodyId);focusResident(result.row);}else if(result.kind==='constellation')selectConstellation(result.id);else navigateBody(result.id);}
         function setupResidentSearch(){
             const input=document.getElementById('resident-search'),panel=document.getElementById('resident-search-results'),close=()=>{panel.hidden=true;input.setAttribute('aria-expanded','false');};
-            input.oninput=()=>{panel.replaceChildren();const q=input.value.trim();panel.hidden=!q;input.setAttribute('aria-expanded',q?'true':'false');if(!q)return;const results=searchUniverse(q);if(!results.length){const empty=document.createElement('div');empty.textContent='找不到符合的居民、天體或星座';empty.style.padding='10px';panel.appendChild(empty);return;}
-                const groups=[...new Set(results.map(r=>r.group))];for(const group of groups){const rows=results.filter(r=>r.group===group),heading=document.createElement('div');heading.textContent=group+' · '+rows.length;heading.style.cssText='padding:7px 9px;color:#fcd34d;font-size:10px;background:#0b1524';panel.appendChild(heading);for(const result of rows.slice(0,40)){const button=document.createElement('button');button.dataset.searchKind=result.kind;button.dataset.searchId=result.id;button.textContent=result.title+(result.subtitle?' · '+result.subtitle:'');button.onclick=e=>{e.stopPropagation();close();openUniverseResult(result);};panel.appendChild(button);}if(rows.length>40){const note=document.createElement('div');note.textContent='顯示前40筆，請輸入更多名稱或編號縮小範圍';note.style.cssText='padding:6px 9px;font-size:10px;color:#94a3b8';panel.appendChild(note);}}
+            input.oninput=()=>{panel.replaceChildren();const q=input.value.trim();panel.hidden=!q;input.setAttribute('aria-expanded',q?'true':'false');if(!q)return;const results=searchUniverse(q);if(!results.length){const empty=document.createElement('div');empty.textContent=tr('找不到符合的居民、天體或星座');empty.style.padding='10px';panel.appendChild(empty);return;}
+                const groups=[...new Set(results.map(r=>r.group))];for(const group of groups){const rows=results.filter(r=>r.group===group),heading=document.createElement('div');heading.textContent=group+' · '+rows.length;heading.style.cssText='padding:7px 9px;color:#fcd34d;font-size:10px;background:#0b1524';panel.appendChild(heading);for(const result of rows.slice(0,40)){const button=document.createElement('button');button.dataset.searchKind=result.kind;button.dataset.searchId=result.id;button.textContent=result.title+(result.subtitle?' · '+result.subtitle:'');button.onclick=e=>{e.stopPropagation();close();openUniverseResult(result);};panel.appendChild(button);}if(rows.length>40){const note=document.createElement('div');note.textContent=tr('顯示前40筆，請輸入更多名稱或編號縮小範圍');note.style.cssText='padding:6px 9px;font-size:10px;color:#94a3b8';panel.appendChild(note);}}
             };
             input.onkeydown=e=>{if(e.key==='Escape'){close();}else if(e.key==='Enter'&&!panel.hidden){const first=panel.querySelector('button');if(first){e.preventDefault();first.click();}}};document.addEventListener('click',e=>{if(!e.target.closest('#resident-search-results,#resident-search'))close();});
         }
@@ -2149,7 +2245,7 @@
                 if(settings.autoRotate)c.angle+=c.orbitSpeed*settings.speedMultiplier*frameScale;mesh.position.copy(cometPoint(c,c.angle));const strength=Math.max(.18,Math.min(1,150/mesh.position.length())),tail=mesh.userData.cometTail;tail.scale.setScalar(strength);tail.position.copy(mesh.position);const y=mesh.position.clone().normalize(),x=cometPoint(c,c.angle+.001).sub(mesh.position).negate();x.addScaledVector(y,-x.dot(y));if(x.lengthSq()<1e-8)x.crossVectors(y,new THREE.Vector3(0,0,1));x.normalize();const z=new THREE.Vector3().crossVectors(x,y).normalize();tail.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(x,y,z));}}
 
         window.onload = async function() {
-            try{await Promise.all([loadDescriptions(),loadModelConfiguration()]);await loadHostedConfig();renderResidentLoadReport();applyBodySettings();document.getElementById('loading-message').textContent='建立天體、模型與星座中…';await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));initScene();setupResidentSearch();document.getElementById('loading-screen').remove();}catch(e){document.getElementById('loading-message').textContent='載入失敗：'+e.message+'。請重新整理；若使用本機檔案，請透過本機伺服器開啟。';}
+            try{await Promise.all([loadDescriptions(),loadModelConfiguration(),loadInterfaceLanguages()]);await loadHostedConfig();renderResidentLoadReport();applyBodySettings();initializeLanguage();document.getElementById('loading-message').textContent=tr('建立天體、模型與星座中…');await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));initScene();setupResidentSearch();translateStaticInterface();document.getElementById('loading-screen').remove();openSharedResident();}catch(e){document.getElementById('loading-message').textContent=tr('載入失敗：')+e.message+tr('。請重新整理；若使用本機檔案，請透過本機伺服器開啟。');}
         };
     </script>
 <!-- Constellation line data: d3-celestial, Olaf Frohn, BSD-3-Clause. https://github.com/ofrohn/d3-celestial -->
