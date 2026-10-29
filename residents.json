@@ -1486,6 +1486,8 @@
     }
   ],
   "floating": {
-    "refreshSeconds": 60
+     "refreshSeconds": 60,
+  "maxCountPortrait": 20,
+  "maxCountLandscape": 60
   }
 }
