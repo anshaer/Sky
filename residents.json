@@ -14,7 +14,8 @@
       "url": "https://example.com/#independent-1",
       "description": "這位居民只屬於 H-Ori-001，不與其他天體共用名單。請修改為自己的名稱與連結。",
       "modelId": "satellite-02",
-      "linkText": "開啟 參宿觀星客 的網頁 ↗"
+      "linkText": "開啟 參宿觀星客 的網頁 ↗",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -24,7 +25,8 @@
       "url": "https://example.com/#independent-2",
       "description": "這位居民只屬於 H-Ori-001，不與其他天體共用名單。請修改為自己的名稱與連結。",
       "modelId": "satellite-03",
-      "linkText": "開啟 獵戶星際郵差 的網頁 ↗"
+      "linkText": "開啟 獵戶星際郵差 的網頁 ↗",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -34,7 +36,8 @@
       "url": "https://example.com/#independent-3",
       "description": "這位居民只屬於 H-Ori-002，不與其他天體共用名單。請修改為自己的名稱與連結。",
       "modelId": "satellite-04",
-      "linkText": "開啟 獵戶第二星住戶 的網頁 ↗"
+      "linkText": "開啟 獵戶第二星住戶 的網頁 ↗",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -45,7 +48,8 @@
       "url": "",
       "linkText": "查看月球任務 ↗",
       "description": "《Deliver Us the Moon》紀念居民，以太空人造型固定繞月球。選取月球時保留顯示，不會被每分鐘的隨機輪替抽掉。",
-      "alwaysVisible": true
+      "alwaysVisible": true,
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -55,7 +59,8 @@
       "modelId": "astronaut-27",
       "url": "https://www.youtube.com/@usagi_1923",
       "linkText": "卯前アロ Aro Usagi Ch.",
-      "description": "喜歡唱歌的個人勢月兔Vtuber/插畫家🖤🤍🩵\n\n住在月球上搗年糕的月兔，\n某天意外吃下長生不老藥後被判一輩子工作，\n從此成為月球累積工時最高的工頭！\n目前為了緩刑擔任月球與地球間的親善大使，\n奔波工作於兩地之間₍ ᐢ×. ̫ .ᐢ ₎\n\n喜歡唱歌、畫圖、彈電吉他（很遜），\n也喜歡玩各式各樣的遊戲！\n正在努力克服社恐和恐怖遊戲中，\n大家開心的一起玩八！\n\n*アロ寫成漢字大概會是綾露ㄛ\n#Vtuber #台灣vtuber #台V"
+      "description": "喜歡唱歌的個人勢月兔Vtuber/插畫家🖤🤍🩵\n\n住在月球上搗年糕的月兔，\n某天意外吃下長生不老藥後被判一輩子工作，\n從此成為月球累積工時最高的工頭！\n目前為了緩刑擔任月球與地球間的親善大使，\n奔波工作於兩地之間₍ ᐢ×. ̫ .ᐢ ₎\n\n喜歡唱歌、畫圖、彈電吉他（很遜），\n也喜歡玩各式各樣的遊戲！\n正在努力克服社恐和恐怖遊戲中，\n大家開心的一起玩八！\n\n*アロ寫成漢字大概會是綾露ㄛ\n#Vtuber #台灣vtuber #台V",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -65,7 +70,8 @@
       "modelId": "astronaut-cooper",
       "url": "https://tw.gundam-official.com/witch-from-mercury/",
       "linkText": "機動戰士鋼彈 水星的魔女",
-      "description": "啪！沒了"
+      "description": "啪！沒了",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -75,7 +81,8 @@
       "modelId": "ship-01",
       "url": "",
       "linkText": "",
-      "description": "星際救援"
+      "description": "星際救援",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -85,7 +92,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@yuzzmi0110",
       "linkText": "https://www.youtube.com/@yuzzmi0110",
-      "description": "來自北方部落的半妖少女🌙"
+      "description": "來自北方部落的半妖少女🌙",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -95,7 +103,8 @@
       "modelId": "ship-01",
       "url": "https://www.youtube.com/@UyaUyaVT",
       "linkText": "https://www.youtube.com/@UyaUyaVT",
-      "description": "烏亞 UYA/是一隻喜歡魔法的小烏鴉，與夥伴啾理夫人在你們的世界邊冒險邊修行\n☽雜談　\n☽占卜　\n☽魔法"
+      "description": "烏亞 UYA/是一隻喜歡魔法的小烏鴉，與夥伴啾理夫人在你們的世界邊冒險邊修行\n☽雜談　\n☽占卜　\n☽魔法",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -105,7 +114,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@kousakireina",
       "linkText": "https://www.youtube.com/@kousakireina",
-      "description": "從異世界轉生而來的少女\n目標是建立自己的國家,成為偉大的皇"
+      "description": "從異世界轉生而來的少女\n目標是建立自己的國家,成為偉大的皇",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -115,7 +125,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@ekorru",
       "linkText": "https://www.youtube.com/@ekorru",
-      "description": "一隻努力尋找美食...聖物小偷的快樂大松鼠\n美麗跟智慧的皇家騎士團團長🌟\n藉由網路的力量壯大騎士團希望可以光榮回歸松鼠王國！\n"
+      "description": "一隻努力尋找美食...聖物小偷的快樂大松鼠\n美麗跟智慧的皇家騎士團團長🌟\n藉由網路的力量壯大騎士團希望可以光榮回歸松鼠王國！\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -125,7 +136,8 @@
       "modelId": "astronaut-17",
       "url": "https://www.youtube.com/@JiuluVtuber",
       "linkText": "https://www.youtube.com/@JiuluVtuber",
-      "description": "🇹🇼高難度遊戲勢Vtuber｜點開播放清單✔有破關的遊戲直播整理 ϑɕ\n\nꗯ̤̮ \n來自平行世界的普通人類\n遊戲力高✔喜歡初次破關遊戲的快感\n偶爾會出現髒話或暴言開車\n不擅長聊天雜談！也不是溫柔系主播！\n希望大家能從我的角度一起享受遊戲過程ᕕ ( ᐛ ) ᕗ\n\n🤍粉絲名：玖菜"
+      "description": "🇹🇼高難度遊戲勢Vtuber｜點開播放清單✔有破關的遊戲直播整理 ϑɕ\n\nꗯ̤̮ \n來自平行世界的普通人類\n遊戲力高✔喜歡初次破關遊戲的快感\n偶爾會出現髒話或暴言開車\n不擅長聊天雜談！也不是溫柔系主播！\n希望大家能從我的角度一起享受遊戲過程ᕕ ( ᐛ ) ᕗ\n\n🤍粉絲名：玖菜",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -135,7 +147,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@Akishino_Hibiki",
       "linkText": "https://www.youtube.com/@Akishino_Hibiki",
-      "description": "ᖭི༏ᖫྀ⋆˖⁺‧不定期出沒、隨心所欲的活動者⋆˖⁺‧ ᖭི༏ᖫྀ\n\n            「請不要試圖去窺探未知的世界。」\n\n 成為『秋篠響』、值得紀念的日子：𝟐𝟎𝟐𝟒/𝟎𝟐/𝟐𝟒\n\n               ˚₊‧✩ ˚₊‧꒰ა ʚིᵋº̣̥͙̣̥͙ᵌɞྀ ໒꒱ ‧₊˚ ✩‧₊˚\n"
+      "description": "ᖭི༏ᖫྀ⋆˖⁺‧不定期出沒、隨心所欲的活動者⋆˖⁺‧ ᖭི༏ᖫྀ\n\n            「請不要試圖去窺探未知的世界。」\n\n 成為『秋篠響』、值得紀念的日子：𝟐𝟎𝟐𝟒/𝟎𝟐/𝟐𝟒\n\n               ˚₊‧✩ ˚₊‧꒰ა ʚིᵋº̣̥͙̣̥͙ᵌɞྀ ໒꒱ ‧₊˚ ✩‧₊˚\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -145,7 +158,8 @@
       "modelId": "astronaut-18",
       "url": "https://www.youtube.com/@YomuPiiman",
       "linkText": "https://www.youtube.com/@YomuPiiman",
-      "description": "音樂團體 怪盜?靈感 作曲\n古摸寧，我是台灣Vtuber青椒\n喜歡推理和降san 藝術，希望能創造有品質有深度的互動，和大家一起進步成長。\n主要製作譜、偶然聽到的音樂、和原創音樂\n想要下載譜的話可以到這裡：\nhttps://musescore.com/user/11503321\nTwitter:https://twitter.com/MrChinjyao\nEmail: yomu1729@gmail.com"
+      "description": "音樂團體 怪盜?靈感 作曲\n古摸寧，我是台灣Vtuber青椒\n喜歡推理和降san 藝術，希望能創造有品質有深度的互動，和大家一起進步成長。\n主要製作譜、偶然聽到的音樂、和原創音樂\n想要下載譜的話可以到這裡：\nhttps://musescore.com/user/11503321\nTwitter:https://twitter.com/MrChinjyao\nEmail: yomu1729@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -155,7 +169,8 @@
       "modelId": "astronaut-17",
       "url": "https://www.youtube.com/@瑞迪Ray",
       "linkText": "https://www.youtube.com/@瑞迪 Ray",
-      "description": "目前是不務正業的蠢蠢高中生(∪.∪ )...zzz(已大學)\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—\n本來在海生館活得好好的，\n結果飼育員倏忽......居然讓本魚變成人啦！\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—\n⁕ 本台須知：\n直播可能會無預警關閉麥克風或下播。\n瑞迪的性別就是瑞迪。\n主播設備爛的誇張 ( 這是過去式了 )。\n沒有周表及固定直播時間，所有直播都是突發進行。\n本台不討論成人話題。\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—"
+      "description": "目前是不務正業的蠢蠢高中生(∪.∪ )...zzz(已大學)\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—\n本來在海生館活得好好的，\n結果飼育員倏忽......居然讓本魚變成人啦！\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—\n⁕ 本台須知：\n直播可能會無預警關閉麥克風或下播。\n瑞迪的性別就是瑞迪。\n主播設備爛的誇張 ( 這是過去式了 )。\n沒有周表及固定直播時間，所有直播都是突發進行。\n本台不討論成人話題。\n—-—-—-—-—-—-—-—-—-—-—-—-—-—-—",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -165,7 +180,8 @@
       "modelId": "astronaut-cooper",
       "url": "https://www.youtube.com/@虎コCh",
       "linkText": "https://www.youtube.com/@虎コCh",
-      "description": "日本在住台湾絵師✦セルフ受肉Vartist\n虎コです🍥\nChinese & Japanese ⭕️\n\n｛ 繪圖、日本生活、雜談 ｝\n｛ 𝐒𝐩𝐥𝐚𝐭𝐨𝐨𝐧   &   𝐌𝐢𝐧𝐞𝐜𝐫𝐚𝐟𝐭 ｝\n\n✦\n\n這是一個交易快樂的地方，歡迎蒞臨愉快販。\n🔆💗✨💕👾👍"
+      "description": "日本在住台湾絵師✦セルフ受肉Vartist\n虎コです🍥\nChinese & Japanese ⭕️\n\n｛ 繪圖、日本生活、雜談 ｝\n｛ 𝐒𝐩𝐥𝐚𝐭𝐨𝐨𝐧   &   𝐌𝐢𝐧𝐞𝐜𝐫𝐚𝐟𝐭 ｝\n\n✦\n\n這是一個交易快樂的地方，歡迎蒞臨愉快販。\n🔆💗✨💕👾👍",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -175,7 +191,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@SuperEE_OuO",
       "linkText": "https://www.youtube.com/@SuperEE_OuO",
-      "description": "💫 療癒系小男聲歌勢Vtuber 💫 \n\n住在閣樓的小女僕(男) 喜歡遊戲🎮 唱歌🎤\n神ママ 夜八せんせい \n\n✉️ 合作歡迎來信 hoshinoee.vtuber@gmail.com\n☆+.――――――――――――――――――――.+☆ \n\n贊助EE 吃麥當勞薯條可以加大🍟\nHiveBee斗內：https://www.hivebee.com.tw/hoshinoee/donate\n\n☆+.――――――――――――――――――――.+☆ \n連結"
+      "description": "💫 療癒系小男聲歌勢Vtuber 💫 \n\n住在閣樓的小女僕(男) 喜歡遊戲🎮 唱歌🎤\n神ママ 夜八せんせい \n\n✉️ 合作歡迎來信 hoshinoee.vtuber@gmail.com\n☆+.――――――――――――――――――――.+☆ \n\n贊助EE 吃麥當勞薯條可以加大🍟\nHiveBee斗內：https://www.hivebee.com.tw/hoshinoee/donate\n\n☆+.――――――――――――――――――――.+☆ \n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -185,7 +202,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@MintchocoCh",
       "linkText": "https://www.youtube.com/@MintchocoCh",
-      "description": "週日早上8:00-12:00固定早安台\n其他突發通常開在晚上8點\n\n一個宅在冷氣房間的アニ宅人型巧克力🌱🍫\n\n台灣個人勢vtuber ｜中文O日文△｜絕對反對牙膏主張的薄巧派教主\n致力於推廣薄巧和所有喜歡的事物💯\n\n【開台內容】\n💬雜談（較多動畫相關話題）\n🎮遊戲（文字解謎遊戲為主）\n🎲抽卡（明日方舟限定池）\n🎵歌回（結束轉會限）"
+      "description": "週日早上8:00-12:00固定早安台\n其他突發通常開在晚上8點\n\n一個宅在冷氣房間的アニ宅人型巧克力🌱🍫\n\n台灣個人勢vtuber ｜中文O日文△｜絕對反對牙膏主張的薄巧派教主\n致力於推廣薄巧和所有喜歡的事物💯\n\n【開台內容】\n💬雜談（較多動畫相關話題）\n🎮遊戲（文字解謎遊戲為主）\n🎲抽卡（明日方舟限定池）\n🎵歌回（結束轉會限）",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -195,7 +213,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@yobuyomi",
       "linkText": "https://www.youtube.com/@yobuyomi",
-      "description": "🤍週一 三直播｜🩵隔週四Podcast｜🖤不定時影片\nThreads企劃：每日畫一隻小動物直至1000追\nhttps://www.threads.com/@yobuyomi.ch\n-------\n大家好！我們是來自94號宇宙的狼過Yobu&喲米Yomi！\n因為某些原因而穿越來到了87號宇宙w\n現在需要500魔力把Yomi變回人類！\n為了恢復魔力而成為vtuber！\n-------\n歷史：\n出道 - 2023/10/15\n200 - KING Cover  2024/3/28\n350 - Yobu 新衣裝 2024/05/06\n500 - Yomi 人型 2024/06/30\n收益化 - 2024/06/30\n會員及一週年 - 2024/10/15\nYomi 聯動新衣裝 - 2026/06/13\n1000 - 2026/08/11\n??? - 2026/10/15\n———\n出生日期：6月9號\n成員：\n鈴狐 婼彌 喲米Yomi\n呼延 百里 狼過Yobu\n———\n繪師：yamizaki_yomi \nTwitter下收"
+      "description": "🤍週一 三直播｜🩵隔週四Podcast｜🖤不定時影片\nThreads企劃：每日畫一隻小動物直至1000追\nhttps://www.threads.com/@yobuyomi.ch\n-------\n大家好！我們是來自94號宇宙的狼過Yobu&喲米Yomi！\n因為某些原因而穿越來到了87號宇宙w\n現在需要500魔力把Yomi變回人類！\n為了恢復魔力而成為vtuber！\n-------\n歷史：\n出道 - 2023/10/15\n200 - KING Cover  2024/3/28\n350 - Yobu 新衣裝 2024/05/06\n500 - Yomi 人型 2024/06/30\n收益化 - 2024/06/30\n會員及一週年 - 2024/10/15\nYomi 聯動新衣裝 - 2026/06/13\n1000 - 2026/08/11\n??? - 2026/10/15\n———\n出生日期：6月9號\n成員：\n鈴狐 婼彌 喲米Yomi\n呼延 百里 狼過Yobu\n———\n繪師：yamizaki_yomi \nTwitter下收",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -205,7 +224,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@星空フリル",
       "linkText": "https://www.youtube.com/@星空フリル",
-      "description": "海からやってきたゲームと人間が大好きなウミウシピエロのVtuber🎪💫\n活動内容:楽しそうなゲームと雑談を予定！\n目標チャンネル登録者数10000人✨"
+      "description": "海からやってきたゲームと人間が大好きなウミウシピエロのVtuber🎪💫\n活動内容:楽しそうなゲームと雑談を予定！\n目標チャンネル登録者数10000人✨",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -215,7 +235,8 @@
       "modelId": "astronaut-12",
       "url": "https://www.youtube.com/@seventy_vtuber",
       "linkText": "https://www.youtube.com/@seventy_vtuber",
-      "description": "68、69、70！\nこんに7は、我是棲蒔✨\n是你的低音砲狐妖姊姊♡\n ☾ 唱歌 • 雜談 • 遊戲 ☽\n專長是為你帶來快樂！\n今天也要來見我唷♡\n💌工作信箱：seventyvtuber@gmail.com"
+      "description": "68、69、70！\nこんに7は、我是棲蒔✨\n是你的低音砲狐妖姊姊♡\n ☾ 唱歌 • 雜談 • 遊戲 ☽\n專長是為你帶來快樂！\n今天也要來見我唷♡\n💌工作信箱：seventyvtuber@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -225,7 +246,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@riaaoba1749",
       "linkText": "https://www.youtube.com/@riaaoba1749",
-      "description": "出会ってくれた君の毎日を彩る！\n声で奏でる多声類 狐の碧葉リアです 💎🌱\n完全個人勢Vtuberです！\n☆定時 "
+      "description": "出会ってくれた君の毎日を彩る！\n声で奏でる多声類 狐の碧葉リアです 💎🌱\n完全個人勢Vtuberです！\n☆定時 ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -235,7 +257,8 @@
       "modelId": "ship-01",
       "url": "https://www.youtube.com/@xoxotube_v",
       "linkText": "https://www.youtube.com/@xoxotube_v",
-      "description": "心呼（ここ）です。\n\"歌がくれた強さを今度はキミへ\"\nLive Artist VTuber,VSinger"
+      "description": "心呼（ここ）です。\n\"歌がくれた強さを今度はキミへ\"\nLive Artist VTuber,VSinger",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -245,7 +268,8 @@
       "modelId": "astronaut-30",
       "url": "https://www.youtube.com/@洛伊可Royco",
       "linkText": "https://www.youtube.com/@洛伊可Royco",
-      "description": "洛伊可的呦!\n一到日晚上十點直播 禮拜三四休息\n\n洛伊可合作用收件信箱(助理收件非業務請勿來信): Toolcoco5283@gmail.com\n--------------------------------------------------------------------------------------\n目前商業合作中夥伴\n\n筑星工作室/3D建模製作:starbuilder.go@gmail.com\nAAAstudio/錄音混音音效媒體工作室:allandallart000@gmail.com\n-------------------------------------------------------------------------------------\n\n\n願將這些美好的時光獻給陪伴在我身邊的小可愛們\n歡迎回家\n"
+      "description": "洛伊可的呦!\n一到日晚上十點直播 禮拜三四休息\n\n洛伊可合作用收件信箱(助理收件非業務請勿來信): Toolcoco5283@gmail.com\n--------------------------------------------------------------------------------------\n目前商業合作中夥伴\n\n筑星工作室/3D建模製作:starbuilder.go@gmail.com\nAAAstudio/錄音混音音效媒體工作室:allandallart000@gmail.com\n-------------------------------------------------------------------------------------\n\n\n願將這些美好的時光獻給陪伴在我身邊的小可愛們\n歡迎回家\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -255,7 +279,8 @@
       "modelId": "astronaut-cooper",
       "url": "https://www.youtube.com/@rururunautau",
       "linkText": "https://www.youtube.com/@rururunautau",
-      "description": "\\ 快點訂閱成為BBGs 給你抱抱 /\n\n-------˖⁺. ༶ ❤︎ ⋆˙⊹ ෆ ⊹˙⋆❤︎ ༶ .⁺˖-------\n\n星の魔女ルンナ Runna 💘\n歌唱勢Vtuber \n✦ 工商/合作 : rururunautau@gmail.com \n\n✦ 日本語◎｜広東語◎｜中国語◎ \n✧ 個人勢 #唱歌勢 #歌唱勢 #新人歌い手 #Vsinger \n✦ 再生父母 @mitukiycy\n✧  Fan Mark :🔮🌕"
+      "description": "\\ 快點訂閱成為BBGs 給你抱抱 /\n\n-------˖⁺. ༶ ❤︎ ⋆˙⊹ ෆ ⊹˙⋆❤︎ ༶ .⁺˖-------\n\n星の魔女ルンナ Runna 💘\n歌唱勢Vtuber \n✦ 工商/合作 : rururunautau@gmail.com \n\n✦ 日本語◎｜広東語◎｜中国語◎ \n✧ 個人勢 #唱歌勢 #歌唱勢 #新人歌い手 #Vsinger \n✦ 再生父母 @mitukiycy\n✧  Fan Mark :🔮🌕",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -265,7 +290,8 @@
       "modelId": "craft-dongfang",
       "url": "https://www.youtube.com/@ALittleRiceBall",
       "linkText": "https://www.youtube.com/@ALittleRiceBall",
-      "description": "我是喜歡吃飯糰的飯糰泉！\n2VR Studio的糰長\n想要合作或聯動可以直接私信喔～"
+      "description": "我是喜歡吃飯糰的飯糰泉！\n2VR Studio的糰長\n想要合作或聯動可以直接私信喔～",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -275,7 +301,8 @@
       "modelId": "astronaut-06",
       "url": "https://www.youtube.com/@nipppii_",
       "linkText": "https://www.youtube.com/@nipppii_",
-      "description": "【 　台灣個人勢VTUBER　 】　 ✖🔴✖. 小丑竟是我自己 ❗\n\n來自前聖誕勞工工期下的小精靈\n\n因為被壓迫、壓榨而進化成瘋狂小丑\n\n為了散播邪惡、迫害世界而來🤡\n\n\n——— ° °∴°﹒﹒‧°∴﹒. "
+      "description": "【 　台灣個人勢VTUBER　 】　 ✖🔴✖. 小丑竟是我自己 ❗\n\n來自前聖誕勞工工期下的小精靈\n\n因為被壓迫、壓榨而進化成瘋狂小丑\n\n為了散播邪惡、迫害世界而來🤡\n\n\n——— ° °∴°﹒﹒‧°∴﹒. ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -285,7 +312,8 @@
       "modelId": "astronaut-watney",
       "url": "https://www.youtube.com/@OctJunch",
       "linkText": "https://www.youtube.com/@OctJunch",
-      "description": "𝗥𝗲𝗹𝗶𝘃𝗲 所屬  ·  𝗢𝗕𝗟𝗜𝗩𝗜𝗢𝗡 期生\n歡迎 獨立遊戲 或 冷門小眾遊戲 邀請試玩\n直播遊玩過的類型多元 會客觀銳評 好遊戲會極度讚賞\n( 不擅於 卡牌 與 戰略 類型 , 除此之外大歡迎 )\n┄┄▸◂┄┄ ▸◂┄┄ ▸◂┄┄┄┄▸◂┄┄ ▸◂┄┄\n✧ ᴛᴡɪᴛᴛᴇʀ or X ➜ https://x.com/octjun1006\n✧ 合作請洽詢 ➜ reliveproject.official@gmail.com"
+      "description": "𝗥𝗲𝗹𝗶𝘃𝗲 所屬  ·  𝗢𝗕𝗟𝗜𝗩𝗜𝗢𝗡 期生\n歡迎 獨立遊戲 或 冷門小眾遊戲 邀請試玩\n直播遊玩過的類型多元 會客觀銳評 好遊戲會極度讚賞\n( 不擅於 卡牌 與 戰略 類型 , 除此之外大歡迎 )\n┄┄▸◂┄┄ ▸◂┄┄ ▸◂┄┄┄┄▸◂┄┄ ▸◂┄┄\n✧ ᴛᴡɪᴛᴛᴇʀ or X ➜ https://x.com/octjun1006\n✧ 合作請洽詢 ➜ reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -295,7 +323,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@licing_vtuber",
       "linkText": "https://www.youtube.com/@licing_vtuber",
-      "description": "⚠️內容荒唐...小心慎入🐣不定時晚上八or九點直播\n\n📬合作邀約/收件資訊：li.cing0505@gmail.com\n✉️工商洽談：\nli.cing0505@gmail.com"
+      "description": "⚠️內容荒唐...小心慎入🐣不定時晚上八or九點直播\n\n📬合作邀約/收件資訊：li.cing0505@gmail.com\n✉️工商洽談：\nli.cing0505@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -305,7 +334,8 @@
       "modelId": "astronaut-08",
       "url": "https://www.youtube.com/@ReLiveDaDa",
       "linkText": "https://www.youtube.com/@ReLiveDaDa",
-      "description": "元氣灰鸚鵡，神聖誕生\n打給賀！這裡是ReLive一期生 灰鸚鵡Vtuber 灰妲 ！\n你最意想不到的妲妲妲妲！\n原本是鸚鵡王候補，因為死亡而陰錯陽差來到了這個世界\n為了自由自在地活下去，正在努力的以發大財為目標成為VTUBER(雖然越來越窮)\n\n想要在各個平台找到妲? 請按下方快速連結(ゝ∀･)\nhttps://linktr.ee/grayda0105\n\n🎀粉絲名: 鸚鵡幫🦜、雞腿幫🍗\n🎀精華/迷因：#灰妲LIVE\n🎀任何FanArt：#Da2Art\n🔞：#Da2Art18"
+      "description": "元氣灰鸚鵡，神聖誕生\n打給賀！這裡是ReLive一期生 灰鸚鵡Vtuber 灰妲 ！\n你最意想不到的妲妲妲妲！\n原本是鸚鵡王候補，因為死亡而陰錯陽差來到了這個世界\n為了自由自在地活下去，正在努力的以發大財為目標成為VTUBER(雖然越來越窮)\n\n想要在各個平台找到妲? 請按下方快速連結(ゝ∀･)\nhttps://linktr.ee/grayda0105\n\n🎀粉絲名: 鸚鵡幫🦜、雞腿幫🍗\n🎀精華/迷因：#灰妲LIVE\n🎀任何FanArt：#Da2Art\n🔞：#Da2Art18",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -315,7 +345,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@ReLiveNoe",
       "linkText": "https://www.youtube.com/@ReLiveNoe",
-      "description": "你們好我是ReLive一期生 Vtuber~\n以下是我的介紹！\nNOE NOE NOE 我是諾櫻~\n我是一棵櫻花樹的守護精靈~\n能獲今生真的不容易…\n希望大家都能好好的疼愛我…\n我愛你們每一位支持我與愛我的人唷！\n.\n.\n.\n但…\n人類…真的值得我愛嗎…？\n請你們讓我相信人類好嗎…？\n\nTwitch頻道：https://www.twitch.tv/re_noe_\n\n推特（X）：https://reurl.cc/nnlv8d\n\nFacebook：https://www.facebook.com/NoeYinRelive\n\n棉花糖：https://reurl.cc/raKv7x"
+      "description": "你們好我是ReLive一期生 Vtuber~\n以下是我的介紹！\nNOE NOE NOE 我是諾櫻~\n我是一棵櫻花樹的守護精靈~\n能獲今生真的不容易…\n希望大家都能好好的疼愛我…\n我愛你們每一位支持我與愛我的人唷！\n.\n.\n.\n但…\n人類…真的值得我愛嗎…？\n請你們讓我相信人類好嗎…？\n\nTwitch頻道：https://www.twitch.tv/re_noe_\n\n推特（X）：https://reurl.cc/nnlv8d\n\nFacebook：https://www.facebook.com/NoeYinRelive\n\n棉花糖：https://reurl.cc/raKv7x",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -325,7 +356,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@relive_winnie0129",
       "linkText": "https://www.youtube.com/@relive_winnie0129",
-      "description": "來自異世界的大白虎，四大神獸之一的族長\n這裡是薇妮，ReLive二期生 Vtuber。\n\n在我的世界身為四大神獸裡的白虎嫡系血脈——守護世界，最後結局卻是……\n\n商業、非商業合作請來信：reliveproject.official@gmail.com"
+      "description": "來自異世界的大白虎，四大神獸之一的族長\n這裡是薇妮，ReLive二期生 Vtuber。\n\n在我的世界身為四大神獸裡的白虎嫡系血脈——守護世界，最後結局卻是……\n\n商業、非商業合作請來信：reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -335,7 +367,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@relive_loli9756",
       "linkText": "https://www.youtube.com/@relive_loli9756",
-      "description": "ReLive二期生，燎漓Loli\n沒有立志要成為清楚系偶像，所以開局就往失控系VTuber這條路直衝\n最近添加了病弱屬性，目標是自由的活著。\n　\nTwitter：https://twitter.com/LoliRelive_1031\nYoutube：https://reurl.cc/52gV6V\n棉花糖：https://reurl.cc/nomp3D\n　\n官方Discord：https://discord.gg/PB5r4ZYbkC\n　\n配信TAG：#lolilive\n粉絲名：花火\nFanart：#loliconart\n　\n綠界審核讓我過啦拜託嘛，這個是我本人啦：shutuplolicon@gmail.com\n合作相關請往：reliveproject.official@gmail.com"
+      "description": "ReLive二期生，燎漓Loli\n沒有立志要成為清楚系偶像，所以開局就往失控系VTuber這條路直衝\n最近添加了病弱屬性，目標是自由的活著。\n　\nTwitter：https://twitter.com/LoliRelive_1031\nYoutube：https://reurl.cc/52gV6V\n棉花糖：https://reurl.cc/nomp3D\n　\n官方Discord：https://discord.gg/PB5r4ZYbkC\n　\n配信TAG：#lolilive\n粉絲名：花火\nFanart：#loliconart\n　\n綠界審核讓我過啦拜託嘛，這個是我本人啦：shutuplolicon@gmail.com\n合作相關請往：reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -345,7 +378,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@relive_lupo",
       "linkText": "https://www.youtube.com/@relive_lupo",
-      "description": "是隻愛打遊戲也愛賭博的紐芬蘭狼！\n隸屬於ReLiveProject的三期生隊長。\n\n基本上這頻道我說的算 (ﾟ∀ﾟ)\n\n開台主要 雜談／遊戲 還有一些小企劃......早安通勤是賭博來的，\n雖然看起來是常駐，但不是，因為沒了就是沒了。\n\n⁝　洽詢服務／合作請投：reliveproject.official@gmail.com"
+      "description": "是隻愛打遊戲也愛賭博的紐芬蘭狼！\n隸屬於ReLiveProject的三期生隊長。\n\n基本上這頻道我說的算 (ﾟ∀ﾟ)\n\n開台主要 雜談／遊戲 還有一些小企劃......早安通勤是賭博來的，\n雖然看起來是常駐，但不是，因為沒了就是沒了。\n\n⁝　洽詢服務／合作請投：reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -355,7 +389,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@ReliveBANG",
       "linkText": "https://www.youtube.com/@ReliveBANG",
-      "description": "@project_relive 二期生Vtuber\nRELIVE武器精靈中的哥哥，主要在圖奇直播只有歌回會回來YT\n是個麻煩但又怕麻煩的人，好累好累喔睡吧睡吧\n\n中文精通，英文勉強，日文不會\n\n把拔：@hookeyang\n馬麻：@byakuya9931\n\n任何合作方向請往詢問處洽詢：reliveproject.official@gmail.com"
+      "description": "@project_relive 二期生Vtuber\nRELIVE武器精靈中的哥哥，主要在圖奇直播只有歌回會回來YT\n是個麻煩但又怕麻煩的人，好累好累喔睡吧睡吧\n\n中文精通，英文勉強，日文不會\n\n把拔：@hookeyang\n馬麻：@byakuya9931\n\n任何合作方向請往詢問處洽詢：reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -365,7 +400,8 @@
       "modelId": "astronaut-08",
       "url": "https://www.youtube.com/@relive_sofox",
       "linkText": "https://www.youtube.com/@relive_sofox",
-      "description": "這裡是Relive 3期生的舒狐💛🧭\n是可愛的狐耶\n喜歡跟我一樣可愛的東西，像是舒狐\n\n\n\n商業\\  非商業 合作請洽詢詢問處\nmail :reliveproject.official@gmail.com\n\n個人信箱：sofoxcute@gmail.com"
+      "description": "這裡是Relive 3期生的舒狐💛🧭\n是可愛的狐耶\n喜歡跟我一樣可愛的東西，像是舒狐\n\n\n\n商業\\  非商業 合作請洽詢詢問處\nmail :reliveproject.official@gmail.com\n\n個人信箱：sofoxcute@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -375,7 +411,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@Relive_Taki",
       "linkText": "https://www.youtube.com/@Relive_Taki",
-      "description": "這裡是ReLive 肆期生_濛瀧🐉💦\n\n最愛的爸爸：@RegitionLee\n\n最優的爹爹：@hookeyangtw\n\n🐲肆期生：#你又望樓\n🐲想我：#濛瀧美\n🐲FanArt：#瀧畫\n🐲迷因：#瀧齁哩共\n🐲誇我超美：#美瀧院\n💋R18：#瀧起\n\n任何商業非商業，合作請洽詢詢問處\nemail : reliveproject.official@gmail.com"
+      "description": "這裡是ReLive 肆期生_濛瀧🐉💦\n\n最愛的爸爸：@RegitionLee\n\n最優的爹爹：@hookeyangtw\n\n🐲肆期生：#你又望樓\n🐲想我：#濛瀧美\n🐲FanArt：#瀧畫\n🐲迷因：#瀧齁哩共\n🐲誇我超美：#美瀧院\n💋R18：#瀧起\n\n任何商業非商業，合作請洽詢詢問處\nemail : reliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -385,7 +422,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@Relive_Meteor",
       "linkText": "https://www.youtube.com/@Relive_Meteor",
-      "description": "Hi 我是ReLive四期生梅迪歐\n修船修屋實屬不易，\n救救欠債宇宙人\n\n綠界走這\nhttps://p.ecpay.com.tw/6F776C5\n\nReLive DC走這\nhttps://discord.gg/reliveproject\n\n任何商業非商業，合作請洽詢詢問處\nreliveproject.official@gmail.com"
+      "description": "Hi 我是ReLive四期生梅迪歐\n修船修屋實屬不易，\n救救欠債宇宙人\n\n綠界走這\nhttps://p.ecpay.com.tw/6F776C5\n\nReLive DC走這\nhttps://discord.gg/reliveproject\n\n任何商業非商業，合作請洽詢詢問處\nreliveproject.official@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -395,7 +433,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@Relive_Sparky",
       "linkText": "https://www.youtube.com/@Relive_Sparky",
-      "description": "嘎嘎安安！\n我是Relive四期生咲鼠～👻\n希望可以跟大家變成好朋友嗷🍼\n\n👻🐹🍼🧡👻🐹🍼🧡👻🐹🍼🧡👻🐹🍼🧡👻\n\n商業、非商業合作請來信：reliveproject.official@gmail.com、relive4thsparky@gmail.com"
+      "description": "嘎嘎安安！\n我是Relive四期生咲鼠～👻\n希望可以跟大家變成好朋友嗷🍼\n\n👻🐹🍼🧡👻🐹🍼🧡👻🐹🍼🧡👻🐹🍼🧡👻\n\n商業、非商業合作請來信：reliveproject.official@gmail.com、relive4thsparky@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -405,7 +444,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@Libbi_Rico_",
       "linkText": "https://www.youtube.com/@Libbi_Rico_",
-      "description": "こんリビはーただいま💙 早灣早ㄤ✨\n\n----* ----* ----* ----* ----* ----* \n\n🦆 Twitter 🥚\nhttps://twitter.com/Libbi_Rico_\n🦆 Twitch 🥚\n https://www.twitch.tv/Libbi_Rico_\n🦆 Discord🥚\nhttps://discord.gg/Kq8ANEbKcU\n\n----* ----* ----* ----* ----* ----* \n\n#個人勢 #vtuber #台v #台灣vtuber \n👍🏼中文｜👌🏼ENG｜🤏🏼日本語\n\n----* ----* ----* ----* ----* ----* \n\n白天都在抓蟲蟲給橘艾芙鴨鴨吃🦆\n聽說有點ㄎㄧㄤ，請多多指教！\n\n----* ----* ----* ----* ----* ----* \n\n˗ˏˋ 💰 sᴜᴘᴘᴏʀᴛ ˎˊ˗\n✦綠界：https://p.ecpay.com.tw/B2A86A5\n\n----* ----* ----* ----* ----* ----* \n\n聯絡信箱：libbirico@gmail.com"
+      "description": "こんリビはーただいま💙 早灣早ㄤ✨\n\n----* ----* ----* ----* ----* ----* \n\n🦆 Twitter 🥚\nhttps://twitter.com/Libbi_Rico_\n🦆 Twitch 🥚\n https://www.twitch.tv/Libbi_Rico_\n🦆 Discord🥚\nhttps://discord.gg/Kq8ANEbKcU\n\n----* ----* ----* ----* ----* ----* \n\n#個人勢 #vtuber #台v #台灣vtuber \n👍🏼中文｜👌🏼ENG｜🤏🏼日本語\n\n----* ----* ----* ----* ----* ----* \n\n白天都在抓蟲蟲給橘艾芙鴨鴨吃🦆\n聽說有點ㄎㄧㄤ，請多多指教！\n\n----* ----* ----* ----* ----* ----* \n\n˗ˏˋ 💰 sᴜᴘᴘᴏʀᴛ ˎˊ˗\n✦綠界：https://p.ecpay.com.tw/B2A86A5\n\n----* ----* ----* ----* ----* ----* \n\n聯絡信箱：libbirico@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -415,7 +455,8 @@
       "modelId": "astronaut-02",
       "url": "https://www.youtube.com/@Ayana_bm76",
       "linkText": "https://www.youtube.com/@Ayana_bm76",
-      "description": "這裡是北門76事務所一期生🍬甘糖亞彌奈🍬是個喜歡玩遊戲、畫畫、研究新事物的失速列車長(?\n希望能帶來歡樂給大家♫\n中文⭕/EN🔺/日本語🔺\n\n同期:Kristal ch. 海色水晶\n📩聯動及工商合作：beimen76.office@gmail.com\n📩品牌及其他合作&問題洽詢：beimen76@nani.com.tw"
+      "description": "這裡是北門76事務所一期生🍬甘糖亞彌奈🍬是個喜歡玩遊戲、畫畫、研究新事物的失速列車長(?\n希望能帶來歡樂給大家♫\n中文⭕/EN🔺/日本語🔺\n\n同期:Kristal ch. 海色水晶\n📩聯動及工商合作：beimen76.office@gmail.com\n📩品牌及其他合作&問題洽詢：beimen76@nani.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -425,7 +466,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@Kristal.beimen76",
       "linkText": "https://www.youtube.com/@Kristal.beimen76",
-      "description": "一顆愛唱歌的水晶💠透過直播想更了解這個世界 !\n【北門76所屬一期生】\n同期: Ayana ch. 亞彌奈\n事務所: 北門76事務所"
+      "description": "一顆愛唱歌的水晶💠透過直播想更了解這個世界 !\n【北門76所屬一期生】\n同期: Ayana ch. 亞彌奈\n事務所: 北門76事務所",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -435,7 +477,8 @@
       "modelId": "astronaut-03",
       "url": "https://www.youtube.com/@lancorvus_bm76",
       "linkText": "https://www.youtube.com/@lancorvus_bm76",
-      "description": "【北門76事務所二期生_projectCROW】\n你們氣質聰慧高冷集結於一身的主播🫵不接受反駁🫵\n※ 通用：#lan_corvus ※配信：#話唬lan ※Fan art：#Art蘭提斯 \n📧beimen76@mail.nani.com.tw"
+      "description": "【北門76事務所二期生_projectCROW】\n你們氣質聰慧高冷集結於一身的主播🫵不接受反駁🫵\n※ 通用：#lan_corvus ※配信：#話唬lan ※Fan art：#Art蘭提斯 \n📧beimen76@mail.nani.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -445,7 +488,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@muninin_bm76",
       "linkText": "https://www.youtube.com/@muninin_bm76",
-      "description": "南一教育集團 旗下【北門76事務所】所屬 知識型Vtuber二期生\n《𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗖𝗥𝗢𝗪》乘載「記憶」的實驗體 ✦ \n學習自然科學、神經科學的陪伴系 寓教於樂Vtuber 🧠\n🪽在萬千記憶的異路之上，願你對這世界抱持永恆的好奇🐦‍⬛\n\nTag #穆寧寧 #Muninin ｜LIVE #轉吧七彩寧虹燈 \n\n📩聯動及工商合作：beimen76.office@gmail.com\n📩品牌及其他合作&問題洽詢：beimen76@nani.com.tw"
+      "description": "南一教育集團 旗下【北門76事務所】所屬 知識型Vtuber二期生\n《𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗖𝗥𝗢𝗪》乘載「記憶」的實驗體 ✦ \n學習自然科學、神經科學的陪伴系 寓教於樂Vtuber 🧠\n🪽在萬千記憶的異路之上，願你對這世界抱持永恆的好奇🐦‍⬛\n\nTag #穆寧寧 #Muninin ｜LIVE #轉吧七彩寧虹燈 \n\n📩聯動及工商合作：beimen76.office@gmail.com\n📩品牌及其他合作&問題洽詢：beimen76@nani.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -455,7 +499,8 @@
       "modelId": "astronaut-28",
       "url": "https://www.youtube.com/@AkitsukiInori",
       "linkText": "https://www.youtube.com/@AkitsukiInori",
-      "description": "這裡是馬來西亞多語言雜談系Vtuber的秋月祁！\n頻道主要活動在於雜談和歌回！\n\n可以的話請訂閱一下我的頻道和追踪一下推特！謝謝！"
+      "description": "這裡是馬來西亞多語言雜談系Vtuber的秋月祁！\n頻道主要活動在於雜談和歌回！\n\n可以的話請訂閱一下我的頻道和追踪一下推特！謝謝！",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -465,7 +510,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@一顆糖SugarDom1031",
       "linkText": "https://www.youtube.com/@一顆糖SugarDom1031",
-      "description": "『 糖宅家主｜雜談之鬼｜人性故事收集者｜社畜觀察日誌｜耳膜攻擊型主播｜ 』\nঌ┈┈┈┈∞┈┈┈┈໒\n⚜糖氏古宅∞橫越千年的庇護之地⚜\n只要糖宅的燈火不滅，你便永遠受到庇佑。\nঌ┈┈┈┈∞┈┈┈┈໒\n༒糖宅能洗盡塵世的混亂喧囂\n༒你渴望的家人，早已在此為你守候\n༒為每個漂泊的靈魂點燃歸途的燈火\n﹊\n╳×＊我是家主｜一顆糖＊×╳\n此刻，不用再害怕孤獨。\n\n是否願意成為糖氏宗親呢？\n你不會真的唸到這裡吧!我會很尷尬!\n\n———— ✦ —————\nIG｜FB｜X：@SugarDom1031\n開台【YT｜圖奇】\n聯絡信箱：sugardom1031@gmail.com\n\n【 一顆糖 #】\n主要TAG｜  #一顆糖   #SugarDom"
+      "description": "『 糖宅家主｜雜談之鬼｜人性故事收集者｜社畜觀察日誌｜耳膜攻擊型主播｜ 』\nঌ┈┈┈┈∞┈┈┈┈໒\n⚜糖氏古宅∞橫越千年的庇護之地⚜\n只要糖宅的燈火不滅，你便永遠受到庇佑。\nঌ┈┈┈┈∞┈┈┈┈໒\n༒糖宅能洗盡塵世的混亂喧囂\n༒你渴望的家人，早已在此為你守候\n༒為每個漂泊的靈魂點燃歸途的燈火\n﹊\n╳×＊我是家主｜一顆糖＊×╳\n此刻，不用再害怕孤獨。\n\n是否願意成為糖氏宗親呢？\n你不會真的唸到這裡吧!我會很尷尬!\n\n———— ✦ —————\nIG｜FB｜X：@SugarDom1031\n開台【YT｜圖奇】\n聯絡信箱：sugardom1031@gmail.com\n\n【 一顆糖 #】\n主要TAG｜  #一顆糖   #SugarDom",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -475,7 +521,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@Locolost65",
       "linkText": "https://www.youtube.com/@Locolost65",
-      "description": "🥞個人勢VTUBER，喜歡鬆餅跟唱歌跟好喝氣泡水。\n特長是聲音模仿的17歲金髮鍊金術師。\n記住是17歲，不是217歲。\n\n◇◆◆◆◆◆◆◆◆◆◆◆◆◇\n\n🥞洛可相關賣場&平台&Line貼圖都可以在這裡看喔🥞\nhttps://sites.google.com/view/locolost/locolost-ad?authuser=0 \n🥞新的斗內+會員系統！嗨幣++賺鬆餅！🥞\nhttps://www.hivebee.com.tw/locolost65/Donate\n🥞加入會員，每月都有專屬會限台及專屬桌布等福利，讓金孫更大坨！🥞\nhttps://www.youtube.com/channel/UCT1kajmUhayQ4QaLlDbK23g/join"
+      "description": "🥞個人勢VTUBER，喜歡鬆餅跟唱歌跟好喝氣泡水。\n特長是聲音模仿的17歲金髮鍊金術師。\n記住是17歲，不是217歲。\n\n◇◆◆◆◆◆◆◆◆◆◆◆◆◇\n\n🥞洛可相關賣場&平台&Line貼圖都可以在這裡看喔🥞\nhttps://sites.google.com/view/locolost/locolost-ad?authuser=0 \n🥞新的斗內+會員系統！嗨幣++賺鬆餅！🥞\nhttps://www.hivebee.com.tw/locolost65/Donate\n🥞加入會員，每月都有專屬會限台及專屬桌布等福利，讓金孫更大坨！🥞\nhttps://www.youtube.com/channel/UCT1kajmUhayQ4QaLlDbK23g/join",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -485,7 +532,8 @@
       "modelId": "astronaut-03",
       "url": "https://www.youtube.com/@裴妮大姊姊",
       "linkText": "https://www.youtube.com/@裴妮大姊姊",
-      "description": "每周三晚上21:00 or 22:00/周五早上6:00固定直播時間\n為了能到處出差旅遊而當了乞丐超人! 怪怪大姊姊 裴妮 上線了~! TSA Studio 1期生 [Super] 組合\n這邊可以支持我~\nhttps://deerdonate.herokuapp.com/donation/%E8%A3%B4%E5%A6%AE_PENNY\n\n今天讓裴姊陪你玩吧~😘來自未來的時空管制署，\n主要工作是研究綠色能源與地質研究，副業是在世界上到處跑跳盜採石油，\n因盜油被發現，被迫穿越時空來做教育宣導想和你認識喔~😘\nLet Penny play with you~❤️\nFrom Time&Space AgencyStudying in stealing oil now. \n中文 OK | ENG OK | 日本語 OK"
+      "description": "每周三晚上21:00 or 22:00/周五早上6:00固定直播時間\n為了能到處出差旅遊而當了乞丐超人! 怪怪大姊姊 裴妮 上線了~! TSA Studio 1期生 [Super] 組合\n這邊可以支持我~\nhttps://deerdonate.herokuapp.com/donation/%E8%A3%B4%E5%A6%AE_PENNY\n\n今天讓裴姊陪你玩吧~😘來自未來的時空管制署，\n主要工作是研究綠色能源與地質研究，副業是在世界上到處跑跳盜採石油，\n因盜油被發現，被迫穿越時空來做教育宣導想和你認識喔~😘\nLet Penny play with you~❤️\nFrom Time&Space AgencyStudying in stealing oil now. \n中文 OK | ENG OK | 日本語 OK",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -495,7 +543,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@SukiVtuber",
       "linkText": "https://www.youtube.com/@SukiVtuber",
-      "description": "很會叫的金髮海關女郎｜TSA所屬【SUPER】\n沒有愛就世界末日\n加入會員支持我：\nhttps://www.youtube.com/channel/UCMGLgmAkIkNlrs7WN3yXkHw/join\n用綠界斗內支持我：\nhttps://deerdonate.herokuapp.com/donation/%E8%88%92%E8%8A%99_SUKI\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com\n\n今天過得舒服嗎☺️\n來自時空管制署~時空旅人都要乖乖聽我的😇讓我不舒服我會用一把愛心槍射你唷💗\nHaving a good time today?\nFrom Time and Space  Agency~Time traveler must listen to me obediently😇If I feel uncomfortable, I will shoot you with a love gun💗"
+      "description": "很會叫的金髮海關女郎｜TSA所屬【SUPER】\n沒有愛就世界末日\n加入會員支持我：\nhttps://www.youtube.com/channel/UCMGLgmAkIkNlrs7WN3yXkHw/join\n用綠界斗內支持我：\nhttps://deerdonate.herokuapp.com/donation/%E8%88%92%E8%8A%99_SUKI\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com\n\n今天過得舒服嗎☺️\n來自時空管制署~時空旅人都要乖乖聽我的😇讓我不舒服我會用一把愛心槍射你唷💗\nHaving a good time today?\nFrom Time and Space  Agency~Time traveler must listen to me obediently😇If I feel uncomfortable, I will shoot you with a love gun💗",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -505,7 +554,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@MC99_vtuber",
       "linkText": "https://www.youtube.com/@MC99_vtuber",
-      "description": "TSA Studio 所屬三期生【Reality】魔希玖玖 MC99\n\nもしもし 我是魔希玖玖，是個來自異世界的戀金魔法使 ，意外闖入時空裂縫，現在被困在月球！因為差點被時空海關遣返，於是只好開始我的打工還債之路....\nCome on ! Let's go~\n\n中文 🆗 | ENG 🆗 | 台語 🆗\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆\n\n✨玖玖的還債之路✨\nhttps://deerdonate.herokuapp.com/donation/%E9%AD%94%E5%B8%8C%E7%8E%96%E7%8E%96MC99\n✨玖玖的嗨幣請我吃飯飯✨\nhttps://www.hivebee.com.tw/user9c7f1742540104/Donate\n\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆\n✨加入玖玖的魔幻世界✨\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com\n\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆"
+      "description": "TSA Studio 所屬三期生【Reality】魔希玖玖 MC99\n\nもしもし 我是魔希玖玖，是個來自異世界的戀金魔法使 ，意外闖入時空裂縫，現在被困在月球！因為差點被時空海關遣返，於是只好開始我的打工還債之路....\nCome on ! Let's go~\n\n中文 🆗 | ENG 🆗 | 台語 🆗\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆\n\n✨玖玖的還債之路✨\nhttps://deerdonate.herokuapp.com/donation/%E9%AD%94%E5%B8%8C%E7%8E%96%E7%8E%96MC99\n✨玖玖的嗨幣請我吃飯飯✨\nhttps://www.hivebee.com.tw/user9c7f1742540104/Donate\n\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆\n✨加入玖玖的魔幻世界✨\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com\n\n☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆…☆",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -515,7 +565,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@firekiss0418",
       "linkText": "https://www.youtube.com/@firekiss0418",
-      "description": "◆偽裝成歌手的神祕怪盜◆ TSA所屬三期生【Reality】\n\n----------------------------------------\n在月色朦朧的夜晚，時鐘的秒針依然在轉動著…滴答滴答…與優雅的琴聲，同時出現的迷人的歌聲，準備好成為俘虜了嗎…? Ladies and gentlemen,it's show time!\n-----------------------------------------\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com"
+      "description": "◆偽裝成歌手的神祕怪盜◆ TSA所屬三期生【Reality】\n\n----------------------------------------\n在月色朦朧的夜晚，時鐘的秒針依然在轉動著…滴答滴答…與優雅的琴聲，同時出現的迷人的歌聲，準備好成為俘虜了嗎…? Ladies and gentlemen,it's show time!\n-----------------------------------------\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -525,7 +576,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@BlueDodo0701",
       "linkText": "https://www.youtube.com/@BlueDodo0701",
-      "description": "TSA Studio所屬三期生【Reality 】天藍朵朵 Blue Dodo\nꔛ現役蘿莉教師 ⸜ ♡ ⸝‪ \n歡迎來到朵朵の秘密花園✿ εїз ✿ εїз ✿ \n我們一起在這裡開開心心過每一天🩵☁️\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com"
+      "description": "TSA Studio所屬三期生【Reality 】天藍朵朵 Blue Dodo\nꔛ現役蘿莉教師 ⸜ ♡ ⸝‪ \n歡迎來到朵朵の秘密花園✿ εїз ✿ εїз ✿ \n我們一起在這裡開開心心過每一天🩵☁️\n\n商業洽談：tsastudio7@gmail.com\n連動合作、其他聯絡洽詢：tsastudio.vtuber@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -535,7 +587,8 @@
       "modelId": "astronaut-06",
       "url": "https://www.youtube.com/@xxhacucoxx_Celestial",
       "linkText": "https://www.youtube.com/@xxhacucoxx_Celestial",
-      "description": "◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nㅤ瑟拉斯蒂歐 ᴄᴇʟᴇsᴛɪᴀʟ ⌒♡｡\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nㅤ你心中最特別的那道虹︎︎ ☁︎︎*.\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nʟɪɴᴋs   ̖́-\n\n‣ ᴛᴡɪᴛᴛᴇʀ: https://twitter.com/xxhacucoxx\n‣ ᴅɪsᴄᴏʀᴅ: https://discord.gg/5tRSUCc4Nt\n‣ ᴇᴍᴀɪʟ: Springfish@spring-fish.com\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nʙᴀᴄᴋɢʀᴏᴜɴᴅ: ʟɪɴᴇᴀʀ-ɢʀᴀᴅɪᴇɴᴛ(ᴛᴏ ʀɪɢʜᴛ, ᴏʀᴀɴɢᴇ , ʏᴇʟʟᴏᴡ, ɢʀᴇᴇɴ, ᴄʏᴀɴ, ʙʟᴜᴇ, ᴠɪᴏʟᴇᴛ);"
+      "description": "◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nㅤ瑟拉斯蒂歐 ᴄᴇʟᴇsᴛɪᴀʟ ⌒♡｡\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nㅤ你心中最特別的那道虹︎︎ ☁︎︎*.\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nʟɪɴᴋs   ̖́-\n\n‣ ᴛᴡɪᴛᴛᴇʀ: https://twitter.com/xxhacucoxx\n‣ ᴅɪsᴄᴏʀᴅ: https://discord.gg/5tRSUCc4Nt\n‣ ᴇᴍᴀɪʟ: Springfish@spring-fish.com\n\n◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌◌ ⁺ ˖˚ ◌ ⑅ ˚₊ ◌ ⁺⑅ ˚ ◌\n\nʙᴀᴄᴋɢʀᴏᴜɴᴅ: ʟɪɴᴇᴀʀ-ɢʀᴀᴅɪᴇɴᴛ(ᴛᴏ ʀɪɢʜᴛ, ᴏʀᴀɴɢᴇ , ʏᴇʟʟᴏᴡ, ɢʀᴇᴇɴ, ᴄʏᴀɴ, ʙʟᴜᴇ, ᴠɪᴏʟᴇᴛ);",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -545,7 +598,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@Eisnebel_Celestial",
       "linkText": "https://www.youtube.com/@Eisnebel_Celestial",
-      "description": "★瑟拉斯蒂歐Celestial★\n\n是一團做音樂的冰霧，夢想是做出讓大家喜歡的音樂\n請勿拍打 歡迎餵食ʕ•ᴥ•ʔ\n\n❆ 𝗛𝗮𝘀𝗵𝘁𝗮𝗴 #大罐結冰水\n❆ 𝗧𝘄𝗶𝘁𝘁𝗲𝗿 @𝖾𝗂𝗌𝗇𝖾𝖻𝖾𝗅𝗂𝖼𝖾\n❆ 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 @𝖾𝗂𝗌𝗇𝖾𝖻𝖾𝗅𝗂𝖼𝖾 \n❆ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 @𝖼𝖾𝗅𝖾𝗌𝗍𝗂𝖺𝗅𝟤𝟢𝟤𝟦\n❆ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁  springfish20181002@gmail.com"
+      "description": "★瑟拉斯蒂歐Celestial★\n\n是一團做音樂的冰霧，夢想是做出讓大家喜歡的音樂\n請勿拍打 歡迎餵食ʕ•ᴥ•ʔ\n\n❆ 𝗛𝗮𝘀𝗵𝘁𝗮𝗴 #大罐結冰水\n❆ 𝗧𝘄𝗶𝘁𝘁𝗲𝗿 @𝖾𝗂𝗌𝗇𝖾𝖻𝖾𝗅𝗂𝖼𝖾\n❆ 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 @𝖾𝗂𝗌𝗇𝖾𝖻𝖾𝗅𝗂𝖼𝖾 \n❆ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 @𝖼𝖾𝗅𝖾𝗌𝗍𝗂𝖺𝗅𝟤𝟢𝟤𝟦\n❆ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁  springfish20181002@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -555,7 +609,8 @@
       "modelId": "astronaut-03",
       "url": "https://www.youtube.com/@Moondogs_Celestial",
       "linkText": "https://www.youtube.com/@Moondogs_Celestial",
-      "description": "★瑟拉斯蒂歐Celestial★\n\n不覺得遊戲在世界上是不可或缺的一部分嗎(๑•̀ㅂ•́)و✧\n跟月亮一樣是不可缺少的🌕\n希望可以帶給大家更多的歡樂💜\n\n☁️ • ⋆ 𝑺𝑵𝑺 ⋆ • ☁️☾ \n\n𝑇𝑤𝑖𝑡𝑡𝑒𝑟:  @Moondogs_\n𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 : @moondogs_ch\n\n☁️ • ⋆ 𝑻𝑨𝑮 ⋆ • ☁️☾ \n\n𝑳𝒊𝒗𝒆:#直播朋\n𝐻𝑎𝑠ℎ𝑇𝑎𝑔:#召幻\n𝐹𝑎𝑛𝐴𝑟𝑡 :#幻你畫\n\n☁️ • ⋆ 合作聯繫⋆ • ☁️☾ \n\n📧工商聯繫:springfish20181002@gmail.com\n "
+      "description": "★瑟拉斯蒂歐Celestial★\n\n不覺得遊戲在世界上是不可或缺的一部分嗎(๑•̀ㅂ•́)و✧\n跟月亮一樣是不可缺少的🌕\n希望可以帶給大家更多的歡樂💜\n\n☁️ • ⋆ 𝑺𝑵𝑺 ⋆ • ☁️☾ \n\n𝑇𝑤𝑖𝑡𝑡𝑒𝑟:  @Moondogs_\n𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 : @moondogs_ch\n\n☁️ • ⋆ 𝑻𝑨𝑮 ⋆ • ☁️☾ \n\n𝑳𝒊𝒗𝒆:#直播朋\n𝐻𝑎𝑠ℎ𝑇𝑎𝑔:#召幻\n𝐹𝑎𝑛𝐴𝑟𝑡 :#幻你畫\n\n☁️ • ⋆ 合作聯繫⋆ • ☁️☾ \n\n📧工商聯繫:springfish20181002@gmail.com\n ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -565,7 +620,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@Kumosuki_Celestial",
       "linkText": "https://www.youtube.com/@Kumosuki_Celestial",
-      "description": "🌥️ 聖光照射．雲光顯靈\n\n各位眾生大家好꒰･･꒱\n我是雲隙宮的宮主雲隙光\n傳教勢Vtuber在此落入凡間與眾生結緣✨\n現在即刻入教，兩人同行，一人免刑。\n　‧⁺ ⊹ 光們  ₊˙⟢\n\n ✧ 綠色功德箱支持雲隙宮 https://reurl.cc/RWnRde\n ✧ 成為雲（ㄏㄨㄣˊ）蛋 https://reurl.cc/mrd1y7\n ✧ Twitter @kumosuki_ch\n ✧ Instagram kumosuki_ch\n ✧ 工商合作 springfish20181002@gmail.com\n\n\n‧⁺ ⊹ celestial 瑟拉絲蒂歐 .˚⊹ ⁺ "
+      "description": "🌥️ 聖光照射．雲光顯靈\n\n各位眾生大家好꒰･･꒱\n我是雲隙宮的宮主雲隙光\n傳教勢Vtuber在此落入凡間與眾生結緣✨\n現在即刻入教，兩人同行，一人免刑。\n　‧⁺ ⊹ 光們  ₊˙⟢\n\n ✧ 綠色功德箱支持雲隙宮 https://reurl.cc/RWnRde\n ✧ 成為雲（ㄏㄨㄣˊ）蛋 https://reurl.cc/mrd1y7\n ✧ Twitter @kumosuki_ch\n ✧ Instagram kumosuki_ch\n ✧ 工商合作 springfish20181002@gmail.com\n\n\n‧⁺ ⊹ celestial 瑟拉絲蒂歐 .˚⊹ ⁺ ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -575,7 +631,8 @@
       "modelId": "astronaut-05",
       "url": "https://www.youtube.com/@Lutra_rescute",
       "linkText": "https://www.youtube.com/@Lutra_rescute",
-      "description": "人類你們好，我是瀕臨絕種團Rescute的露恰露恰。\n人間たち、ごきげんよう～Rescuteに所属する、ユーラシアカワウソの露恰露恰（ルチャルチャ）です。"
+      "description": "人類你們好，我是瀕臨絕種團Rescute的露恰露恰。\n人間たち、ごきげんよう～Rescuteに所属する、ユーラシアカワウソの露恰露恰（ルチャルチャ）です。",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -585,7 +642,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@OldaMonstar",
       "linkText": "https://www.youtube.com/@OldaMonstar",
-      "description": "阿洛伊！我是惡獸時代的歐妲 Olda！\n來自於北歐神話的歐德姆布拉！\n最愛唱歌跳舞，但小心…\n因為我是也玩具們最甜美卻可怕的噩夢 ♡所以把甜點都獻祭給本公主吧\n\nHi there ! I am Olda from Monstar. \nAudhumla-origin of all the Norse Mythology \nI love to sing and dance, but beware…\nfor I am my Toys’ sweetest yet scariest nightmare ♡ so give all your deserts to your only princess \n\nLong live the Evil !\n\n企業合作、問題反應請來信\nSpringfish@spring-fish.com\n\n連動邀請、工商需求請來信\nBD@spring-fish.com"
+      "description": "阿洛伊！我是惡獸時代的歐妲 Olda！\n來自於北歐神話的歐德姆布拉！\n最愛唱歌跳舞，但小心…\n因為我是也玩具們最甜美卻可怕的噩夢 ♡所以把甜點都獻祭給本公主吧\n\nHi there ! I am Olda from Monstar. \nAudhumla-origin of all the Norse Mythology \nI love to sing and dance, but beware…\nfor I am my Toys’ sweetest yet scariest nightmare ♡ so give all your deserts to your only princess \n\nLong live the Evil !\n\n企業合作、問題反應請來信\nSpringfish@spring-fish.com\n\n連動邀請、工商需求請來信\nBD@spring-fish.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -595,7 +653,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@EarendelXDFP",
       "linkText": "https://www.youtube.com/@EarendelXDFP",
-      "description": "✦ 春魚創意3期生《 極深空計畫Xtreme Deep Field Project 》\nVtuber｜厄倫蒂兒 𝑬𝒂𝒓𝒆𝒏𝒅𝒆𝒍 ✦\n\n來自目前人類可觀測最遙遠恆星的精神體。\n\n君の声を聞かせて。\n私は歌を届けるから。\n\n讓我聽聽你的聲音。\n而我，會一直把歌聲送給你。🌙\n"
+      "description": "✦ 春魚創意3期生《 極深空計畫Xtreme Deep Field Project 》\nVtuber｜厄倫蒂兒 𝑬𝒂𝒓𝒆𝒏𝒅𝒆𝒍 ✦\n\n來自目前人類可觀測最遙遠恆星的精神體。\n\n君の声を聞かせて。\n私は歌を届けるから。\n\n讓我聽聽你的聲音。\n而我，會一直把歌聲送給你。🌙\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -605,7 +664,8 @@
       "modelId": "astronaut-02",
       "url": "https://www.youtube.com/@NemesisXDFP",
       "linkText": "https://www.youtube.com/@NemesisXDFP",
-      "description": "因為有你才能存在的太陽伴星💫 \n\n❚ ᴀʙᴏᴜᴛ ᴍᴇ\n春魚創意 - 極深空計畫𝘟𝘵𝘳𝘦𝘮𝘦 𝘋𝘦𝘦𝘱 𝘍𝘪𝘦𝘭𝘥 𝘗𝘳𝘰𝘫𝘦𝘤𝘵\n被音樂和遊戲包圍的宇宙星人 - 涅默𝘕𝘦𝘮𝘦𝘴𝘪𝘴\n\n❚ ꜰᴀɴꜱ ɴᴀᴍᴇ   絆星\n\n❚ ᴄᴏɴᴛᴀᴄᴛ\n企業合作、問題反應 ᎒ Springfish@spring-fish.com\n連動邀請、工商需求 ᎒ bd@spring-fish.com"
+      "description": "因為有你才能存在的太陽伴星💫 \n\n❚ ᴀʙᴏᴜᴛ ᴍᴇ\n春魚創意 - 極深空計畫𝘟𝘵𝘳𝘦𝘮𝘦 𝘋𝘦𝘦𝘱 𝘍𝘪𝘦𝘭𝘥 𝘗𝘳𝘰𝘫𝘦𝘤𝘵\n被音樂和遊戲包圍的宇宙星人 - 涅默𝘕𝘦𝘮𝘦𝘴𝘪𝘴\n\n❚ ꜰᴀɴꜱ ɴᴀᴍᴇ   絆星\n\n❚ ᴄᴏɴᴛᴀᴄᴛ\n企業合作、問題反應 ᎒ Springfish@spring-fish.com\n連動邀請、工商需求 ᎒ bd@spring-fish.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -615,7 +675,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@OumuaXDFP",
       "linkText": "https://www.youtube.com/@OumuaXDFP",
-      "description": "∅. 來自遠方的信使､正體不明星際天體､斥候星。\n\n❚  𝐀𝐁𝐎𝐔𝐓 𝐌𝐄\n￣￣￣￣￣￣￣￣￣￣￣￣\n   | 𝐓𝐀𝐆\nʟɪᴠᴇ - oumualive\nᴀʟʟ - oumuakochi \nᴀʀᴛ - oumuArt \nᴍᴜsɪᴄ - oumuaUTA\n\n   | 𝐅𝐀𝐍𝐒 𝐍𝐀𝐌𝐄\n                     航星者\n                     ￣￣￣\n   | 𝐃𝐄𝐒𝐈𝐆𝐍𝐄𝐑\n𝕏 ▸ 御芊 (@𝐲𝐮𝐜𝐡𝐢𝐞𝐧_𝐰𝐨𝐫𝐤)\n＿＿＿＿＿＿＿＿＿＿＿＿\n\n企業合作、問題反應請來信 | Springfish@spring-fish.com\n連動邀請、工商需求請來信 | bd@spring-fish.com\n極深空計畫 𝘟𝘵𝘳𝘦𝘮𝘦 𝘋𝘦𝘦𝘱 𝘍𝘪𝘦𝘭𝘥 𝘗𝘳𝘰𝘫𝘦𝘤𝘵."
+      "description": "∅. 來自遠方的信使､正體不明星際天體､斥候星。\n\n❚  𝐀𝐁𝐎𝐔𝐓 𝐌𝐄\n￣￣￣￣￣￣￣￣￣￣￣￣\n   | 𝐓𝐀𝐆\nʟɪᴠᴇ - oumualive\nᴀʟʟ - oumuakochi \nᴀʀᴛ - oumuArt \nᴍᴜsɪᴄ - oumuaUTA\n\n   | 𝐅𝐀𝐍𝐒 𝐍𝐀𝐌𝐄\n                     航星者\n                     ￣￣￣\n   | 𝐃𝐄𝐒𝐈𝐆𝐍𝐄𝐑\n𝕏 ▸ 御芊 (@𝐲𝐮𝐜𝐡𝐢𝐞𝐧_𝐰𝐨𝐫𝐤)\n＿＿＿＿＿＿＿＿＿＿＿＿\n\n企業合作、問題反應請來信 | Springfish@spring-fish.com\n連動邀請、工商需求請來信 | bd@spring-fish.com\n極深空計畫 𝘟𝘵𝘳𝘦𝘮𝘦 𝘋𝘦𝘦𝘱 𝘍𝘪𝘦𝘭𝘥 𝘗𝘳𝘰𝘫𝘦𝘤𝘵.",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -625,7 +686,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@CygnusXDFP",
       "linkText": "https://www.youtube.com/@CygnusXDFP",
-      "description": "❍. 我是熙歌，可以叫我ㄒㄍ或是歌，\n          是個愛打電動、彈琴唱歌、做Meme的黑洞；\n   話說，黑洞可以吞噬一切，想不想體驗看看呀？♪\n\n中文 ○┊English ( ○ +▴) ÷ 2┊日本語 ▴\n\n  ༝ ༝ ༝　༝ ༝ ༝　༝ ༝ ༝\n\n企業合作、問題反應請來信 | Springfish@spring-fish.com\n連動邀請、工商需求請來信 | bd@spring-fish.com\n極深空計畫 𝐗𝐭𝐫𝐞𝐦𝐞 𝐃𝐞𝐞𝐩 𝐅𝐢𝐞𝐥𝐝 𝐏𝐫𝐨𝐣𝐞𝐜𝐭."
+      "description": "❍. 我是熙歌，可以叫我ㄒㄍ或是歌，\n          是個愛打電動、彈琴唱歌、做Meme的黑洞；\n   話說，黑洞可以吞噬一切，想不想體驗看看呀？♪\n\n中文 ○┊English ( ○ +▴) ÷ 2┊日本語 ▴\n\n  ༝ ༝ ༝　༝ ༝ ༝　༝ ༝ ༝\n\n企業合作、問題反應請來信 | Springfish@spring-fish.com\n連動邀請、工商需求請來信 | bd@spring-fish.com\n極深空計畫 𝐗𝐭𝐫𝐞𝐦𝐞 𝐃𝐞𝐞𝐩 𝐅𝐢𝐞𝐥𝐝 𝐏𝐫𝐨𝐣𝐞𝐜𝐭.",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -635,7 +697,8 @@
       "modelId": "astronaut-05",
       "url": "https://www.youtube.com/@Espada.Timaeus",
       "linkText": "https://www.youtube.com/@Espada.Timaeus",
-      "description": "打不倒我的使我更加強大。 👇訂閱珀珀🙋‍♂️\n\n春魚創意所屬𝓣𝓲𝓶𝓪𝓮𝓾𝓼\n𝓜𝓸𝓶:@MHblackdoooogMH\n𝓓𝓪𝓭:@akafireinlive2d\n𝓪𝓻𝓽:#達人繪\n𝓛𝓲𝓿𝓮:#艾直播\n𝓒𝓪𝓵𝓵𝓶𝓮:#斯訊珀達 "
+      "description": "打不倒我的使我更加強大。 👇訂閱珀珀🙋‍♂️\n\n春魚創意所屬𝓣𝓲𝓶𝓪𝓮𝓾𝓼\n𝓜𝓸𝓶:@MHblackdoooogMH\n𝓓𝓪𝓭:@akafireinlive2d\n𝓪𝓻𝓽:#達人繪\n𝓛𝓲𝓿𝓮:#艾直播\n𝓒𝓪𝓵𝓵𝓶𝓮:#斯訊珀達 ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -645,7 +708,8 @@
       "modelId": "astronaut-12",
       "url": "https://www.youtube.com/@Munzel.Timaeus",
       "linkText": "https://www.youtube.com/@Munzel.Timaeus",
-      "description": "擲出命運的正反面，當停滯的時間流動⌚ 👇訂閱佐哥🤟\n\n春魚創意所屬(𝕋𝕀𝕄𝔸𝔼𝕌𝕊)男團一期生\n𝓗𝓪𝓼𝓽𝓪𝓰  #佐標之力\n𝓕𝓪𝓷𝓪𝓻𝓽  #佐品集\n𝓛𝓲𝓿𝓮、𝓶𝓮𝓶𝓮𝓼   #穆擊者\n吉他相關  #𝓜𝓾𝓷𝔃𝓮𝓵𝓖𝓾𝓲𝓽𝓪𝓻"
+      "description": "擲出命運的正反面，當停滯的時間流動⌚ 👇訂閱佐哥🤟\n\n春魚創意所屬(𝕋𝕀𝕄𝔸𝔼𝕌𝕊)男團一期生\n𝓗𝓪𝓼𝓽𝓪𝓰  #佐標之力\n𝓕𝓪𝓷𝓪𝓻𝓽  #佐品集\n𝓛𝓲𝓿𝓮、𝓶𝓮𝓶𝓮𝓼   #穆擊者\n吉他相關  #𝓜𝓾𝓷𝔃𝓮𝓵𝓖𝓾𝓲𝓽𝓪𝓻",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -655,7 +719,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@Cetro.Timaeus",
       "linkText": "https://www.youtube.com/@Cetro.Timaeus",
-      "description": "我的樣貌將由你的數位足跡決定。👇訂閱阿珞📺\n----------------------------------------\n賽特珞 ℂ𝕖𝕥𝕣𝕠 🦇 諦覓司 𝕋𝕚𝕞𝕒𝕖𝕦𝕤\n春魚創意所屬\n\n𝕃𝕚𝕧𝕖 | #CetroLive、 #賽到囉\n𝕄𝕦𝕤𝕚𝕔 | #CetroAudio、 #觀珞音\n𝔽𝕒𝕟 𝕒𝕣𝕥 | #CetroArt、 #曬特珞\n𝕄𝕖𝕞𝕖/冷 | #CeTroll、 #謝珞\nℂ𝕝𝕚𝕡 | #CetroClip、 #賽片"
+      "description": "我的樣貌將由你的數位足跡決定。👇訂閱阿珞📺\n----------------------------------------\n賽特珞 ℂ𝕖𝕥𝕣𝕠 🦇 諦覓司 𝕋𝕚𝕞𝕒𝕖𝕦𝕤\n春魚創意所屬\n\n𝕃𝕚𝕧𝕖 | #CetroLive、 #賽到囉\n𝕄𝕦𝕤𝕚𝕔 | #CetroAudio、 #觀珞音\n𝔽𝕒𝕟 𝕒𝕣𝕥 | #CetroArt、 #曬特珞\n𝕄𝕖𝕞𝕖/冷 | #CeTroll、 #謝珞\nℂ𝕝𝕚𝕡 | #CetroClip、 #賽片",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -665,7 +730,8 @@
       "modelId": "astronaut-26",
       "url": "https://www.youtube.com/@Graal.Timaeus",
       "linkText": "https://www.youtube.com/@Graal.Timaeus",
-      "description": "這世界沒有偶然，只有必然。👇訂閱萊伊💙\n\n春魚創意所屬𝓣𝓲𝓶𝓪𝓮𝓾𝓼\n\n𝓪𝓻𝓽：#Graal_art ​ \n𝓛𝓲𝓿𝓮：#Graal_live \n𝓒𝓪𝓵𝓵𝓶𝓮：#萊哩萊 "
+      "description": "這世界沒有偶然，只有必然。👇訂閱萊伊💙\n\n春魚創意所屬𝓣𝓲𝓶𝓪𝓮𝓾𝓼\n\n𝓪𝓻𝓽：#Graal_art ​ \n𝓛𝓲𝓿𝓮：#Graal_live \n𝓒𝓪𝓵𝓵𝓶𝓮：#萊哩萊 ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -675,7 +741,8 @@
       "modelId": "astronaut-25",
       "url": "https://www.youtube.com/@Laphria.Paradox",
       "linkText": "https://www.youtube.com/@Laphria.Paradox",
-      "description": "⚛︎ 𝘗𝘢𝘳𝘢≠𝘥𝘰𝘹 ∞ 𝘓𝘢𝘱𝘭𝘢𝘤𝘦ᐟ𝘴 𝘋𝘦𝘮𝘰𝘯 ∞ 𝘚𝘱𝘳𝘪𝘯𝘨𝘧𝘪𝘴𝘩 ⚛︎\n沿著運動軌跡，看見與你們共度的未來♡\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨♡︎୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n📩 合作邀約\n▸企業合作、問題反應 | Springfish@spring-fish.com\n▸連動邀請、工商需求 | bd@spring-fish.com\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨♡︎୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n隸屬：春魚創意股份有限公司"
+      "description": "⚛︎ 𝘗𝘢𝘳𝘢≠𝘥𝘰𝘹 ∞ 𝘓𝘢𝘱𝘭𝘢𝘤𝘦ᐟ𝘴 𝘋𝘦𝘮𝘰𝘯 ∞ 𝘚𝘱𝘳𝘪𝘯𝘨𝘧𝘪𝘴𝘩 ⚛︎\n沿著運動軌跡，看見與你們共度的未來♡\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨♡︎୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n📩 合作邀約\n▸企業合作、問題反應 | Springfish@spring-fish.com\n▸連動邀請、工商需求 | bd@spring-fish.com\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨♡︎୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n隸屬：春魚創意股份有限公司",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -685,7 +752,8 @@
       "modelId": "astronaut-30",
       "url": "https://www.youtube.com/@u00_Vtuber",
       "linkText": "https://www.youtube.com/@u00_Vtuber",
-      "description": "固定晚上21:00開台！\n\n   下一位病人請進~！\n   我是幽李鈴，你的網路幽靈護士兼大美女兼幻想朋友👻💉💗\n\n\n❇︎ 個人Vtuber ∷ 幽李鈴Uririn─────\n\n   ∷神  緜 (@wttn3tpkt)   LANAOI (@Lanaoi719)\n\n❇︎ Uririn Official ──────────────────\n\n   ∷ 商業合作／連動洽詢 ∷  u00.vtuber@gmail.com\n\n   ∷ 官方Discord ∷  https://discord.gg/Xu5PxCv3Mx\n\n   ∷ 官方網站HP ∷  https://u00vtuber.wixsite.com/vtuber\n\n❇︎ ───────────────────────────\n連結"
+      "description": "固定晚上21:00開台！\n\n   下一位病人請進~！\n   我是幽李鈴，你的網路幽靈護士兼大美女兼幻想朋友👻💉💗\n\n\n❇︎ 個人Vtuber ∷ 幽李鈴Uririn─────\n\n   ∷神  緜 (@wttn3tpkt)   LANAOI (@Lanaoi719)\n\n❇︎ Uririn Official ──────────────────\n\n   ∷ 商業合作／連動洽詢 ∷  u00.vtuber@gmail.com\n\n   ∷ 官方Discord ∷  https://discord.gg/Xu5PxCv3Mx\n\n   ∷ 官方網站HP ∷  https://u00vtuber.wixsite.com/vtuber\n\n❇︎ ───────────────────────────\n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -695,7 +763,8 @@
       "modelId": "astronaut-30",
       "url": "https://www.youtube.com/@ruckystar67",
       "linkText": "https://www.youtube.com/@ruckystar67",
-      "description": "我是✨Rucky樂奇✨\n千錘百鍊後復活重生的科技人造人💎\n搞怪又愛鬧、中文日文雙通的個人勢台灣Vtuber🤟😉\n以唱歌、創作、學習為主的多元小農創作者✨\n\n為了創造「永生代碼」，正一步步尋找資源與目標。\n旅程不一定順利──每一次嘗試和探索，都是邁向理想的必要過程。\n目前在台灣努力前行，累積經驗、尋求合作，讓這個計畫逐漸成形✨\n\n每周的流星直播間裡，會有哪些歡樂的故事呢？\n一起加入星耀原石的行列裡與樂奇一同閃耀飛行吧✨（＜ゝω・）ノ\n\n✨ 歡迎工商合作！\n📧 聯絡請洽：ruckystar67@gmail.com\n\n◈◇◈◇◈◇\n\n🌠✨ 世紀流星雨，即將降臨—— ✨🌠\n\n台灣吵雜的都市某處。即將落下一顆改變世界的新碎片。\n\n命運交錯的瞬間，你準備好了嗎？\n一起見證魔法流星的降臨🔭✨\n\n◈◇◈◇◈◇"
+      "description": "我是✨Rucky樂奇✨\n千錘百鍊後復活重生的科技人造人💎\n搞怪又愛鬧、中文日文雙通的個人勢台灣Vtuber🤟😉\n以唱歌、創作、學習為主的多元小農創作者✨\n\n為了創造「永生代碼」，正一步步尋找資源與目標。\n旅程不一定順利──每一次嘗試和探索，都是邁向理想的必要過程。\n目前在台灣努力前行，累積經驗、尋求合作，讓這個計畫逐漸成形✨\n\n每周的流星直播間裡，會有哪些歡樂的故事呢？\n一起加入星耀原石的行列裡與樂奇一同閃耀飛行吧✨（＜ゝω・）ノ\n\n✨ 歡迎工商合作！\n📧 聯絡請洽：ruckystar67@gmail.com\n\n◈◇◈◇◈◇\n\n🌠✨ 世紀流星雨，即將降臨—— ✨🌠\n\n台灣吵雜的都市某處。即將落下一顆改變世界的新碎片。\n\n命運交錯的瞬間，你準備好了嗎？\n一起見證魔法流星的降臨🔭✨\n\n◈◇◈◇◈◇",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -705,7 +774,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@KurobaraYuria",
       "linkText": "https://www.youtube.com/@KurobaraYuria",
-      "description": "〖ʏᴜᴍᴇᴋᴜɪ ᴀᴋᴜᴍᴀ〗🖤\n\n花遊工作室二期生 AliS 所屬🔹小惡魔酒鬼\n\n⋄經紀人Twitter▷@autumn_1231\n⋄母親Twitter▷@JiaMa32\n⋄父親Twitter▷@Guihai0222\n\n✦ • ⋆ • ⋆ ✦ • ⋆ •  ⋆✦《專屬標記》✦ • ⋆ • ⋆ ✦ • ⋆ • ⋆ ✦\n\n【直播 tag】#YuriaLive\n【fanart tag】#YuCollection\n【meme tag】#YuMeme or #優先看看\n【R18 tag】#URHentai\n\n✦ • ⋆ • ⋆ ✦ • ⋆ •  ⋆✦《聯繫相關》✦ • ⋆ • ⋆ ✦ • ⋆ • ⋆ ✦\n\n【Twitter】https://twitter.com/Huayu_Yuria\n【Discord】https://discord.gg/ghnbvPXxTr\n【合作聯絡】huayuworkshop@gmail.com"
+      "description": "〖ʏᴜᴍᴇᴋᴜɪ ᴀᴋᴜᴍᴀ〗🖤\n\n花遊工作室二期生 AliS 所屬🔹小惡魔酒鬼\n\n⋄經紀人Twitter▷@autumn_1231\n⋄母親Twitter▷@JiaMa32\n⋄父親Twitter▷@Guihai0222\n\n✦ • ⋆ • ⋆ ✦ • ⋆ •  ⋆✦《專屬標記》✦ • ⋆ • ⋆ ✦ • ⋆ • ⋆ ✦\n\n【直播 tag】#YuriaLive\n【fanart tag】#YuCollection\n【meme tag】#YuMeme or #優先看看\n【R18 tag】#URHentai\n\n✦ • ⋆ • ⋆ ✦ • ⋆ •  ⋆✦《聯繫相關》✦ • ⋆ • ⋆ ✦ • ⋆ • ⋆ ✦\n\n【Twitter】https://twitter.com/Huayu_Yuria\n【Discord】https://discord.gg/ghnbvPXxTr\n【合作聯絡】huayuworkshop@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -715,7 +785,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@sakura-0327",
       "linkText": "https://www.youtube.com/@sakura-0327",
-      "description": "配音唱歌療癒系櫻花妖精🌸\n咲（ㄒㄧㄠˋ）樂（ㄌㄜˋ）\n花遊工作室所屬VTuber\n還請各位不吝給咲樂支持與鼓勵🙌\n\n贊助咲友基金灌溉櫻花妖精（Nekolive）：https://nekolive.net/sakura_huayu\n\n❀･･♬･･❀･･櫻花印記･･❀･･♬･･❀ \n\n🌸LiveTag：#櫻花綻放中／#MyrLive\n🤩精華Tag：#精櫻誕生／#MyrClip\n🎨FanArt：#美美櫻花林／#MyrArt\n🔞R18Art：#櫻該可瑟瑟／#MyrR18\n😜MemeTag：#咲MEME／#MyrMEME\n\n❀･･♬･･❀･･相關網站･･❀･･♬･･❀ \n\n【Twitter】https://twitter.com/Huayu_Sakura\n【Instagram】https://www.instagram.com/mayura.sakura/\n【Facebook】https://reurl.cc/0pNxLo\n【Discord】https://discord.gg/pGStfZcHMc\n【棉花糖】https://reurl.cc/VElKvn\n【合作聯絡】huayuworkshop@gmail.com\n連結"
+      "description": "配音唱歌療癒系櫻花妖精🌸\n咲（ㄒㄧㄠˋ）樂（ㄌㄜˋ）\n花遊工作室所屬VTuber\n還請各位不吝給咲樂支持與鼓勵🙌\n\n贊助咲友基金灌溉櫻花妖精（Nekolive）：https://nekolive.net/sakura_huayu\n\n❀･･♬･･❀･･櫻花印記･･❀･･♬･･❀ \n\n🌸LiveTag：#櫻花綻放中／#MyrLive\n🤩精華Tag：#精櫻誕生／#MyrClip\n🎨FanArt：#美美櫻花林／#MyrArt\n🔞R18Art：#櫻該可瑟瑟／#MyrR18\n😜MemeTag：#咲MEME／#MyrMEME\n\n❀･･♬･･❀･･相關網站･･❀･･♬･･❀ \n\n【Twitter】https://twitter.com/Huayu_Sakura\n【Instagram】https://www.instagram.com/mayura.sakura/\n【Facebook】https://reurl.cc/0pNxLo\n【Discord】https://discord.gg/pGStfZcHMc\n【棉花糖】https://reurl.cc/VElKvn\n【合作聯絡】huayuworkshop@gmail.com\n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -725,7 +796,8 @@
       "modelId": "astronaut-19",
       "url": "https://www.youtube.com/@Giulietta_Huayu",
       "linkText": "https://www.youtube.com/@Giulietta_Huayu",
-      "description": "花遊工作室所屬三期生【希望旅團】聲樂vtuber\n\n..ꕤ••┈┈┈┈┈┈┈••ꕤ..\n              提燈仙女\n..ꕤ••┈┈┈┈┈┈┈••ꕤ..\n\nTagꕤ #茱莉葉塔\nFanartꕤ #一茱獨秀\nFanameꕤ #羅咪歐\nEmojiꕤ 🎗🧡\n\n提拉米蘇一定要拌"
+      "description": "花遊工作室所屬三期生【希望旅團】聲樂vtuber\n\n..ꕤ••┈┈┈┈┈┈┈••ꕤ..\n              提燈仙女\n..ꕤ••┈┈┈┈┈┈┈••ꕤ..\n\nTagꕤ #茱莉葉塔\nFanartꕤ #一茱獨秀\nFanameꕤ #羅咪歐\nEmojiꕤ 🎗🧡\n\n提拉米蘇一定要拌",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -735,7 +807,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@Bitoria_Huayu",
       "linkText": "https://www.youtube.com/@Bitoria_Huayu",
-      "description": "花遊三期生 希望旅團的沉穩水晶燈📻\n\n中文、English、한국어ok / 日文翻訳\n\nTag✧ #比托利亞\nFanArt✧ #Bitoriart #畫托托\nEmoji✧ 💎📻\n粉絲名✧ 托球手\n合作contact✧ huayuworkshop@gmail.com\n官網website✧ https://huayustudio.com"
+      "description": "花遊三期生 希望旅團的沉穩水晶燈📻\n\n中文、English、한국어ok / 日文翻訳\n\nTag✧ #比托利亞\nFanArt✧ #Bitoriart #畫托托\nEmoji✧ 💎📻\n粉絲名✧ 托球手\n合作contact✧ huayuworkshop@gmail.com\n官網website✧ https://huayustudio.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -745,7 +818,8 @@
       "modelId": "astronaut-27",
       "url": "https://www.youtube.com/@morihana_apple",
       "linkText": "https://www.youtube.com/@morihana_apple",
-      "description": "大家好(՞˶･･˶՞)我是台灣個人勢Vtuber【森花艾波🍎】 \n\n頻道風格主要是互動經營！每個留言都會盡可能回覆✨\n來過的觀眾都會努力記住名字..._〆ς(* ` ˘ ´ *)\n如果想試試看沒有距離感的觀看體驗一定要訂閱艾波🍎\n\n歡迎連動、企劃、工商邀約🙌🏻\n💌morihanaapple1023@gmail.com\n\n「花海計畫｜花遊合作夥伴」\n\n粉絲名【蘋狗🐶🍎】\n\n直播內容分配－雜談35%、歌回30%、企劃30%、遊戲5%\n很喜歡唱歌聊天～遊戲類很少開是因為遊戲玩得很差இдஇ\n\n喜歡艾波的話歡迎按下可愛的訂閱鍵～\n希望可以在這邊交到好多好多朋友ʕ⸝⸝⸝˙Ⱉ˙ʔ\n\n\n#台灣Vtuber  #個人勢Vtuber"
+      "description": "大家好(՞˶･･˶՞)我是台灣個人勢Vtuber【森花艾波🍎】 \n\n頻道風格主要是互動經營！每個留言都會盡可能回覆✨\n來過的觀眾都會努力記住名字..._〆ς(* ` ˘ ´ *)\n如果想試試看沒有距離感的觀看體驗一定要訂閱艾波🍎\n\n歡迎連動、企劃、工商邀約🙌🏻\n💌morihanaapple1023@gmail.com\n\n「花海計畫｜花遊合作夥伴」\n\n粉絲名【蘋狗🐶🍎】\n\n直播內容分配－雜談35%、歌回30%、企劃30%、遊戲5%\n很喜歡唱歌聊天～遊戲類很少開是因為遊戲玩得很差இдஇ\n\n喜歡艾波的話歡迎按下可愛的訂閱鍵～\n希望可以在這邊交到好多好多朋友ʕ⸝⸝⸝˙Ⱉ˙ʔ\n\n\n#台灣Vtuber  #個人勢Vtuber",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -755,7 +829,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@ayakanzaki-aya",
       "linkText": "https://www.youtube.com/@ayakanzaki-aya",
-      "description": "謝謝你注意到了我。\n\n除了畫圖以外什麼都不太會的17歲少女\n努力為你的生活染上色彩。請多指教。\n\nlive #ayakanzaki\nart #塗ya集"
+      "description": "謝謝你注意到了我。\n\n除了畫圖以外什麼都不太會的17歲少女\n努力為你的生活染上色彩。請多指教。\n\nlive #ayakanzaki\nart #塗ya集",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -765,7 +840,8 @@
       "modelId": "astronaut-17",
       "url": "https://www.youtube.com/@PaitanOfficial",
       "linkText": "https://www.youtube.com/@PaitanOfficial",
-      "description": "個人勢Vtuber🍜"
+      "description": "個人勢Vtuber🍜",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -775,7 +851,8 @@
       "modelId": "astronaut-27",
       "url": "https://www.youtube.com/@Omaimaimaii",
       "linkText": "https://www.youtube.com/@Omaimaimaii",
-      "description": "鷗一一阿一一\n合作聯絡email : leegroupvtuber@gmail.com\n官網 : https://vtuber-maii.com/"
+      "description": "鷗一一阿一一\n合作聯絡email : leegroupvtuber@gmail.com\n官網 : https://vtuber-maii.com/",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -785,7 +862,8 @@
       "modelId": "astronaut-24",
       "url": "https://www.youtube.com/@Inubushi777",
       "linkText": "https://www.youtube.com/@Inubushi777",
-      "description": "絕對技術型Vtuber，我不是李小雨\n聯絡：inubushitsuki@gmail.com\n\nShorts 很讚"
+      "description": "絕對技術型Vtuber，我不是李小雨\n聯絡：inubushitsuki@gmail.com\n\nShorts 很讚",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -795,7 +873,8 @@
       "modelId": "astronaut-28",
       "url": "https://www.youtube.com/@ElinaChelinakawai",
       "linkText": "https://www.youtube.com/@ElinaChelinakawai",
-      "description": "來自台灣的吸血鬼大小姐 VTuber，分享遊戲、動畫、雜談與歌回，陪大家一起度過每天的直播時光\n\n🦇 台灣 VTuber｜宮森繪里奈\n\n來自宮森家的吸血鬼大小姐。\n\n為了完成家族的社會考察，來到人類世界成為 VTuber，平時透過直播與大家一起分享日常、動畫、遊戲與各種有趣的事情。\n\n📺 直播內容\n🎮 遊戲直播\n💬 雜談聊天\n📺 動畫交流\n🎤 歌回\n\n⏰ 直播時間（GMT+8）\n平日｜早上 7:00\n假日｜早上 10:00\n\n━━━━━━━━━━━━━━━\n\n🔗 社群連結\nX（Twitter）：https://twitter.com/Elina_Miyamori\nLinktree：https://linktr.ee/elina_miyamori\nDiscord：https://discord.gg/GEkWuBMBjH\n\n📩 聯絡方式\n個人 Email：Elina.mirastars@gmail.com\n合作 Email：Miragion.studio@gmail.com"
+      "description": "來自台灣的吸血鬼大小姐 VTuber，分享遊戲、動畫、雜談與歌回，陪大家一起度過每天的直播時光\n\n🦇 台灣 VTuber｜宮森繪里奈\n\n來自宮森家的吸血鬼大小姐。\n\n為了完成家族的社會考察，來到人類世界成為 VTuber，平時透過直播與大家一起分享日常、動畫、遊戲與各種有趣的事情。\n\n📺 直播內容\n🎮 遊戲直播\n💬 雜談聊天\n📺 動畫交流\n🎤 歌回\n\n⏰ 直播時間（GMT+8）\n平日｜早上 7:00\n假日｜早上 10:00\n\n━━━━━━━━━━━━━━━\n\n🔗 社群連結\nX（Twitter）：https://twitter.com/Elina_Miyamori\nLinktree：https://linktr.ee/elina_miyamori\nDiscord：https://discord.gg/GEkWuBMBjH\n\n📩 聯絡方式\n個人 Email：Elina.mirastars@gmail.com\n合作 Email：Miragion.studio@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -805,7 +884,8 @@
       "modelId": "astronaut-12",
       "url": "https://www.youtube.com/@AoiHinamoriCh",
       "linkText": "https://www.youtube.com/@AoiHinamoriCh",
-      "description": "🎀About me🎀\n\n我是來自台灣的吸血鬼護士「Aoi-Hinamori」 ♪\n未來的路上也請患者們多多指教！\n魔界に生まれヴァンパイアナース「Aoi-Hinamori」です ♪\n患者さんたち、今後もよろしくお願いいたします！\n\n------------------------------------------------------\n💉Aoi-Hinamori💖 \n\n🐣會員福利：https://reurl.cc/O0Lyqv\n（會員限定配信、桌布福利、4格漫畫等你欣賞）\n\n🐣twitter：https://twitter.com/AoiHinamori\n（每日更新、突發開台都會在這裡公布喔）\n\n邀約或合作，工商等請信箱聯絡或DM推特謝謝\naoihinamori1024@gmail.com\n\n------------------------------------------------------\n♥讓斗內變成你喜歡的形狀！\nhttps://deerdonate.herokuapp.com/donation/AoiHinamori\n\n你們的支持會讓Aoi做出更多更棒的企劃！（請在能力範圍內）\n\n------------------------------------------------------\n♥︎FanName：患者 \n♥︎Live：Aoilive\n♥︎FanArt：Artforaoi \n\n◎Painter :  @HuaiChin_TW \n◎Live2D : SODAART / THYA @Thya0407\n◎OP、ED： @BeeRryee\n◎OP、ED Illustrator： @Diejin918\n\n------------------------------------------------------\n 💉 給各位的須知跟遵守規則 💉 \n■請不要再別人的配信中擅自提到AoiHinamori❌\n■在Aoi的台可以提及我喜歡的其他vtuber、但請不要過量！\n■若有不友善的發言請各位無視、管理員會主動拿板手出征！\n■不要辱罵、批評甚至捧一踩一的現象！請大家友善包容！\n■切勿擅自用AoiHinamori的名義對外宣傳發言！\n■新患者、舊患者們要互相貼貼、相親相愛！🐣\n\n■適量的贊助斗內可以讓大家過得更快樂( •̀∀•́ )✧ 【重要】"
+      "description": "🎀About me🎀\n\n我是來自台灣的吸血鬼護士「Aoi-Hinamori」 ♪\n未來的路上也請患者們多多指教！\n魔界に生まれヴァンパイアナース「Aoi-Hinamori」です ♪\n患者さんたち、今後もよろしくお願いいたします！\n\n------------------------------------------------------\n💉Aoi-Hinamori💖 \n\n🐣會員福利：https://reurl.cc/O0Lyqv\n（會員限定配信、桌布福利、4格漫畫等你欣賞）\n\n🐣twitter：https://twitter.com/AoiHinamori\n（每日更新、突發開台都會在這裡公布喔）\n\n邀約或合作，工商等請信箱聯絡或DM推特謝謝\naoihinamori1024@gmail.com\n\n------------------------------------------------------\n♥讓斗內變成你喜歡的形狀！\nhttps://deerdonate.herokuapp.com/donation/AoiHinamori\n\n你們的支持會讓Aoi做出更多更棒的企劃！（請在能力範圍內）\n\n------------------------------------------------------\n♥︎FanName：患者 \n♥︎Live：Aoilive\n♥︎FanArt：Artforaoi \n\n◎Painter :  @HuaiChin_TW \n◎Live2D : SODAART / THYA @Thya0407\n◎OP、ED： @BeeRryee\n◎OP、ED Illustrator： @Diejin918\n\n------------------------------------------------------\n 💉 給各位的須知跟遵守規則 💉 \n■請不要再別人的配信中擅自提到AoiHinamori❌\n■在Aoi的台可以提及我喜歡的其他vtuber、但請不要過量！\n■若有不友善的發言請各位無視、管理員會主動拿板手出征！\n■不要辱罵、批評甚至捧一踩一的現象！請大家友善包容！\n■切勿擅自用AoiHinamori的名義對外宣傳發言！\n■新患者、舊患者們要互相貼貼、相親相愛！🐣\n\n■適量的贊助斗內可以讓大家過得更快樂( •̀∀•́ )✧ 【重要】",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -815,7 +895,8 @@
       "modelId": "astronaut-25",
       "url": "https://www.youtube.com/@mirotabasuko0808",
       "linkText": "https://www.youtube.com/@mirotabasuko0808",
-      "description": "我是台灣的VTUBER\nMiroLive一期生海底章魚.塔芭絲可です 可以叫我TAKO就好囉\n\n任何合作邀約都非常歡迎\n信箱：MiroliveTW@gmail.com\n\n目前的使用的語言多為中文.但(日本語.English)OK\n\n粉絲名：觸手 所有二創：#TAKOSEC\n------------------------------------------------------------------✨\nDLsite 單人中文音聲作品《讓同居老婆寵溺一番》 上架啦：\nhttps://twitter.com/mirotabasco/status/1671507294977400832?s=20\nDLsite 單人中文音聲作品-肉肉神降臨 《汪醬日記》上架啦：\nhttps://twitter.com/mirotabasco/status/1678080717249728513?s=20\n\n加入會員與TAKO變得更加親近\nhttps://www.youtube.com/channel/UCXe8hqIk_Yap31y7EOCMdzg/join\n(專屬情境劇.R15桌布.4格漫畫.親手簽名等著你)\n\n🐙綠界贊助🐙(贊助訊息不一定會馬上回應，但會一一進行感謝♡)\nhttps://www.riyardigital.com/donate/mirotabasuko\n(歐富寶跟綠界對調囉 歐富寶目前是凜凜的)\n\n🐙IG：https://www.instagram.com/tabasuko0808/\n(日常生活小分享 會在上面)\n\n🐙Twitch：https://www.twitch.tv/mirolivetabasuko88\n(遊戲直播都會移過去圖奇唷)\n\n🐙Twitter：https://twitter.com/mirotabasco\n(所有活動都會在推特上發布唷)\n\n=======================================================🐟\nmirolive(官方) DC群-https://discord.gg/qZZuRUmNTs\n\n非官方(TAKO的) DC群-https://discord.gg/ZJvmg2v6DY"
+      "description": "我是台灣的VTUBER\nMiroLive一期生海底章魚.塔芭絲可です 可以叫我TAKO就好囉\n\n任何合作邀約都非常歡迎\n信箱：MiroliveTW@gmail.com\n\n目前的使用的語言多為中文.但(日本語.English)OK\n\n粉絲名：觸手 所有二創：#TAKOSEC\n------------------------------------------------------------------✨\nDLsite 單人中文音聲作品《讓同居老婆寵溺一番》 上架啦：\nhttps://twitter.com/mirotabasco/status/1671507294977400832?s=20\nDLsite 單人中文音聲作品-肉肉神降臨 《汪醬日記》上架啦：\nhttps://twitter.com/mirotabasco/status/1678080717249728513?s=20\n\n加入會員與TAKO變得更加親近\nhttps://www.youtube.com/channel/UCXe8hqIk_Yap31y7EOCMdzg/join\n(專屬情境劇.R15桌布.4格漫畫.親手簽名等著你)\n\n🐙綠界贊助🐙(贊助訊息不一定會馬上回應，但會一一進行感謝♡)\nhttps://www.riyardigital.com/donate/mirotabasuko\n(歐富寶跟綠界對調囉 歐富寶目前是凜凜的)\n\n🐙IG：https://www.instagram.com/tabasuko0808/\n(日常生活小分享 會在上面)\n\n🐙Twitch：https://www.twitch.tv/mirolivetabasuko88\n(遊戲直播都會移過去圖奇唷)\n\n🐙Twitter：https://twitter.com/mirotabasco\n(所有活動都會在推特上發布唷)\n\n=======================================================🐟\nmirolive(官方) DC群-https://discord.gg/qZZuRUmNTs\n\n非官方(TAKO的) DC群-https://discord.gg/ZJvmg2v6DY",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -825,7 +906,8 @@
       "modelId": "astronaut-22",
       "url": "https://www.youtube.com/@RheaCoreyCh",
       "linkText": "https://www.youtube.com/@RheaCoreyCh",
-      "description": "冰系魔法使蕾雅駕到！\n準備好一起開始今天的冒險了嗎？\n\n\n✡ 推特Twitter ✡\nhttps://twitter.com/RheaCorey16\n\n✡ 合作/商業邀約 ✡\nrheacoreythewitch@gmail.com\n\n如果想提供魔力給蕾雅的話，歡迎點開以下連結！\nSupport me at:\nhttps://ganknow.com/rheacorey/donate\n\n有問題想蕾雅解答？請使用以下鏈接：\nhttps://marshmallow-qa.com/rheacorey16\n\n✡ 常用 HashTag ✡\n粉絲名 ➸ 草精靈 \n蕾雅配信 ➸ #魔女蕾雅Time\n精華相關  ➸ #魔女蕾雅的生草時間\n歌唱相關  ➸ #UtaMajo\n粉絲繪圖  ➸ #WitchRheart\n和 一六 組合相關 ➸ #ShikaToMajo #鹿與魔女\n\n✡ Credits ✡\nArtママ ➸ TKP @TsuKonin_p\nL2Dパパ ➸ Manjuu @manjuuuuuu_\nLOGO ➸ 緋千夜 @Hisenya\nOP ED 畫面 ➸ TKP @TsuKonin_p\n橫幅 ➸ TKP @TsuKonin_p\nBGM ➸ 一六 @Ichiroku16_Vt\nTransitions ➸ TKP @TsuKonin_p\nTransitions & OP ED L2D ➸ Manjuu @manjuuuuuu_"
+      "description": "冰系魔法使蕾雅駕到！\n準備好一起開始今天的冒險了嗎？\n\n\n✡ 推特Twitter ✡\nhttps://twitter.com/RheaCorey16\n\n✡ 合作/商業邀約 ✡\nrheacoreythewitch@gmail.com\n\n如果想提供魔力給蕾雅的話，歡迎點開以下連結！\nSupport me at:\nhttps://ganknow.com/rheacorey/donate\n\n有問題想蕾雅解答？請使用以下鏈接：\nhttps://marshmallow-qa.com/rheacorey16\n\n✡ 常用 HashTag ✡\n粉絲名 ➸ 草精靈 \n蕾雅配信 ➸ #魔女蕾雅Time\n精華相關  ➸ #魔女蕾雅的生草時間\n歌唱相關  ➸ #UtaMajo\n粉絲繪圖  ➸ #WitchRheart\n和 一六 組合相關 ➸ #ShikaToMajo #鹿與魔女\n\n✡ Credits ✡\nArtママ ➸ TKP @TsuKonin_p\nL2Dパパ ➸ Manjuu @manjuuuuuu_\nLOGO ➸ 緋千夜 @Hisenya\nOP ED 畫面 ➸ TKP @TsuKonin_p\n橫幅 ➸ TKP @TsuKonin_p\nBGM ➸ 一六 @Ichiroku16_Vt\nTransitions ➸ TKP @TsuKonin_p\nTransitions & OP ED L2D ➸ Manjuu @manjuuuuuu_",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -835,7 +917,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@ykmr_setsu",
       "linkText": "https://www.youtube.com/@ykmr_setsu",
-      "description": "我是喜歡唱歌的貓SETSU!\n原本是一隻行走在人間的弱小貓又，\n因為一些原因有了人形\n正在學習怎麼當人類。\n最喜歡唱歌，但什麼都想試試!\n-\n1.0、2.0繪師:Lisa(@a930384)\n3.0繪師:猫葉晏茶(@anchya1122)\nLive2D:狼谷卯雪(@UyukiLive2D)\n"
+      "description": "我是喜歡唱歌的貓SETSU!\n原本是一隻行走在人間的弱小貓又，\n因為一些原因有了人形\n正在學習怎麼當人類。\n最喜歡唱歌，但什麼都想試試!\n-\n1.0、2.0繪師:Lisa(@a930384)\n3.0繪師:猫葉晏茶(@anchya1122)\nLive2D:狼谷卯雪(@UyukiLive2D)\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -845,7 +928,8 @@
       "modelId": "astronaut-cooper",
       "url": "https://www.youtube.com/@yumu.0718",
       "linkText": "https://www.youtube.com/@yumu.0718",
-      "description": "說明\n大家好我是天城ゆむ 已婚\n原本\n是一隻吃太多芋頭跟薄荷巧克力吃到變色的羊\n找遍了山羊圖書館都找不到變回去的方法\n於是上來當vtuber尋求廣大網友的協助\n\n然後我現在是套皮實況主了 不要說我是屍塊啦\n\n爸爸：\n我自己\n媽媽：\n@senhua02\n合作信箱：\namagiyumu@gmail.com\n\n頭貼繪師：\n@Reiya_VT\n\nLive tag—#yumulive\nFan art—#amarrrrrt(可能作為素材使用)"
+      "description": "說明\n大家好我是天城ゆむ 已婚\n原本\n是一隻吃太多芋頭跟薄荷巧克力吃到變色的羊\n找遍了山羊圖書館都找不到變回去的方法\n於是上來當vtuber尋求廣大網友的協助\n\n然後我現在是套皮實況主了 不要說我是屍塊啦\n\n爸爸：\n我自己\n媽媽：\n@senhua02\n合作信箱：\namagiyumu@gmail.com\n\n頭貼繪師：\n@Reiya_VT\n\nLive tag—#yumulive\nFan art—#amarrrrrt(可能作為素材使用)",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -855,7 +939,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@HelaGoldfish",
       "linkText": "https://www.youtube.com/@HelaGoldfish",
-      "description": "大家安安安！我是來自深海的神奇金魚～金架海拉！！！\n最喜歡畫圖！也喜歡好吃的跟好玩的！\n\n【所屬社團：超異界通信+】\nhttps://idconnect-plus.netlify.app/\n\n🔸信箱：HelaGoldfish@gmail.com\n🔸推特：https://x.com/HelaGoldfish\n🔸棉花糖：http://reurl.cc/xgQoyb\n🔸連動/委託/合作/聯絡請使用信箱或DC私訊，X私訊關閉中\n\n#台灣Vtuber #金魚Vtuber"
+      "description": "大家安安安！我是來自深海的神奇金魚～金架海拉！！！\n最喜歡畫圖！也喜歡好吃的跟好玩的！\n\n【所屬社團：超異界通信+】\nhttps://idconnect-plus.netlify.app/\n\n🔸信箱：HelaGoldfish@gmail.com\n🔸推特：https://x.com/HelaGoldfish\n🔸棉花糖：http://reurl.cc/xgQoyb\n🔸連動/委託/合作/聯絡請使用信箱或DC私訊，X私訊關閉中\n\n#台灣Vtuber #金魚Vtuber",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -865,7 +950,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@herculesch",
       "linkText": "https://www.youtube.com/@herculesch",
-      "description": "◤每周固定四、六、日(晚上八點)開台【TW個人勢Vtuber】\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁請不要在他台主動提到海克莉獅\n🦁請不要在直播、影片、精華等留言中提及莉獅沒有提到的VTuber或Youtuber\n🦁嚴禁出現洗版及任何惡意言論，違者將會提出警告，視情況嚴重者將直接永BAN\n🦁莉獅有時候車速有點快，若不適應者請自行斟酌觀看\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁贊助莉獅 (綠界)：https://reurl.cc/OVvRWD\n🦁X：  / oliz_0818  \n🦁Threads：https://www.threads.com/@hercules0818\n🦁Facebook：  / hercules0818  \n🦁Instagram：  / hercules0818  \n🦁Discord (會員制)：  / discord  \n🦁棉花糖投稿：https://tinyurl.com/ybdqo65h\n🦁合作聯絡信箱-（主）助理：lizcatkeeper@gmail.com\n🦁合作聯絡信箱-（副）助理：original.hercules818@gmail.com\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n【海克莉獅3.0】\n🦁繪師パパ - LF@S.B.O：https://twitter.com/LittleFriendW\n🦁Live2Dママ - 夏川ゆい\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n【海克莉獅OP、ED】\n🦁美術設計 - Tibbar♦：https://twitter.com/zeyami_tibbar\n🦁音樂創作 - KENKENBGM：https://twitter.com/twgnxx\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁#海克莉獅 #台v #vtuber \n耀辰娛樂有限公司Starflare Entertainment LTD. 合作夥伴\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾"
+      "description": "◤每周固定四、六、日(晚上八點)開台【TW個人勢Vtuber】\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁請不要在他台主動提到海克莉獅\n🦁請不要在直播、影片、精華等留言中提及莉獅沒有提到的VTuber或Youtuber\n🦁嚴禁出現洗版及任何惡意言論，違者將會提出警告，視情況嚴重者將直接永BAN\n🦁莉獅有時候車速有點快，若不適應者請自行斟酌觀看\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁贊助莉獅 (綠界)：https://reurl.cc/OVvRWD\n🦁X：  / oliz_0818  \n🦁Threads：https://www.threads.com/@hercules0818\n🦁Facebook：  / hercules0818  \n🦁Instagram：  / hercules0818  \n🦁Discord (會員制)：  / discord  \n🦁棉花糖投稿：https://tinyurl.com/ybdqo65h\n🦁合作聯絡信箱-（主）助理：lizcatkeeper@gmail.com\n🦁合作聯絡信箱-（副）助理：original.hercules818@gmail.com\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n【海克莉獅3.0】\n🦁繪師パパ - LF@S.B.O：https://twitter.com/LittleFriendW\n🦁Live2Dママ - 夏川ゆい\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n【海克莉獅OP、ED】\n🦁美術設計 - Tibbar♦：https://twitter.com/zeyami_tibbar\n🦁音樂創作 - KENKENBGM：https://twitter.com/twgnxx\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾\n\n🦁#海克莉獅 #台v #vtuber \n耀辰娛樂有限公司Starflare Entertainment LTD. 合作夥伴\n\n🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -875,7 +961,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@elmobubu",
       "linkText": "https://www.youtube.com/@elmobubu",
-      "description": "由哥基轉生成為的高中生\n成為Vtuber打工實況中"
+      "description": "由哥基轉生成為的高中生\n成為Vtuber打工實況中",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -885,7 +972,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@sonioni0404",
       "linkText": "https://www.youtube.com/@sonioni0404",
-      "description": "⚠️【生者限定頻道】⚠️\n\n歡迎來我的頻道——\n我係SoniOni，一個業績未達標、隨時會被炒的見習死神 👻\n\n日常工作：接送靈魂、記錄生平、順便被上司罵。\n副業（偷偷地）：畫畫＋同活人聊天。\n\n沒辦法——\n公司規定我只可以接觸「已經死的客戶」，\n害得我完全不懂同活人相處。\n\n所以我決定偷偷地開直播練習社交技能。\n\n我會一邊畫畫，一邊用廣東話／英文同你們閒聊。\n你可以放心入來——\n👉 我暫時未收到你的名單。\n\n但如果有一日你見我主動同你打招呼……\n嗯，可能就不是純聊天的簡單。\n\n🖤 記住訂閱，等我可以繼續留在人間（同埋避免被調去更恐怖的部門）"
+      "description": "⚠️【生者限定頻道】⚠️\n\n歡迎來我的頻道——\n我係SoniOni，一個業績未達標、隨時會被炒的見習死神 👻\n\n日常工作：接送靈魂、記錄生平、順便被上司罵。\n副業（偷偷地）：畫畫＋同活人聊天。\n\n沒辦法——\n公司規定我只可以接觸「已經死的客戶」，\n害得我完全不懂同活人相處。\n\n所以我決定偷偷地開直播練習社交技能。\n\n我會一邊畫畫，一邊用廣東話／英文同你們閒聊。\n你可以放心入來——\n👉 我暫時未收到你的名單。\n\n但如果有一日你見我主動同你打招呼……\n嗯，可能就不是純聊天的簡單。\n\n🖤 記住訂閱，等我可以繼續留在人間（同埋避免被調去更恐怖的部門）",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -895,7 +983,8 @@
       "modelId": "astronaut-23",
       "url": "https://www.youtube.com/@cledo2ha",
       "linkText": "https://www.youtube.com/@cledo2ha",
-      "description": "我是可樂豆 也可以叫我嘟姐 I'm Cledo\n成為香港第一港vtype！\n踏入二次元 二點五次元 三次元人士q(≧▽≦q)\n...冷知識 vtype是vtuber的一種/一個分支喔"
+      "description": "我是可樂豆 也可以叫我嘟姐 I'm Cledo\n成為香港第一港vtype！\n踏入二次元 二點五次元 三次元人士q(≧▽≦q)\n...冷知識 vtype是vtuber的一種/一個分支喔",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -905,7 +994,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@巫菈妮亞Urania",
       "linkText": "https://www.youtube.com/@巫菈妮亞Urania",
-      "description": "你在找一個有趣可愛又特『色』的靈魂嗎？\n每天11:00 / 19:30直播，等你來發掘💗\n\n來自沐屋的【陪伴系】深山魔女\n想做的事情很多，只差遇見你。\n\nYT爸爸監視中⚠️ASMR節目不定時小壞蛋DC限定！\n\n｜Tag          #巫妮胸厚\n｜Fan Art    #畫為巫友\n｜Meme     #同流合巫\n｜NSFW     #精巫藏嬌\n\n【工商&合作邀約歡迎來信】\n💌muuwustudio24@gmail.com"
+      "description": "你在找一個有趣可愛又特『色』的靈魂嗎？\n每天11:00 / 19:30直播，等你來發掘💗\n\n來自沐屋的【陪伴系】深山魔女\n想做的事情很多，只差遇見你。\n\nYT爸爸監視中⚠️ASMR節目不定時小壞蛋DC限定！\n\n｜Tag          #巫妮胸厚\n｜Fan Art    #畫為巫友\n｜Meme     #同流合巫\n｜NSFW     #精巫藏嬌\n\n【工商&合作邀約歡迎來信】\n💌muuwustudio24@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -915,7 +1005,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@shylachannel",
       "linkText": "https://www.youtube.com/@shylachannel",
-      "description": "大家好我是台灣個人勢Vtuber夏伊拉\n通常晚上23:00~直播\n最喜歡恐怖遊戲了！！！\n\n\n是一個路過的仙姑但我想當搞笑藝人\n\n-\n可以關注推特:https://twitter.com/Shy_Lavtuber\n合作邀約信箱:shylailashy1021@gmail.com\n粉絲名:大包\nHashtags\n隨時可以標: #夏伊拉Shyla\nArt: #Shylart\n-"
+      "description": "大家好我是台灣個人勢Vtuber夏伊拉\n通常晚上23:00~直播\n最喜歡恐怖遊戲了！！！\n\n\n是一個路過的仙姑但我想當搞笑藝人\n\n-\n可以關注推特:https://twitter.com/Shy_Lavtuber\n合作邀約信箱:shylailashy1021@gmail.com\n粉絲名:大包\nHashtags\n隨時可以標: #夏伊拉Shyla\nArt: #Shylart\n-",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -925,7 +1016,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@ChikaVtuber",
       "linkText": "https://www.youtube.com/@ChikaVtuber",
-      "description": "我是來自沐屋工作室的人魚知花\n不定期上傳Short cover ！\n平常最喜歡唱歌夢想是唱歌給很多很多人聽！\n連動以及任何事項請至:muuwustudio24@gmail.com\n由沐屋工作室的狗為您服務"
+      "description": "我是來自沐屋工作室的人魚知花\n不定期上傳Short cover ！\n平常最喜歡唱歌夢想是唱歌給很多很多人聽！\n連動以及任何事項請至:muuwustudio24@gmail.com\n由沐屋工作室的狗為您服務",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -935,7 +1027,8 @@
       "modelId": "ship-01",
       "url": "https://www.youtube.com/@手打SODAch",
       "linkText": "https://www.youtube.com/@手打SODAch",
-      "description": "💙 手打的推特，追蹤日常更新可以更貼近手打 ✨\nhttps://twitter.com/curacao_soda\n💙 手打的圖奇，健身環、所有突發不錯過 !\nhttps://www.twitch.tv/curacao_soda\n💙 綠界斗內，歡迎贊助手打生髮水 ✨ 無比的感謝你 💙\nhttps://p.ecpay.com.tw/7343FDF\n💙 合作連動歡迎來信或私訊推特 💙\nblue.curacao.soda0428@gmail.com\n-\n💙 永遠的繪師媽咪 虎KO @yukaihan https://twitter.com/ikutorako\n💙 1.5建模爸比 筱星朔光 @hoshi_2290 https://twitter.com/star_2290\n💙 1.0建模爸比 迺寇 https://twitter.com/naiko9311\n-\n#台灣Vtuber  #Vtuber​"
+      "description": "💙 手打的推特，追蹤日常更新可以更貼近手打 ✨\nhttps://twitter.com/curacao_soda\n💙 手打的圖奇，健身環、所有突發不錯過 !\nhttps://www.twitch.tv/curacao_soda\n💙 綠界斗內，歡迎贊助手打生髮水 ✨ 無比的感謝你 💙\nhttps://p.ecpay.com.tw/7343FDF\n💙 合作連動歡迎來信或私訊推特 💙\nblue.curacao.soda0428@gmail.com\n-\n💙 永遠的繪師媽咪 虎KO @yukaihan https://twitter.com/ikutorako\n💙 1.5建模爸比 筱星朔光 @hoshi_2290 https://twitter.com/star_2290\n💙 1.0建模爸比 迺寇 https://twitter.com/naiko9311\n-\n#台灣Vtuber  #Vtuber​",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -945,7 +1038,8 @@
       "modelId": "astronaut-20",
       "url": "https://www.youtube.com/@MarikaVtuber",
       "linkText": "https://www.youtube.com/@MarikaVtuber",
-      "description": "固定晚上9點直播、Shorts每兩日上傳！\n\n我是喜歡畫畫的魔法使魔Vtuber真理果! \n準備好要和我簽個契約了嗎？\n\n開台以企劃、繪圖、雜談、遊戲為主，\n還有永遠開不完的運動台…\n\n沒有上傳影片至YouTube、Instagram、Facebook以外的平台\n請不要在其他平台上假裝是我！\n\n✧ 所有連結: https://lit.link/marikavtuber\n✧ Twitter: https://twitter.com/marika_vtuber\n✧ Instagram: https://www.instagram.com/marikavtuber/\n✧ Facebook: https://www.facebook.com/marikavtuber/\n\n工商合作：info@chimauu.com"
+      "description": "固定晚上9點直播、Shorts每兩日上傳！\n\n我是喜歡畫畫的魔法使魔Vtuber真理果! \n準備好要和我簽個契約了嗎？\n\n開台以企劃、繪圖、雜談、遊戲為主，\n還有永遠開不完的運動台…\n\n沒有上傳影片至YouTube、Instagram、Facebook以外的平台\n請不要在其他平台上假裝是我！\n\n✧ 所有連結: https://lit.link/marikavtuber\n✧ Twitter: https://twitter.com/marika_vtuber\n✧ Instagram: https://www.instagram.com/marikavtuber/\n✧ Facebook: https://www.facebook.com/marikavtuber/\n\n工商合作：info@chimauu.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -955,7 +1049,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@GokusaiAmae0430",
       "linkText": "https://www.youtube.com/@GokusaiAmae0430",
-      "description": "撿到神奇遊戲片而被迫簽訂契約成為👾遊戲精靈的(原)大學生-極彩天繪です✨\n雖然是遊戲精靈但是更喜歡陪大家聊天!\n一週兩次台\n目前是特異點合作藝人\n\n\npapa @shark_slime\n🎮Twitter: https://twitter.com/amaeee0430\n🎮marshmallo: https://marshmallow-qa.com/messages\n🎮e-mail: amaeee0430@gmail.com\n🎮Discord https://discord.gg/nbx3QmRx2Q"
+      "description": "撿到神奇遊戲片而被迫簽訂契約成為👾遊戲精靈的(原)大學生-極彩天繪です✨\n雖然是遊戲精靈但是更喜歡陪大家聊天!\n一週兩次台\n目前是特異點合作藝人\n\n\npapa @shark_slime\n🎮Twitter: https://twitter.com/amaeee0430\n🎮marshmallo: https://marshmallow-qa.com/messages\n🎮e-mail: amaeee0430@gmail.com\n🎮Discord https://discord.gg/nbx3QmRx2Q",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -965,7 +1060,8 @@
       "modelId": "astronaut-02",
       "url": "https://www.youtube.com/@Jutta_VTuber",
       "linkText": "https://www.youtube.com/@Jutta_VTuber",
-      "description": "特異點 合作藝人 ｝\n陸地上一邊唱歌一邊蒐集情報的小小情報員📜 \n\n來自海洋情報局小職員，\n被派遣到陸地上常駐在咖啡廳，\n一邊唱歌一邊蒐集情報🎤\n\n🎸語言：中文⭕️、英文⭕️\n🎸X：@Jutta_Aglaea\n\n❦𝑨𝒍𝒍 𝑯𝒂𝒔𝒉𝒕𝒂𝒈：#優塔Jutta\n❦𝑳𝒊𝒗𝒆：#優上線\n❦𝑭𝒂𝒏𝑨𝒓𝒕：#優畫家\n❦𝑭𝒂𝒏𝑨𝒓𝒕𝑹𝟏𝟖：#優不要看\n\n✉️連動合作、商業洽談 聯絡資訊：\n商業洽談 ：1999singularity@gmail.com\n連動合作 ：2000singularity@gmail.com\n\n#台灣Vtuber #Vtuber #優塔Jutta"
+      "description": "特異點 合作藝人 ｝\n陸地上一邊唱歌一邊蒐集情報的小小情報員📜 \n\n來自海洋情報局小職員，\n被派遣到陸地上常駐在咖啡廳，\n一邊唱歌一邊蒐集情報🎤\n\n🎸語言：中文⭕️、英文⭕️\n🎸X：@Jutta_Aglaea\n\n❦𝑨𝒍𝒍 𝑯𝒂𝒔𝒉𝒕𝒂𝒈：#優塔Jutta\n❦𝑳𝒊𝒗𝒆：#優上線\n❦𝑭𝒂𝒏𝑨𝒓𝒕：#優畫家\n❦𝑭𝒂𝒏𝑨𝒓𝒕𝑹𝟏𝟖：#優不要看\n\n✉️連動合作、商業洽談 聯絡資訊：\n商業洽談 ：1999singularity@gmail.com\n連動合作 ：2000singularity@gmail.com\n\n#台灣Vtuber #Vtuber #優塔Jutta",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -975,7 +1071,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@VampKH_vtuber",
       "linkText": "https://www.youtube.com/@VampKH_vtuber",
-      "description": "被魔界放逐的軟爛吸血鬼Vtuber🦇 \n怠惰な301歳吸血鬼こはるです\nCN⭕JP⭕EN⭕\n\n私のことを好きになって？\n◥(ฅº￦ºฅ)◤"
+      "description": "被魔界放逐的軟爛吸血鬼Vtuber🦇 \n怠惰な301歳吸血鬼こはるです\nCN⭕JP⭕EN⭕\n\n私のことを好きになって？\n◥(ฅº￦ºฅ)◤",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -985,7 +1082,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@Holly_kirari",
       "linkText": "https://www.youtube.com/@Holly_kirari",
-      "description": "一個被雷擊後穿越到此的雷系魔導術士。\n我一點都不雷，真的。\n\n\nTwitter \nhttps://twitter.com/holly_kirari128\n綠界\nhttps://p.ecpay.com.tw/3D83DFC\n合作邀請\nholly.kira.tw@gmail.com"
+      "description": "一個被雷擊後穿越到此的雷系魔導術士。\n我一點都不雷，真的。\n\n\nTwitter \nhttps://twitter.com/holly_kirari128\n綠界\nhttps://p.ecpay.com.tw/3D83DFC\n合作邀請\nholly.kira.tw@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -995,7 +1093,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@爆柑月月",
       "linkText": "https://www.youtube.com/@爆柑月月",
-      "description": "特異點合作Vtuber\n喜歡唱歌的爆肝社畜\n雖然是小公主，但還是要工作嗚嗚"
+      "description": "特異點合作Vtuber\n喜歡唱歌的爆肝社畜\n雖然是小公主，但還是要工作嗚嗚",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1005,7 +1104,8 @@
       "modelId": "astronaut-02",
       "url": "https://www.youtube.com/@shiroha_inori",
       "linkText": "https://www.youtube.com/@shiroha_inori",
-      "description": "個人勢Vtuber－白羽祈🕊️💫\nしろは いのりと申します。\n\n來自異世界的人類魔法師。\n用聲音施展溫柔的治癒魔法🎶🌙\n陪你度過需要被安撫的時刻，\n也希望有一天，能成為你心中最棒的偶像🌟\n\n✦••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✦\n\n🕊️參與製作的老師們💫\n\n繪師媽媽：貓御子｜NEKOMIKO　\nLive2D爸爸：zda　\nLOGO標準字設計：緋千夜　\nED畫面：霜若/SHIMO　\n\n✦••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✦\n\n出道日🕊️💫2022.06.24\n\n2022/10/01　1000訂閱突破\n2023/05/27　2000訂閱突破\n2023/10/09　3000訂閱突破\n2024/04/06　4000訂閱突破\n2024/08/30　5000訂閱突破\n2025/06/20    6000訂閱突破\n2026/05/07    7000訂閱突破\n　🔒💫  　    8000訂閱突破"
+      "description": "個人勢Vtuber－白羽祈🕊️💫\nしろは いのりと申します。\n\n來自異世界的人類魔法師。\n用聲音施展溫柔的治癒魔法🎶🌙\n陪你度過需要被安撫的時刻，\n也希望有一天，能成為你心中最棒的偶像🌟\n\n✦••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✦\n\n🕊️參與製作的老師們💫\n\n繪師媽媽：貓御子｜NEKOMIKO　\nLive2D爸爸：zda　\nLOGO標準字設計：緋千夜　\nED畫面：霜若/SHIMO　\n\n✦••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✦\n\n出道日🕊️💫2022.06.24\n\n2022/10/01　1000訂閱突破\n2023/05/27　2000訂閱突破\n2023/10/09　3000訂閱突破\n2024/04/06　4000訂閱突破\n2024/08/30　5000訂閱突破\n2025/06/20    6000訂閱突破\n2026/05/07    7000訂閱突破\n　🔒💫  　    8000訂閱突破",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1015,7 +1115,8 @@
       "modelId": "astronaut-22",
       "url": "https://www.youtube.com/@yufang_13MoonTroupe",
       "linkText": "https://www.youtube.com/@yufang_13MoonTroupe",
-      "description": "⁛每周日中午12點固定唱歌⁛\n\n˗ˏˋ☾ ˎˊ˗ \n\n歡迎來到月下香商鋪，我是幽芳!🪔 \n一名開著神祕商鋪的半龍人個人勢VTUBER！\n若你有香氣的需求，我們很樂意為你服務♡🐲\n\n𓇬EMOJI🪔🐲\n𓇬商鋪聯絡  yufangvtuber777@gmail.com\n\n𓇬 Portaly｜https://portaly.cc/Yufang\n𓇬 IG｜ https://www.instagram.com/yufang13moontrp/\n𓇬Ｘ ｜https://twitter.com/yufang13MoonTrp\n𓇬 Facebook ｜ https://reurl.cc/jDDoVn\n𓇬 Twitch｜ https://www.twitch.tv/yufang_13moontroupe\n𓇬 Discord｜https://discord.gg/wZjkygnzgh"
+      "description": "⁛每周日中午12點固定唱歌⁛\n\n˗ˏˋ☾ ˎˊ˗ \n\n歡迎來到月下香商鋪，我是幽芳!🪔 \n一名開著神祕商鋪的半龍人個人勢VTUBER！\n若你有香氣的需求，我們很樂意為你服務♡🐲\n\n𓇬EMOJI🪔🐲\n𓇬商鋪聯絡  yufangvtuber777@gmail.com\n\n𓇬 Portaly｜https://portaly.cc/Yufang\n𓇬 IG｜ https://www.instagram.com/yufang13moontrp/\n𓇬Ｘ ｜https://twitter.com/yufang13MoonTrp\n𓇬 Facebook ｜ https://reurl.cc/jDDoVn\n𓇬 Twitch｜ https://www.twitch.tv/yufang_13moontroupe\n𓇬 Discord｜https://discord.gg/wZjkygnzgh",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1025,7 +1126,8 @@
       "modelId": "ship-01",
       "url": "",
       "linkText": "",
-      "description": ""
+      "description": "",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1035,7 +1137,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@ArumaCh",
       "linkText": "https://www.youtube.com/@ArumaCh",
-      "description": "ご機嫌よう～\n個人勢Vtuberの薬袋アルマ（Minai Aruma）です🌿🧪\n登録者2.5万人を目指しています！\n\nおしゃべりが大好きなので、様々な配信を挑戦しに行きたい思います！\nお時間ありましたら是非遊びにいらしてください✨\nもしお気になって頂けたら\nチャンネル登録・高評価・コメントして頂けるととても嬉しいです💋\n\n毎週歌枠やります🎵\n\n日／中／EN OK\n\nGreetings〜\nI am Minai Aruma,\nCome talk to me about anything under the sun, especially games, and I may also sing live for you~\nIf you’ve enjoyed my streams, please don’t forget to click on the subscribe and like buttons and leave your comments down below🌿🧪\n\n大家好～\n我是薬袋アルマ🌿🧪\n是擁有三艘戰艦的名門艦長(๑• ̀д•́ )✧\n喜歡動漫和聊天✨\n有時間歡迎來找我玩喔～\n\n©GuildCQ\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎\n🌿Link🧪\n\n◆Twitter：@MinaiAlma\n\n◆FANBOX\nhttps://minaiaruma.fanbox.cc/\n\n◆綠界贊助艦長\nhttps://p.ecpay.com.tw/2E59613\n\n◆グッズ販売\nhttps://minaiarumacq.booth.pm/\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎\n🌿Hashtag🧪\n\n総合　　　　　# 薬袋アルマ\n生放送　　　　# アルマ乗艦中\nファンネーム　# 草執事\nファンアート　# 艦長の旅アルバム\n切り抜き　　　# アルマ艦長日記\n推しマ　　　　🌿🧪\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎"
+      "description": "ご機嫌よう～\n個人勢Vtuberの薬袋アルマ（Minai Aruma）です🌿🧪\n登録者2.5万人を目指しています！\n\nおしゃべりが大好きなので、様々な配信を挑戦しに行きたい思います！\nお時間ありましたら是非遊びにいらしてください✨\nもしお気になって頂けたら\nチャンネル登録・高評価・コメントして頂けるととても嬉しいです💋\n\n毎週歌枠やります🎵\n\n日／中／EN OK\n\nGreetings〜\nI am Minai Aruma,\nCome talk to me about anything under the sun, especially games, and I may also sing live for you~\nIf you’ve enjoyed my streams, please don’t forget to click on the subscribe and like buttons and leave your comments down below🌿🧪\n\n大家好～\n我是薬袋アルマ🌿🧪\n是擁有三艘戰艦的名門艦長(๑• ̀д•́ )✧\n喜歡動漫和聊天✨\n有時間歡迎來找我玩喔～\n\n©GuildCQ\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎\n🌿Link🧪\n\n◆Twitter：@MinaiAlma\n\n◆FANBOX\nhttps://minaiaruma.fanbox.cc/\n\n◆綠界贊助艦長\nhttps://p.ecpay.com.tw/2E59613\n\n◆グッズ販売\nhttps://minaiarumacq.booth.pm/\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎\n🌿Hashtag🧪\n\n総合　　　　　# 薬袋アルマ\n生放送　　　　# アルマ乗艦中\nファンネーム　# 草執事\nファンアート　# 艦長の旅アルバム\n切り抜き　　　# アルマ艦長日記\n推しマ　　　　🌿🧪\n\n♈︎:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:-・:+:♈︎",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1045,7 +1148,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@Jia0bana",
       "linkText": "https://www.youtube.com/@Jia0bana",
-      "description": "這裡是蕉 バナ🍌\n\n是一個外表變成美少女，靈魂卻依然是個阿宅的尼特\n這樣的我... 有辦法還清500萬的整形費嗎 ⁉\n\n遊戲🎮 戲劇🎭 唱歌🎤\n黃腔髒話很多，慎入。\n\n工商請洽｜Jia0bana@4gamers.com.tw\n一般合作｜Jia0bana@gmail.com\n\n三視圖素材｜https://reurl.cc/pKl56r\n\n======================================================="
+      "description": "這裡是蕉 バナ🍌\n\n是一個外表變成美少女，靈魂卻依然是個阿宅的尼特\n這樣的我... 有辦法還清500萬的整形費嗎 ⁉\n\n遊戲🎮 戲劇🎭 唱歌🎤\n黃腔髒話很多，慎入。\n\n工商請洽｜Jia0bana@4gamers.com.tw\n一般合作｜Jia0bana@gmail.com\n\n三視圖素材｜https://reurl.cc/pKl56r\n\n=======================================================",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1055,7 +1159,8 @@
       "modelId": "ship-01",
       "url": "https://www.youtube.com/@515vtuber",
       "linkText": "https://www.youtube.com/@515vtuber",
-      "description": "515的頻道\n欠債勢的V\n生活就是還債或是在還債的路上@@\n\nTwitter : https://twitter.com/515VCh\n\n主要遊戲雜談\n會有粗俗字眼出現可能\n不是闔家觀賞的主播 注意一點\n\n有問題棉花糖投食😀\nhttps://marshmallow-qa.com/515vch\n\n聯絡信箱\ninfo@chimauu.com"
+      "description": "515的頻道\n欠債勢的V\n生活就是還債或是在還債的路上@@\n\nTwitter : https://twitter.com/515VCh\n\n主要遊戲雜談\n會有粗俗字眼出現可能\n不是闔家觀賞的主播 注意一點\n\n有問題棉花糖投食😀\nhttps://marshmallow-qa.com/515vch\n\n聯絡信箱\ninfo@chimauu.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1065,7 +1170,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@iammuyu",
       "linkText": "https://www.youtube.com/@iammuyu",
-      "description": "來自🇲🇾的個人勢Vtuber\n配音 | 梗圖 | 二創 | 翻唱 | 馬V\n音頻可自由二創記得標我就行\n非常喜歡馬內(money)\n (梗图来自网络,不挡水印,侵权可告知删除)\n\n📬聯繫可發:quanjiangcheng@gmail.com"
+      "description": "來自🇲🇾的個人勢Vtuber\n配音 | 梗圖 | 二創 | 翻唱 | 馬V\n音頻可自由二創記得標我就行\n非常喜歡馬內(money)\n (梗图来自网络,不挡水印,侵权可告知删除)\n\n📬聯繫可發:quanjiangcheng@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1075,7 +1181,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@holoen_ceciliaimmergreen",
       "linkText": "https://www.youtube.com/@holoen_ceciliaimmergreen",
-      "description": "Ancient Automaton, with a penchant for flowers, tea, and creating music! I usually stream European evenings!\nLet's wind you up! \n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Cecilia Immergreen\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors"
+      "description": "Ancient Automaton, with a penchant for flowers, tea, and creating music! I usually stream European evenings!\nLet's wind you up! \n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Cecilia Immergreen\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1085,7 +1192,8 @@
       "modelId": "astronaut-29",
       "url": "https://www.youtube.com/@holoen_erbloodflame",
       "linkText": "https://www.youtube.com/@holoen_erbloodflame",
-      "description": "Welcome to my YouTube channel\n\nI am Elizabeth Rose Bloodflame, The Scarlet Queen paving the way for the world and all of its people!\nOh~hohoho! 💄 お~ほほほ\n\nAbout me: \nSinger/Vocal Arrangement specialist, Voice Actress & Content Creator on YouTuber and twitch. \nOn YouTube: mainly music content (cover and original songs, karaoke etc..), gaming casually, collaborations with other content creators. \nOn twitch: roleplay streams in episodic format so feel free to check out the channel from the link below and sporadic streams. \n\nLet my voice be your strength, Huzzah~!💄\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Elizabeth Rose Bloodflame\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors\n連結"
+      "description": "Welcome to my YouTube channel\n\nI am Elizabeth Rose Bloodflame, The Scarlet Queen paving the way for the world and all of its people!\nOh~hohoho! 💄 お~ほほほ\n\nAbout me: \nSinger/Vocal Arrangement specialist, Voice Actress & Content Creator on YouTuber and twitch. \nOn YouTube: mainly music content (cover and original songs, karaoke etc..), gaming casually, collaborations with other content creators. \nOn twitch: roleplay streams in episodic format so feel free to check out the channel from the link below and sporadic streams. \n\nLet my voice be your strength, Huzzah~!💄\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Elizabeth Rose Bloodflame\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors\n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1095,7 +1203,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@holoen_gigimurin",
       "linkText": "https://www.youtube.com/@holoen_gigimurin",
-      "description": "\nfree-spirited Chaser and mischievous gremlin!\n*chases u cutely* 👧\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Gigi Murin\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors\n"
+      "description": "\nfree-spirited Chaser and mischievous gremlin!\n*chases u cutely* 👧\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Gigi Murin\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1105,7 +1214,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@holoen_raorapanthera",
       "linkText": "https://www.youtube.com/@holoen_raorapanthera",
-      "description": "The Artist with the God Eyes here to capture (you)r hearts! ~\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Raora Panthera\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors"
+      "description": "The Artist with the God Eyes here to capture (you)r hearts! ~\n\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Raora Panthera\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive production to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1115,7 +1225,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@MoriCalliope",
       "linkText": "https://www.youtube.com/@MoriCalliope",
-      "description": "singer/songwriter. Death Herself. 作曲作詞. \nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En"
+      "description": "singer/songwriter. Death Herself. 作曲作詞. \nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1125,7 +1236,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@TakanashiKiara",
       "linkText": "https://www.youtube.com/@TakanashiKiara",
-      "description": "Virtual Idol Phoenix on the rise🐦‍🔥 Based in Austria & Japan🌎Join KFP now!👇\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En"
+      "description": "Virtual Idol Phoenix on the rise🐦‍🔥 Based in Austria & Japan🌎Join KFP now!👇\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1135,7 +1247,8 @@
       "modelId": "astronaut-30",
       "url": "https://www.youtube.com/@NinomaeInanis",
       "linkText": "https://www.youtube.com/@NinomaeInanis",
-      "description": "One day, she picked up a strange book and then started to gain the power of controlling tentacles. To her, tentacles are just a part in her ordinary life; it has never been a big deal for her. However, her girly mind does want to get them dressed up and stay pretty.\n\nAfter gaining power, she started hearing Ancient Whispers and Revelations. Hence, she began her VTuber activities to deliver random sanity checks on humanity, as an ordinary girl.\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En"
+      "description": "One day, she picked up a strange book and then started to gain the power of controlling tentacles. To her, tentacles are just a part in her ordinary life; it has never been a big deal for her. However, her girly mind does want to get them dressed up and stay pretty.\n\nAfter gaining power, she started hearing Ancient Whispers and Revelations. Hence, she began her VTuber activities to deliver random sanity checks on humanity, as an ordinary girl.\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1145,7 +1258,8 @@
       "modelId": "astronaut-12",
       "url": "https://www.youtube.com/@IRyS",
       "linkText": "https://www.youtube.com/@IRyS",
-      "description": "HiRyS, it's IRyS! Your seiso nephilim here to fill the world with hopium♪\n\nIRyS, a half-demon, half-angel also known as a Nephilim, once brought hope to “The Paradise” during the ancient age. \n\nHer full name is ███████ Irys. \nThis current era, riddled with despair and desperation, has brought upon her second awakening. \nShe has arrived to deliver hope, with her feelings put into her lyrics and songs, and determination in her voice.\n\nThough she tends to retain her Nephilim form, she is still quite young within her race. With emotion and “other factors,” it is possible that her form may lean to either side. When that occurs, she bears a brief change in her appearance.\n\nShe does not speak of the events that preceded her second awakening. She faces ever forward, perhaps because she is Hope Incarnate, though no one knows for sure. Or could it be...\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En\n連結"
+      "description": "HiRyS, it's IRyS! Your seiso nephilim here to fill the world with hopium♪\n\nIRyS, a half-demon, half-angel also known as a Nephilim, once brought hope to “The Paradise” during the ancient age. \n\nHer full name is ███████ Irys. \nThis current era, riddled with despair and desperation, has brought upon her second awakening. \nShe has arrived to deliver hope, with her feelings put into her lyrics and songs, and determination in her voice.\n\nThough she tends to retain her Nephilim form, she is still quite young within her race. With emotion and “other factors,” it is possible that her form may lean to either side. When that occurs, she bears a brief change in her appearance.\n\nShe does not speak of the events that preceded her second awakening. She faces ever forward, perhaps because she is Hope Incarnate, though no one knows for sure. Or could it be...\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En\n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1155,7 +1269,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@OuroKronii",
       "linkText": "https://www.youtube.com/@OuroKronii",
-      "description": "Time is an unwavering, precise entity, and its Warden - its overseer - is equally cool and impeccable.\n\nOccasionally her exquisiteness leads her to decisions and bouts of luck that transcend the understanding of mere mortals. However, even utmost perfection finds no foothold in the face of her mortal enemy—disorder."
+      "description": "Time is an unwavering, precise entity, and its Warden - its overseer - is equally cool and impeccable.\n\nOccasionally her exquisiteness leads her to decisions and bouts of luck that transcend the understanding of mere mortals. However, even utmost perfection finds no foothold in the face of her mortal enemy—disorder.",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1165,7 +1280,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@HakosBaelz",
       "linkText": "https://www.youtube.com/@HakosBaelz",
-      "description": "just a lil rat idol who wants to make you smile! \nネズミアイドルでちゅ～！よろしくでちゅ～！\n\nIcon Art: \n❥ Mika Pikazo (https://twitter.com/MikaPikazo)\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En"
+      "description": "just a lil rat idol who wants to make you smile! \nネズミアイドルでちゅ～！よろしくでちゅ～！\n\nIcon Art: \n❥ Mika Pikazo (https://twitter.com/MikaPikazo)\n\nFor Inquiries\nCover Corp: http://cover-corp.com/\nOfficial Twitter: https://twitter.com/hololive_En",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1175,7 +1291,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@ShioriNovella",
       "linkText": "https://www.youtube.com/@ShioriNovella",
-      "description": "Shiori~n! 👁‍🗨\nAloof Archiver of hololive -Advent- at your service.\n\nContent Creator/Streamer, part of hololive production. \nhttps://hololivepro.com/en/\n\n-----------------------------------\n\nFan letters \nAddress\nFor: Shiori Novella\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from Hololive Productions to underage viewers\nPlease search for [Request To Minors] or click on the link below, to read it and enjoy our content.\nhttps://hololivepro.com/en/request-to-minors/"
+      "description": "Shiori~n! 👁‍🗨\nAloof Archiver of hololive -Advent- at your service.\n\nContent Creator/Streamer, part of hololive production. \nhttps://hololivepro.com/en/\n\n-----------------------------------\n\nFan letters \nAddress\nFor: Shiori Novella\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from Hololive Productions to underage viewers\nPlease search for [Request To Minors] or click on the link below, to read it and enjoy our content.\nhttps://hololivepro.com/en/request-to-minors/",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1185,7 +1302,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@KosekiBijou",
       "linkText": "https://www.youtube.com/@KosekiBijou",
-      "description": "Kira Kira Koseki!\nSparkling Gem of hololive -Advent-\n\n▼Twitter\n＠kosekibijou\n\n▼hololive Official Website (English)\nhttps://hololive.hololivepro.com/en/\n\n-------------------------------------------\n▼Advent▼\nShiori Novella\n┗ https://www.youtube.com/@ShioriNovella\nKoseki Bijou\n┗ https://www.youtube.com/@KosekiBijou\nNerissa Ravencroft\n┗ https://www.youtube.com/@NerissaRavencroft\nFUWAMOCO\n┗ https://www.youtube.com/@FUWAMOCOch\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Koseki Bijou\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive Productions to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors"
+      "description": "Kira Kira Koseki!\nSparkling Gem of hololive -Advent-\n\n▼Twitter\n＠kosekibijou\n\n▼hololive Official Website (English)\nhttps://hololive.hololivepro.com/en/\n\n-------------------------------------------\n▼Advent▼\nShiori Novella\n┗ https://www.youtube.com/@ShioriNovella\nKoseki Bijou\n┗ https://www.youtube.com/@KosekiBijou\nNerissa Ravencroft\n┗ https://www.youtube.com/@NerissaRavencroft\nFUWAMOCO\n┗ https://www.youtube.com/@FUWAMOCOch\n-------------------------------------------\n\nFan letters and Gifts\nAddress\nPresent for: Koseki Bijou\nCOVER Corporation\nNet Depot Shin-Itabashi\n1-6-1 Kaga\nItabashi-ku, Tokyo\nJapan\nPostal/Zip Code: 173-0003\n\n-----------------------------------\nRequest from hololive Productions to underage viewers:\nPlease be sure to check the link below before viewing our content.\nhttps://en.hololive.tv/request-to-minors",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1195,7 +1313,8 @@
       "modelId": "astronaut-26",
       "url": "https://www.youtube.com/@Kuroyo0411",
       "linkText": "https://www.youtube.com/@Kuroyo0411",
-      "description": "咩安安我是黒羊める，一隻被奇怪魔法變成人類的黑綿羊！\n\n ───────────────────────────────\n\n ★〞Twitter\nhttps://twitter.com/Kuroyo_meru\n☆〞綠界\nhttps://p.ecpay.com.tw/3448259\n☆〞Discord\nhttps://discord.gg/kuroyonice\n\n ───────────────────────────────\n\n業務聯絡＆合作洽談：kuroyo0411@gmail.com"
+      "description": "咩安安我是黒羊める，一隻被奇怪魔法變成人類的黑綿羊！\n\n ───────────────────────────────\n\n ★〞Twitter\nhttps://twitter.com/Kuroyo_meru\n☆〞綠界\nhttps://p.ecpay.com.tw/3448259\n☆〞Discord\nhttps://discord.gg/kuroyonice\n\n ───────────────────────────────\n\n業務聯絡＆合作洽談：kuroyo0411@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1205,7 +1324,8 @@
       "modelId": "astronaut-04",
       "url": "https://www.youtube.com/@嘻希呦長不高",
       "linkText": "https://www.youtube.com/@嘻希呦長不高",
-      "description": "ʚ 嘻希呦 ShiKi nozomi ɞ\n\n↬歡迎來到亜特蘭嘻卡 這裡有可愛的嘻希呦 是隻小水母呦\n↬🕖開台時間：晚上出沒\n↬😈不要急著上岸 留下來嘛\n↬🔔合作聯繫：shikinzm@hotmail.com \n\n↬ʟɪᴠᴇ: #希呦趴踢\n↬ᴄʟɪᴘꜱ: #觸電一下\n↬ꜱʜɪᴋɪᴀʀᴛ: #希呦產物\n↬ꜰᴀɴᴀʀᴛ: #舒叭拉嘻\n↬ᴄᴏᴍᴍᴏɴ: #希呦東東\n\n안녕 안녕. 나는 시키입니다.\n내 라이브 방송실에 오신 여러분을 환영합니다.\n\n💙素材使用\n 聊天室: one comme\n\n🪙斗內補氧\n https://www.hivebee.com.tw/shikinzm/Donate\n\n🐢海龜幫忙管台啦🐢\n\n↬ 私人問題不特別進行回覆\n↬ 直播中如有仇恨言論請以無視代替譴責批評\n↬ 🈲止討論任何政治話題\n↬ 🈲止提及希呦沒有提到的主播實況主，也不要在其他人的直播提及希呦\n↬ 🈲止洗版刷屏\n↬ 🈲止指手畫腳 干涉控制除非尋求幫助\n⚠️如有違規 初犯警告一隻 再犯就請你上岸離開⚠️\n【嚴重者直接上岸】\n\n😈Twitch:\nhttps://twitch.tv/shiki_nzm \n\n🔗All Link:\nhttps://piku.page/@shiki_nzm "
+      "description": "ʚ 嘻希呦 ShiKi nozomi ɞ\n\n↬歡迎來到亜特蘭嘻卡 這裡有可愛的嘻希呦 是隻小水母呦\n↬🕖開台時間：晚上出沒\n↬😈不要急著上岸 留下來嘛\n↬🔔合作聯繫：shikinzm@hotmail.com \n\n↬ʟɪᴠᴇ: #希呦趴踢\n↬ᴄʟɪᴘꜱ: #觸電一下\n↬ꜱʜɪᴋɪᴀʀᴛ: #希呦產物\n↬ꜰᴀɴᴀʀᴛ: #舒叭拉嘻\n↬ᴄᴏᴍᴍᴏɴ: #希呦東東\n\n안녕 안녕. 나는 시키입니다.\n내 라이브 방송실에 오신 여러분을 환영합니다.\n\n💙素材使用\n 聊天室: one comme\n\n🪙斗內補氧\n https://www.hivebee.com.tw/shikinzm/Donate\n\n🐢海龜幫忙管台啦🐢\n\n↬ 私人問題不特別進行回覆\n↬ 直播中如有仇恨言論請以無視代替譴責批評\n↬ 🈲止討論任何政治話題\n↬ 🈲止提及希呦沒有提到的主播實況主，也不要在其他人的直播提及希呦\n↬ 🈲止洗版刷屏\n↬ 🈲止指手畫腳 干涉控制除非尋求幫助\n⚠️如有違規 初犯警告一隻 再犯就請你上岸離開⚠️\n【嚴重者直接上岸】\n\n😈Twitch:\nhttps://twitch.tv/shiki_nzm \n\n🔗All Link:\nhttps://piku.page/@shiki_nzm ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1215,7 +1335,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@Koiyuki0501",
       "linkText": "https://www.youtube.com/@Koiyuki0501",
-      "description": "🐻‍❄️｜個人勢Vtuber｜🐻‍❄️\n\nご機嫌ようー恋雪ちゃんですー🤍\n今日も一緒にデートしようー Let’s Go！💖\n\n🤍𝕃𝕚𝕧𝕖 #恋進行中\n🩷𝔽𝕒𝕟𝔸𝕣𝕥 #恋の宝 (可能作圖使用)\n🤍𝕄𝕖𝕞𝕖 #恋のアビス #謎恋恋\n🩷𝔸𝕃𝕃 #恋落ちた #墜入戀愛\n🤍𝔽𝕒𝕟𝕄𝕒𝕣𝕜 #💓🐻‍❄️\n🩷𝔽𝕒𝕟ℕ𝕒𝕞𝕖 鱈魚\n\n🤍YouTube：\nhttps://www.youtube.com/@Koiyuki0501\n\n🩷Twitter：\nhttps://twitter.com/Koiyuki0501\n\n🤍Facebook：\nhttps://www.facebook.com/profile.php?id=100093478130934&mibextid=LQQJ4d\n\n🩷Instagram：\nhttps://instagram.com/koiyuki0501?igshid=MmIzYWVlNDQ5Yg==\n\n🤍Twitch：\nhttps://twitch.tv/koiyuki0501?desktop-redirect=true\n\n🩷綠界：https://p.ecpay.com.tw/73DD8FE\n\n🤍合作請洽：\nkoiyuki0501@gmail.com\n\n🩷ママ：雪兔 https://twitter.com/yukitoo_16\n\n🤍パパ：27時 https://twitter.com/inayakunemu\n\n🩷訂閱窩的YouTube，跟隨Twitter和Instagram可以掌握最新消息🤍"
+      "description": "🐻‍❄️｜個人勢Vtuber｜🐻‍❄️\n\nご機嫌ようー恋雪ちゃんですー🤍\n今日も一緒にデートしようー Let’s Go！💖\n\n🤍𝕃𝕚𝕧𝕖 #恋進行中\n🩷𝔽𝕒𝕟𝔸𝕣𝕥 #恋の宝 (可能作圖使用)\n🤍𝕄𝕖𝕞𝕖 #恋のアビス #謎恋恋\n🩷𝔸𝕃𝕃 #恋落ちた #墜入戀愛\n🤍𝔽𝕒𝕟𝕄𝕒𝕣𝕜 #💓🐻‍❄️\n🩷𝔽𝕒𝕟ℕ𝕒𝕞𝕖 鱈魚\n\n🤍YouTube：\nhttps://www.youtube.com/@Koiyuki0501\n\n🩷Twitter：\nhttps://twitter.com/Koiyuki0501\n\n🤍Facebook：\nhttps://www.facebook.com/profile.php?id=100093478130934&mibextid=LQQJ4d\n\n🩷Instagram：\nhttps://instagram.com/koiyuki0501?igshid=MmIzYWVlNDQ5Yg==\n\n🤍Twitch：\nhttps://twitch.tv/koiyuki0501?desktop-redirect=true\n\n🩷綠界：https://p.ecpay.com.tw/73DD8FE\n\n🤍合作請洽：\nkoiyuki0501@gmail.com\n\n🩷ママ：雪兔 https://twitter.com/yukitoo_16\n\n🤍パパ：27時 https://twitter.com/inayakunemu\n\n🩷訂閱窩的YouTube，跟隨Twitter和Instagram可以掌握最新消息🤍",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1230,7 +1351,8 @@
         "enabled": true,
         "destinationId": "A03-001",
         "durationSeconds": 120
-      }
+      },
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1240,7 +1362,8 @@
       "modelId": "astronaut-09",
       "url": "https://www.youtube.com/@HanaChou_Aasta",
       "linkText": "https://www.youtube.com/@HanaChou_Aasta",
-      "description": "大家好！\n我是阿絲塔，是一位在世界各處旅遊的神明！\n平常以哄睡陪伴、文學、音樂為主，希望可以與你們一起共度許多美好的時光✿\n\n☪️贊助塔塔☪️\n✨綠界✨：https://www.riyardigital.com/donate/aasta\n\n另外，如果有問題或是想說的話，都可以投遞棉花糖唷！\n🍭棉花糖：https://reurl.cc/Kbn7ER\n\n#阿絲塔 #Aasta #Vtuber #台灣Vtuber\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於標籤𓆱\n✿粉絲名｜觀星者\n✿直　播｜#阿絲塔的小時光／#Aastalive\n✿迷　因｜#塔醒醒啊／#Tameme\n✿創　作｜#阿絲塔韶華錄/#Aastart\n\n𓆰𓆱關於製作𓆱\n✿媽　媽｜花枝丸畫不完  @huazhimaru0  \n✿爸　爸｜赫菲斯托斯\n✿動　畫｜夏楠\n✿ＢＧＭ｜暗雨、極栗音樂工作室、Aya、椎名神鬱\n✿ LOGO ｜阿魚\n\n【觀看守則】\n✿如果塔塔沒有主動提起，不可以在塔塔的頻道提起別的V唷，不然我可是會吃醋的呢。\n✿請尊重塔塔的前輩們，如果其他的V沒有提起塔塔，也請不要主動提起我，不然造成別人的困擾，塔塔可是會生氣的唷。\n✿請不要在塔塔的頻道提及舉凡但不限於政治、宗教等敏感話題。\n✿不可以在塔塔的頻道吵架，塔塔希望大家都可以成為彼此最好的朋友，也希望自己可以成為你們休息時的港灣。\n✿因為很重要所以說三次，塔塔是神明、塔塔是神明、塔塔是神明！\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於送禮𓆱\n❥如果要送禮物給塔塔，你可以：\n⑴電子檔禮物請寄到 hanachou.vtb@gmail.com 並在主旨開頭「阿絲塔的禮物」。\n⑵實體禮物僅在特殊活動接收。\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於合作𓆱\n❥如果希望連動請到推特私訊塔塔：https://x.com/HanaChou_Aasta\n❥如果要找阿絲塔合作工商請來信：ninthgamesstudio@gmail.com\n合作類型：直播開箱／遊戲實況／介紹影片／角色配音／店鋪合作"
+      "description": "大家好！\n我是阿絲塔，是一位在世界各處旅遊的神明！\n平常以哄睡陪伴、文學、音樂為主，希望可以與你們一起共度許多美好的時光✿\n\n☪️贊助塔塔☪️\n✨綠界✨：https://www.riyardigital.com/donate/aasta\n\n另外，如果有問題或是想說的話，都可以投遞棉花糖唷！\n🍭棉花糖：https://reurl.cc/Kbn7ER\n\n#阿絲塔 #Aasta #Vtuber #台灣Vtuber\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於標籤𓆱\n✿粉絲名｜觀星者\n✿直　播｜#阿絲塔的小時光／#Aastalive\n✿迷　因｜#塔醒醒啊／#Tameme\n✿創　作｜#阿絲塔韶華錄/#Aastart\n\n𓆰𓆱關於製作𓆱\n✿媽　媽｜花枝丸畫不完  @huazhimaru0  \n✿爸　爸｜赫菲斯托斯\n✿動　畫｜夏楠\n✿ＢＧＭ｜暗雨、極栗音樂工作室、Aya、椎名神鬱\n✿ LOGO ｜阿魚\n\n【觀看守則】\n✿如果塔塔沒有主動提起，不可以在塔塔的頻道提起別的V唷，不然我可是會吃醋的呢。\n✿請尊重塔塔的前輩們，如果其他的V沒有提起塔塔，也請不要主動提起我，不然造成別人的困擾，塔塔可是會生氣的唷。\n✿請不要在塔塔的頻道提及舉凡但不限於政治、宗教等敏感話題。\n✿不可以在塔塔的頻道吵架，塔塔希望大家都可以成為彼此最好的朋友，也希望自己可以成為你們休息時的港灣。\n✿因為很重要所以說三次，塔塔是神明、塔塔是神明、塔塔是神明！\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於送禮𓆱\n❥如果要送禮物給塔塔，你可以：\n⑴電子檔禮物請寄到 hanachou.vtb@gmail.com 並在主旨開頭「阿絲塔的禮物」。\n⑵實體禮物僅在特殊活動接收。\n\n༺❁.｡.:*:.｡.✽.｡.:*:.｡.❁.｡.:*:.｡.✽.｡.:*:.｡.❁༻\n\n𓆰𓆱關於合作𓆱\n❥如果希望連動請到推特私訊塔塔：https://x.com/HanaChou_Aasta\n❥如果要找阿絲塔合作工商請來信：ninthgamesstudio@gmail.com\n合作類型：直播開箱／遊戲實況／介紹影片／角色配音／店鋪合作",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1250,7 +1373,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@Duodenai",
       "linkText": "https://www.youtube.com/@Duodenai",
-      "description": "ꕥ遊戲勢Vtuberꕥ 兼常常被吃的食物勢｜動作遊戲、農場遊戲為主\n\n來自艾爾芙球的十二指腸鉤口線蟲\n和精靈王約好來到地球尋找11位魔法師的認可 (但是一個都沒找到)\n\n據說頭上的髮飾摘不下來呦_(:3 」∠ )_\n\n粉絲名：糯米腸\n\n合作請洽：duodenai0215@gmail.com"
+      "description": "ꕥ遊戲勢Vtuberꕥ 兼常常被吃的食物勢｜動作遊戲、農場遊戲為主\n\n來自艾爾芙球的十二指腸鉤口線蟲\n和精靈王約好來到地球尋找11位魔法師的認可 (但是一個都沒找到)\n\n據說頭上的髮飾摘不下來呦_(:3 」∠ )_\n\n粉絲名：糯米腸\n\n合作請洽：duodenai0215@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1260,7 +1384,8 @@
       "modelId": "astronaut-27",
       "url": "https://www.youtube.com/@mochihill",
       "linkText": "https://www.youtube.com/@mochihill",
-      "description": "療癒｜人生系 宇宙外送員UFOです.ᐟ\n\n✦ ————— 🛸 ————— ✦\n\nᴇɴꜰᴊ 個人勢 ᴠᴛᴜʙᴇʀ ˊ˗ \n是位愛的宇宙外送員\n要用溫暖的笑容撞★進你心裡\n\n頻道以 雜談 / 哄睡 / 唱歌 / 遊戲 為主\n偶爾也會出現企劃與連動\n每週固定一、三、五直播\n想把名為希望的種子埋藏於大家的心中ෆ\n\n✦ ————— 🛸 ————— ✦\n\n▸ ʟɪᴠᴇᴛᴀɢ #ᴜꜰᴏʟɪᴠᴇ\n▸ ꜰᴀɴᴀʀᴛ #ᴜꜰᴏɪʟʟᴜꜱᴛ\n▸ ɴꜱꜰᴡ #ɴꜱꜰᴜꜰᴏ\n▸ ꜰᴀɴɴᴀᴍᴇ 山粉圓\n\n✦ ————— 🛸 ————— ✦\n\n✉ マシュマロ  reurl.cc/1mZEm9\n合作來信 spacemochi.manager@gmail.com / mochiufoart@gmail.com\n\n💙 我要領麻糬：綠界斗內贊助 💛\nhttps://p.ecpay.com.tw/0A828AE"
+      "description": "療癒｜人生系 宇宙外送員UFOです.ᐟ\n\n✦ ————— 🛸 ————— ✦\n\nᴇɴꜰᴊ 個人勢 ᴠᴛᴜʙᴇʀ ˊ˗ \n是位愛的宇宙外送員\n要用溫暖的笑容撞★進你心裡\n\n頻道以 雜談 / 哄睡 / 唱歌 / 遊戲 為主\n偶爾也會出現企劃與連動\n每週固定一、三、五直播\n想把名為希望的種子埋藏於大家的心中ෆ\n\n✦ ————— 🛸 ————— ✦\n\n▸ ʟɪᴠᴇᴛᴀɢ #ᴜꜰᴏʟɪᴠᴇ\n▸ ꜰᴀɴᴀʀᴛ #ᴜꜰᴏɪʟʟᴜꜱᴛ\n▸ ɴꜱꜰᴡ #ɴꜱꜰᴜꜰᴏ\n▸ ꜰᴀɴɴᴀᴍᴇ 山粉圓\n\n✦ ————— 🛸 ————— ✦\n\n✉ マシュマロ  reurl.cc/1mZEm9\n合作來信 spacemochi.manager@gmail.com / mochiufoart@gmail.com\n\n💙 我要領麻糬：綠界斗內贊助 💛\nhttps://p.ecpay.com.tw/0A828AE",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1270,7 +1395,8 @@
       "modelId": "astronaut-06",
       "url": "https://www.youtube.com/@SharronSu_ch",
       "linkText": "https://www.youtube.com/@SharronSu_ch",
-      "description": "黑耀創視所屬\n一顆來自深山的家裡蹲雪女，到了人類社會邊當著社畜邊做著興趣使然的Vtuber\n「…果然我還是好害怕吶，跟人相處什麼的QAQ」\n\n❅語言➡中文○ /台語△ /英文△ /日文-學習中\n日常TAG：#蘇雪霏、#SharronSu\n二創TAG：#雪霏ART(一般向)、#想入霏霏(R18向)\n飯友TAG：#雪霏覺得你餓\n連結"
+      "description": "黑耀創視所屬\n一顆來自深山的家裡蹲雪女，到了人類社會邊當著社畜邊做著興趣使然的Vtuber\n「…果然我還是好害怕吶，跟人相處什麼的QAQ」\n\n❅語言➡中文○ /台語△ /英文△ /日文-學習中\n日常TAG：#蘇雪霏、#SharronSu\n二創TAG：#雪霏ART(一般向)、#想入霏霏(R18向)\n飯友TAG：#雪霏覺得你餓\n連結",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1280,7 +1406,8 @@
       "modelId": "astronaut-15",
       "url": "https://www.youtube.com/@Vaswawa",
       "linkText": "https://www.youtube.com/@Vaswawa",
-      "description": "▌預見娛樂所屬 MeloNyx -瓦西瓦瓦 Vaswawa\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n💚幫助瓦瓦成為閃亮宇宙迷因🤍\n嗨逼：https://www.hivebee.com.tw/user953a1698654472/Donate\n\n ✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n初めまして！瓦瓦です～～～～～\n可愛迷人混亂小惡魔天使\n歡迎加入吉瓦瓦後花園行列\n ✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n各種合作歡迎來信聯繫\n信件標題要打清楚喔▴◡▴"
+      "description": "▌預見娛樂所屬 MeloNyx -瓦西瓦瓦 Vaswawa\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n💚幫助瓦瓦成為閃亮宇宙迷因🤍\n嗨逼：https://www.hivebee.com.tw/user953a1698654472/Donate\n\n ✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n初めまして！瓦瓦です～～～～～\n可愛迷人混亂小惡魔天使\n歡迎加入吉瓦瓦後花園行列\n ✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n各種合作歡迎來信聯繫\n信件標題要打清楚喔▴◡▴",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1290,7 +1417,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@Lanmewko",
       "linkText": "https://www.youtube.com/@Lanmewko",
-      "description": "商案邀約請來信 ➤ sales@mesports.com.tw\n聯動邀約請來信 ➤ VTcollab@mesports.com.tw\n\n我是Rumi 呦❕\n\n我非常喜歡玩遊戲跟唱歌！現在也正在努力的學中文・・✎\n期待在直播的時候跟大家一起玩！\n\n努力直播跟唱歌！\n最喜歡鮭魚卵🐟\n\n棉花糖 🍬 【 https://marshmallow-qa.com/lanmewko 】\n\n.。*゜+.*.。☆゜+..。*゜+。.゜☆.。*゜+.*.。.\n"
+      "description": "商案邀約請來信 ➤ sales@mesports.com.tw\n聯動邀約請來信 ➤ VTcollab@mesports.com.tw\n\n我是Rumi 呦❕\n\n我非常喜歡玩遊戲跟唱歌！現在也正在努力的學中文・・✎\n期待在直播的時候跟大家一起玩！\n\n努力直播跟唱歌！\n最喜歡鮭魚卵🐟\n\n棉花糖 🍬 【 https://marshmallow-qa.com/lanmewko 】\n\n.。*゜+.*.。☆゜+..。*゜+。.゜☆.。*゜+.*.。.\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1300,7 +1428,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@Paroniie",
       "linkText": "https://www.youtube.com/@Paroniie",
-      "description": "▌EnVision所屬 EXITUS－帕蘿妮 Paroniie\n商案合作這邊聯繫：sales@mesports.com.tw\n歡迎大家來信邀約連動：VTcollab@mesports.com.tw\n\n來信請於主旨註明想與帕蘿妮連動/合作！\n想與多人合作也可以一次信件中標註多人唷(๑´ㅂ`๑)\n\n這裡是帕蘿妮嗷～💧\n會唱歌會吃飯會睡覺～🦖✨\n聽說我的一分鐘只有60秒 🎆 o(*ﾟ▽ﾟ*)o\n\n🧪 中文｜台語｜英語｜龍語｜還想學日語 ( *｀ω´)\n\n▌米豆綠馬麻\nhttps://twitter.com/Midori_fufu"
+      "description": "▌EnVision所屬 EXITUS－帕蘿妮 Paroniie\n商案合作這邊聯繫：sales@mesports.com.tw\n歡迎大家來信邀約連動：VTcollab@mesports.com.tw\n\n來信請於主旨註明想與帕蘿妮連動/合作！\n想與多人合作也可以一次信件中標註多人唷(๑´ㅂ`๑)\n\n這裡是帕蘿妮嗷～💧\n會唱歌會吃飯會睡覺～🦖✨\n聽說我的一分鐘只有60秒 🎆 o(*ﾟ▽ﾟ*)o\n\n🧪 中文｜台語｜英語｜龍語｜還想學日語 ( *｀ω´)\n\n▌米豆綠馬麻\nhttps://twitter.com/Midori_fufu",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1310,7 +1439,8 @@
       "modelId": "astronaut-02",
       "url": "https://www.youtube.com/@Kai_Alluria",
       "linkText": "https://www.youtube.com/@Kai_Alluria",
-      "description": "❱EnVision所屬 / Alluria / 魁Kai\n❱是個喜歡貓貓迷因&想被巧克力淹沒的黑手黨首領\n\n合作邀約\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw"
+      "description": "❱EnVision所屬 / Alluria / 魁Kai\n❱是個喜歡貓貓迷因&想被巧克力淹沒的黑手黨首領\n\n合作邀約\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1320,7 +1450,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@whalefallvtuber",
       "linkText": "https://www.youtube.com/@whalefallvtuber",
-      "description": "▌預見所屬 Alluria - 鯨諾 whalefall\n\n人類活下去的三大要素，陽光，空氣，水還有鯨諾！\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦\n\n▼  特別感謝 ▼\n\n◊ 標準字\n阿魚　X/Twitter@A_U_design_\n\n◊ 直播間\n豆魚\n\n◊ 動作指導\nMimu　X/Twitter@Mimu_Live2D\n\n◊ 服裝設計\n白夜BYA　X/Twitter@byakuya9931 \n\n◊ 待機影片\n　美術　白夜BYA　X/Twitter@byakuya9931 \n　動畫　敗姆、豆魚\n\n◊ 結尾影片\n　繪圖　　白夜BYA　X/Twitter@byakuya9931 \n　動畫　　Mimu　X/Twitter@Mimu_Live2D\n　音樂\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦\n\n▼ 合作邀約▼\n\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦"
+      "description": "▌預見所屬 Alluria - 鯨諾 whalefall\n\n人類活下去的三大要素，陽光，空氣，水還有鯨諾！\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦\n\n▼  特別感謝 ▼\n\n◊ 標準字\n阿魚　X/Twitter@A_U_design_\n\n◊ 直播間\n豆魚\n\n◊ 動作指導\nMimu　X/Twitter@Mimu_Live2D\n\n◊ 服裝設計\n白夜BYA　X/Twitter@byakuya9931 \n\n◊ 待機影片\n　美術　白夜BYA　X/Twitter@byakuya9931 \n　動畫　敗姆、豆魚\n\n◊ 結尾影片\n　繪圖　　白夜BYA　X/Twitter@byakuya9931 \n　動畫　　Mimu　X/Twitter@Mimu_Live2D\n　音樂\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦\n\n▼ 合作邀約▼\n\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n✦ ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ ✦",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1330,7 +1461,8 @@
       "modelId": "astronaut-08",
       "url": "https://www.youtube.com/@SHIUCODA",
       "linkText": "https://www.youtube.com/@SHIUCODA",
-      "description": "▌EnVision所屬 EXITUS－詩雨蔻達\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n來信請於主旨註明與詩雨蔻達聯動/合作！\n如有多人聯動也可以於同一封信件中標註多人唷(* ’ｰ’ *)\n\nIf you have any inquires please feel free to email us!\n\n💧 🐸 💧\n\n不折不扣的屁孩小精靈PLUS爆言系溫柔大統領~\n\n模糊的中文/En/呱\n\n💧 直播配信 TAG #c0dalive \n🐸Fanart創作 TAG #c0dart \n💧 萬用找我 TAG #c0daddy\n🐸迷因Meme TAG #詩雨願違\n💧 音樂music TAG #c0dalala\n🐸R18 TAG #c0danude\n\n\n💧 🐸 💧\nTanukii 茶浣熊媽咪\nhttps://twitter.com/Tanukii_don\n\n💧 🐸 💧"
+      "description": "▌EnVision所屬 EXITUS－詩雨蔻達\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n來信請於主旨註明與詩雨蔻達聯動/合作！\n如有多人聯動也可以於同一封信件中標註多人唷(* ’ｰ’ *)\n\nIf you have any inquires please feel free to email us!\n\n💧 🐸 💧\n\n不折不扣的屁孩小精靈PLUS爆言系溫柔大統領~\n\n模糊的中文/En/呱\n\n💧 直播配信 TAG #c0dalive \n🐸Fanart創作 TAG #c0dart \n💧 萬用找我 TAG #c0daddy\n🐸迷因Meme TAG #詩雨願違\n💧 音樂music TAG #c0dalala\n🐸R18 TAG #c0danude\n\n\n💧 🐸 💧\nTanukii 茶浣熊媽咪\nhttps://twitter.com/Tanukii_don\n\n💧 🐸 💧",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1340,7 +1472,8 @@
       "modelId": "astronaut-23",
       "url": "https://www.youtube.com/@HimegiMichika",
       "linkText": "https://www.youtube.com/@HimegiMichika",
-      "description": "▌EnVision所屬 EXITUS－姬城三千華\n預見娛樂官網﹕https://www.envisionvtuber.com.tw/\n\n商案合作這邊聯繫：sales@mesports.com.tw\n歡迎大家來信邀約連動：VTcollab@mesports.com.tw\n\n來信請註明想與姬城三千華連動/合作！\n多人也可以一次信件中標註多人喲！(,,Ծ 3 Ծ,,)\n\n=============================================================\n宇宙第一、世界之最、無人能敵的奇美拉 兼 \n人見人愛、車見車載、超級可愛的高中生\n樸實無華的登場了～(⁎⁍̴̛ᴗ⁍̴̛⁎)\n\n什麼時候有空我們可以一齊出去玩牙～？\n\n中文﹕你能聽懂的！ / 廣東語﹕冇問題 / ENG: half half / 日本語﹕普通に話せます\n\n=============================================================\n稱呼： HIME / MICHI  咪奇/咪七\n也可以用小圖案呼喚我﹕🔖  💼  🍬\n=============================================================\n\n💼米幾的大小事  ( ^ ^ )/■ https://reurl.cc/AdOl48\n💼米幾的棉花糖  ( ^ ^ )/■https://reurl.cc/KMQ7dp\n\n｛HASHTAG｝ #一米幾\n｛LIVE｝#見姬行事\n｛MESSAGE｝ #HiMichi  \n｛FANART｝ #M1chiarT\n｛MEME｝ #MeMe7ka\n｛FANNAME｝#姬靈鬼\n\n"
+      "description": "▌EnVision所屬 EXITUS－姬城三千華\n預見娛樂官網﹕https://www.envisionvtuber.com.tw/\n\n商案合作這邊聯繫：sales@mesports.com.tw\n歡迎大家來信邀約連動：VTcollab@mesports.com.tw\n\n來信請註明想與姬城三千華連動/合作！\n多人也可以一次信件中標註多人喲！(,,Ծ 3 Ծ,,)\n\n=============================================================\n宇宙第一、世界之最、無人能敵的奇美拉 兼 \n人見人愛、車見車載、超級可愛的高中生\n樸實無華的登場了～(⁎⁍̴̛ᴗ⁍̴̛⁎)\n\n什麼時候有空我們可以一齊出去玩牙～？\n\n中文﹕你能聽懂的！ / 廣東語﹕冇問題 / ENG: half half / 日本語﹕普通に話せます\n\n=============================================================\n稱呼： HIME / MICHI  咪奇/咪七\n也可以用小圖案呼喚我﹕🔖  💼  🍬\n=============================================================\n\n💼米幾的大小事  ( ^ ^ )/■ https://reurl.cc/AdOl48\n💼米幾的棉花糖  ( ^ ^ )/■https://reurl.cc/KMQ7dp\n\n｛HASHTAG｝ #一米幾\n｛LIVE｝#見姬行事\n｛MESSAGE｝ #HiMichi  \n｛FANART｝ #M1chiarT\n｛MEME｝ #MeMe7ka\n｛FANNAME｝#姬靈鬼\n\n",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1350,7 +1483,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@Arrynia",
       "linkText": "https://www.youtube.com/@Arrynia",
-      "description": "▌預見娛樂所屬 EXITUS－艾琳妮雅\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n來信請於主旨註明與艾琳妮雅聯動/合作！\n如有多人聯動也可以於同一封信件中標註多人唷(* ’ｰ’ *)\n\nIf you have any inquires please feel free to email us!\n\n🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌕\n\n努力體驗人類生活的搞事吸血鬼女僕🧛‍♀️\n 🌌 在漫長的歲月中能跟主人相遇真好\n主人們請坐🦇\n\nMy Lords and Ladies,\nI'm Arrynia, a vampire maid on a non-human diet trying to fit in💦\nI'm working hard to understand what it's like to be human. \nThere are billions of people on this planet 🌎  but it only takes one glance for us to meet.\nPlease make yourself comfortable as we begin our destiny.🌟\n\n🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌕\n\nママ:  https://twitter.com/MizDongmi\nLive2Dママ:  https://twitter.com/Mimu_Live2D\n\n預見娛樂\nhttps://www.envisionvtuber.com.tw/artist/view/ArryniaVaeri"
+      "description": "▌預見娛樂所屬 EXITUS－艾琳妮雅\n商案合作洽談信箱：sales@mesports.com.tw\n聯動邀約信箱：VTcollab@mesports.com.tw\n\n來信請於主旨註明與艾琳妮雅聯動/合作！\n如有多人聯動也可以於同一封信件中標註多人唷(* ’ｰ’ *)\n\nIf you have any inquires please feel free to email us!\n\n🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌕\n\n努力體驗人類生活的搞事吸血鬼女僕🧛‍♀️\n 🌌 在漫長的歲月中能跟主人相遇真好\n主人們請坐🦇\n\nMy Lords and Ladies,\nI'm Arrynia, a vampire maid on a non-human diet trying to fit in💦\nI'm working hard to understand what it's like to be human. \nThere are billions of people on this planet 🌎  but it only takes one glance for us to meet.\nPlease make yourself comfortable as we begin our destiny.🌟\n\n🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌕\n\nママ:  https://twitter.com/MizDongmi\nLive2Dママ:  https://twitter.com/Mimu_Live2D\n\n預見娛樂\nhttps://www.envisionvtuber.com.tw/artist/view/ArryniaVaeri",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1360,7 +1494,8 @@
       "modelId": "astronaut-21",
       "url": "https://www.youtube.com/@WakasaIto",
       "linkText": "https://www.youtube.com/@WakasaIto",
-      "description": "▌預見娛樂所屬 MeloNyx - 若櫻依兔 WakasaIto\n°☆。..。..。..。..。..。..。..。.☆°\n\n一隻容易失眠的小兔子🌸\n喜歡的東西是唱歌、寵物莓咪和草莓🍓\n⭐希望能帶給你們開心及充滿希望能量的每一天⭐\n🌸喜歡依兔的話，歡迎訂閱⭐按下喜歡鍵❤️開啟小鈴鐺哦🔔\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨幫助依兔的大家\n指導師媽咪❤️ https://twitter.com/7qovop\n指導師把拔❤️https://twitter.com/ShalltearVi\n\n✨餵食依兔吃草莓🍓\nHiveBee(嗨嗶)抖內：https://www.hivebee.com.tw/WakasaIto/Donate\n\n✨依兔出沒中\nTwitter : https://twitter.com/Wakasa_Ito\nFacebook：https://www.facebook.com/profile.php?id=61552604717695\n\n✨Hashtags\nLive：依起玩\nFan Art：依起畫畫\n日常：依起分享\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✏️聊天室小規則📋\n\n🌸請不要在頻道聊天室裡吵架、洗版或提及敏感性話題\n🌸請不要提到除了依兔以外的頻道或留言及無關人事物\n🌸在依兔遊玩遊戲時請不要留言透漏劇情或是提示(依兔主動求救例外⭐)\n🌸當個禮貌滿分的乖孩子\n\n⭐一起開心的享受每一次的配信⭐\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨素敵な借りたBGM\nzukisuzuki BGM　Easy　　　　　　https://reurl.cc/y6XADl\nKei Morimoto　カナリア　　　　　https://reurl.cc/v6XLpA\nFUJINEQo Music　 Summer Calm　https://reurl.cc/1GzOX9\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨特別感謝\n每一個來看依兔及喜歡依兔的你❤️\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw"
+      "description": "▌預見娛樂所屬 MeloNyx - 若櫻依兔 WakasaIto\n°☆。..。..。..。..。..。..。..。.☆°\n\n一隻容易失眠的小兔子🌸\n喜歡的東西是唱歌、寵物莓咪和草莓🍓\n⭐希望能帶給你們開心及充滿希望能量的每一天⭐\n🌸喜歡依兔的話，歡迎訂閱⭐按下喜歡鍵❤️開啟小鈴鐺哦🔔\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨幫助依兔的大家\n指導師媽咪❤️ https://twitter.com/7qovop\n指導師把拔❤️https://twitter.com/ShalltearVi\n\n✨餵食依兔吃草莓🍓\nHiveBee(嗨嗶)抖內：https://www.hivebee.com.tw/WakasaIto/Donate\n\n✨依兔出沒中\nTwitter : https://twitter.com/Wakasa_Ito\nFacebook：https://www.facebook.com/profile.php?id=61552604717695\n\n✨Hashtags\nLive：依起玩\nFan Art：依起畫畫\n日常：依起分享\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✏️聊天室小規則📋\n\n🌸請不要在頻道聊天室裡吵架、洗版或提及敏感性話題\n🌸請不要提到除了依兔以外的頻道或留言及無關人事物\n🌸在依兔遊玩遊戲時請不要留言透漏劇情或是提示(依兔主動求救例外⭐)\n🌸當個禮貌滿分的乖孩子\n\n⭐一起開心的享受每一次的配信⭐\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨素敵な借りたBGM\nzukisuzuki BGM　Easy　　　　　　https://reurl.cc/y6XADl\nKei Morimoto　カナリア　　　　　https://reurl.cc/v6XLpA\nFUJINEQo Music　 Summer Calm　https://reurl.cc/1GzOX9\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n✨特別感謝\n每一個來看依兔及喜歡依兔的你❤️\n\n°☆。..。..。..。..。..。..。..。.☆°\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1370,7 +1505,8 @@
       "modelId": "astronaut-20",
       "url": "https://www.youtube.com/@SinnieAris",
       "linkText": "https://www.youtube.com/@SinnieAris",
-      "description": "✧Envision 所屬 MeloNyx－希妮·亞里絲 / Sinnie Aris ✧\n\n最可愛的天使是？——希妮·亞里絲！\n最睿智的天使是？——希妮·亞里絲！\n最完美的天使是？——希妮·亞里絲！\n ₍ᐢ..ᐢ₎♡\nあたしは天才無敵絕對可愛到爆燈既小天使aka from heaven but no wings因為被沒收了的希妮·亞里絲！\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ✦ \nX 【 https://twitter.com/SinnieAris 】\nFB 【https://reurl.cc/Ry8Z1n】\n棉花糖 【https://marshmallow-qa.com/1hlxorat4xskrkv】\n我的秘密❤【https://reurl.cc/Do8rYN】\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ✦ \n\nHASHTAG：\nLiveTAG ：#SinnieLive\nFanArtTAG：#SinnieArt\nMemeTAG：#希錯東西\nFanName：紙箱幫\n\n#希妮亞里絲  #melonyx #新人vtuber  \n#虛擬Youtuber​ #vtuber \n#初見さん大歓迎 #女性vtuber "
+      "description": "✧Envision 所屬 MeloNyx－希妮·亞里絲 / Sinnie Aris ✧\n\n最可愛的天使是？——希妮·亞里絲！\n最睿智的天使是？——希妮·亞里絲！\n最完美的天使是？——希妮·亞里絲！\n ₍ᐢ..ᐢ₎♡\nあたしは天才無敵絕對可愛到爆燈既小天使aka from heaven but no wings因為被沒收了的希妮·亞里絲！\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ✦ \nX 【 https://twitter.com/SinnieAris 】\nFB 【https://reurl.cc/Ry8Z1n】\n棉花糖 【https://marshmallow-qa.com/1hlxorat4xskrkv】\n我的秘密❤【https://reurl.cc/Do8rYN】\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ✦ \n\nHASHTAG：\nLiveTAG ：#SinnieLive\nFanArtTAG：#SinnieArt\nMemeTAG：#希錯東西\nFanName：紙箱幫\n\n#希妮亞里絲  #melonyx #新人vtuber  \n#虛擬Youtuber​ #vtuber \n#初見さん大歓迎 #女性vtuber ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1380,7 +1516,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@r1ri999",
       "linkText": "https://www.youtube.com/@r1ri999",
-      "description": "▌預見娛樂所屬－莉莉奈 Ririna 🎀🌙💤\n👆🏻這是一隻只有奶茶跟火鍋能叫得醒的夢魔🧋🍲\n \n( ꒪⌓꒪) 💭你眠好呀!!!\n好期待!!想快點跟大家奔現見面!!!\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n▌✔️投餵奶茶 ✔️投餵火鍋 ✔️ 5ma\n🎀嗨嗶(抖內)：https://www.hivebee.com.tw/riri999/Donate\n\n🎀深度會員：https://www.hivebee.com.tw/riri999/Subscribe/Plan\n\n🎀棉花糖：https://marshmallow-qa.com/s7sy7hnhkxrze7x\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n還沒追蹤的要打屁屁惹 \\\\٩(๑`^´๑)۶//\n🎀Twitter\nhttps://twitter.com/hiririna\n \n🎀 Facebook\nhttps://www.facebook.com/ririna999\n\n🎀IG\nhttps://reurl.cc/9v54pa\n\n🎀官方DC粉絲團\nhttps://discord.gg/envisionf\n\n🎀Hashtag\n  ʚɞ𝓐𝓵𝓵𝓣𝓪𝓰 ##莉莉估奈 #結月莉莉奈\n  ʚɞ𝓕𝓪𝓷𝓐𝓻𝓽 #來張莉繪\n  ʚɞ𝓛𝓘𝓥𝓔 #純奈日常\n \n🎀粉絲名\n  ʚ眠花ɞ\n最喜歡你眠啦💗\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n🎀聊天室規範‖𝗿𝘂𝗹𝗲𝘀\n   ʚɞ 尊重莉莉奈及觀眾，請勿刷頻或帶有謾罵、爭議性、情勒、政治立場發言。\n   ʚɞ 避免提及與實況內容無關的留言或人名(除非莉莉奈先提及)，也請勿在他人的直播中提起莉莉奈除非對方允許。\n   ʚɞ 請開心放鬆地享受直播!!!\n   ʚɞ 莉莉奈 𝙄𝙎 𝙏𝙃𝙀 𝙍𝙐𝙇𝙀𝙎!!!\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n \n🎀真的真的很高興認識你眠!!!\n也萬分感謝所有工作人員(跪) 🌙\n#TWvtuber​ #台灣Vtuber​​ #vtuberデビュー\n#歌枠 #台湾 #初見さん大歓迎 #女性vtuber #莉ri999 #結月莉莉奈 #莉莉奈"
+      "description": "▌預見娛樂所屬－莉莉奈 Ririna 🎀🌙💤\n👆🏻這是一隻只有奶茶跟火鍋能叫得醒的夢魔🧋🍲\n \n( ꒪⌓꒪) 💭你眠好呀!!!\n好期待!!想快點跟大家奔現見面!!!\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n▌✔️投餵奶茶 ✔️投餵火鍋 ✔️ 5ma\n🎀嗨嗶(抖內)：https://www.hivebee.com.tw/riri999/Donate\n\n🎀深度會員：https://www.hivebee.com.tw/riri999/Subscribe/Plan\n\n🎀棉花糖：https://marshmallow-qa.com/s7sy7hnhkxrze7x\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n還沒追蹤的要打屁屁惹 \\\\٩(๑`^´๑)۶//\n🎀Twitter\nhttps://twitter.com/hiririna\n \n🎀 Facebook\nhttps://www.facebook.com/ririna999\n\n🎀IG\nhttps://reurl.cc/9v54pa\n\n🎀官方DC粉絲團\nhttps://discord.gg/envisionf\n\n🎀Hashtag\n  ʚɞ𝓐𝓵𝓵𝓣𝓪𝓰 ##莉莉估奈 #結月莉莉奈\n  ʚɞ𝓕𝓪𝓷𝓐𝓻𝓽 #來張莉繪\n  ʚɞ𝓛𝓘𝓥𝓔 #純奈日常\n \n🎀粉絲名\n  ʚ眠花ɞ\n最喜歡你眠啦💗\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n🎀聊天室規範‖𝗿𝘂𝗹𝗲𝘀\n   ʚɞ 尊重莉莉奈及觀眾，請勿刷頻或帶有謾罵、爭議性、情勒、政治立場發言。\n   ʚɞ 避免提及與實況內容無關的留言或人名(除非莉莉奈先提及)，也請勿在他人的直播中提起莉莉奈除非對方允許。\n   ʚɞ 請開心放鬆地享受直播!!!\n   ʚɞ 莉莉奈 𝙄𝙎 𝙏𝙃𝙀 𝙍𝙐𝙇𝙀𝙎!!!\n┈┈┈┈┈┈┈┈┈┈┈┈୨♥୧┈┈┈┈┈┈┈┈┈┈┈┈\n \n🎀真的真的很高興認識你眠!!!\n也萬分感謝所有工作人員(跪) 🌙\n#TWvtuber​ #台灣Vtuber​​ #vtuberデビュー\n#歌枠 #台湾 #初見さん大歓迎 #女性vtuber #莉ri999 #結月莉莉奈 #莉莉奈",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1390,7 +1527,8 @@
       "modelId": "astronaut-22",
       "url": "https://www.youtube.com/@Nyrfier",
       "linkText": "https://www.youtube.com/@Nyrfier",
-      "description": "▌EnVision 所屬 Alluria - 涅爾菲 Nyrfier\n\n大家好這裡是涅爾菲\n曾經是一隻蛇\n對\n會嘶嘶嘶那種\n比看起來更容易害羞，還請各位小心餵食(,,・ω・,,)\n\n中文OK / 台語OK / 日本語ボロボロ / English not very fluent but probably OK\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n❖失業男公關的生活基金♠Donation\n\n嗨嗶抖內 »\nhttps://www.hivebee.com.tw/Nyrfier/Donate\n\n給IOS手機用戶的加入會員通道»\nhttps://www.youtube.com/@Nyrfier/join\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n\n❖標籤相關＃ Hashtags\n\nLiveTag » #與蛇共舞\nFanArt » #畫蛇不添足\nMeme » #涅手涅腳\nNSFW » #你要不要吃禁果\nEmoji » 🐍🍷\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n❖感恩的心♥Credits\n\n最讚的馬麻 » 蝶朱Shaii https://twitter.com/Shaii_Chu\n\n最酷的把拔 » Dreamkite https://twitter.com/Dream__Kite\n\n直播間 » 嘆子 https://twitter.com/Tanz0908\n\n標準LOGO\n設計 » 嘆子 https://twitter.com/Tanz0908\n動態 »  Zo1 https://twitter.com/Zo1forwork\n\nOpening Animation \n美術 » 白夜BYA https://twitter.com/byakuya9931\n動畫 » 敗姆、豆魚\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n商案合作洽談信箱✉：sales@mesports.com.tw \n聯動邀約合作信箱✉：VTcollab@mesports.com.tw\n\n#台灣Vtuber​  #vtuberデビュー #初見さん大歓迎 \n#預見娛樂 #Alluria #台V #男V #新人vtuber "
+      "description": "▌EnVision 所屬 Alluria - 涅爾菲 Nyrfier\n\n大家好這裡是涅爾菲\n曾經是一隻蛇\n對\n會嘶嘶嘶那種\n比看起來更容易害羞，還請各位小心餵食(,,・ω・,,)\n\n中文OK / 台語OK / 日本語ボロボロ / English not very fluent but probably OK\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n❖失業男公關的生活基金♠Donation\n\n嗨嗶抖內 »\nhttps://www.hivebee.com.tw/Nyrfier/Donate\n\n給IOS手機用戶的加入會員通道»\nhttps://www.youtube.com/@Nyrfier/join\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n\n❖標籤相關＃ Hashtags\n\nLiveTag » #與蛇共舞\nFanArt » #畫蛇不添足\nMeme » #涅手涅腳\nNSFW » #你要不要吃禁果\nEmoji » 🐍🍷\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n❖感恩的心♥Credits\n\n最讚的馬麻 » 蝶朱Shaii https://twitter.com/Shaii_Chu\n\n最酷的把拔 » Dreamkite https://twitter.com/Dream__Kite\n\n直播間 » 嘆子 https://twitter.com/Tanz0908\n\n標準LOGO\n設計 » 嘆子 https://twitter.com/Tanz0908\n動態 »  Zo1 https://twitter.com/Zo1forwork\n\nOpening Animation \n美術 » 白夜BYA https://twitter.com/byakuya9931\n動畫 » 敗姆、豆魚\n\n\n✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧𓆙𓆙𓆙𓆙𓆙𓆙𓆙✧\n\n\n商案合作洽談信箱✉：sales@mesports.com.tw \n聯動邀約合作信箱✉：VTcollab@mesports.com.tw\n\n#台灣Vtuber​  #vtuberデビュー #初見さん大歓迎 \n#預見娛樂 #Alluria #台V #男V #新人vtuber ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1400,7 +1538,8 @@
       "modelId": "astronaut-27",
       "url": "https://www.youtube.com/@Chita_CH",
       "linkText": "https://www.youtube.com/@Chita_CH",
-      "description": "☘︎ EnVision所屬 CaKano - 崎塔 Chita\n想成為貓的豹　(⁰▿⁰)\n☘︎ 一般 | #塔塔出沒中 FanArt | #畫崎塔"
+      "description": "☘︎ EnVision所屬 CaKano - 崎塔 Chita\n想成為貓的豹　(⁰▿⁰)\n☘︎ 一般 | #塔塔出沒中 FanArt | #畫崎塔",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1410,7 +1549,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@NokoriCaKano",
       "linkText": "https://www.youtube.com/@NokoriCaKano",
-      "description": "❆ EnVision所屬 五期生 CaKano - 諾恪里 Nokori\n\n來自甜點森林的雪狐 (雄性)\n\n❆┊ 𝐅𝐀𝐍𝐒 𝐍𝐀𝐌𝐄 ┊ 諾米糰子 ୨୧\n\n❆┊商案合作洽談信箱 ✉：sales@mesports.com.tw \n❆┊聯動邀約合作信箱 ✉：VTcollab@mesports.com.tw"
+      "description": "❆ EnVision所屬 五期生 CaKano - 諾恪里 Nokori\n\n來自甜點森林的雪狐 (雄性)\n\n❆┊ 𝐅𝐀𝐍𝐒 𝐍𝐀𝐌𝐄 ┊ 諾米糰子 ୨୧\n\n❆┊商案合作洽談信箱 ✉：sales@mesports.com.tw \n❆┊聯動邀約合作信箱 ✉：VTcollab@mesports.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1420,7 +1560,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@shiro_leon",
       "linkText": "https://www.youtube.com/@shiro_leon",
-      "description": "▌ EnVision 所屬 𝙰𝚕𝚕𝚞𝚛𝚒𝚊 -希洛萊昂 ▌\n\n♔歡迎來到我的國度♔ \n\n是位人夫，帶著小獅子兒子努力育兒跟分享生活的國王\n\n王國問答箱(棉花糖)\nhttps://reurl.cc/bV2VdE\n\n𝙻𝚒𝚟𝚎𝚝𝚊𝚐　#萊覲見 \n𝙵𝚊𝚗𝚊𝚛𝚝      #希飯𝚊𝚛𝚝  \n𝙼𝚎𝚖𝚎𝚝𝚊𝚐    #希的𝚖𝚎𝚖𝚎帽帽 \n𝙵𝚊𝚗𝚗𝚊𝚖𝚎    #拿拿\n粉絲剪輯    #希有精華\n周邊打卡    #天天開希\n\n繪師母后　大介 X @yala1453\n動作指導　笨蛋希 X @Sherloh64\n　　　　　Mimu　X @Mimu_Live2D\nED\n　　　　　大介 X @yala1453 \n　　　　　Mimu　X/Twitter@Mimu_Live2D\n\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw"
+      "description": "▌ EnVision 所屬 𝙰𝚕𝚕𝚞𝚛𝚒𝚊 -希洛萊昂 ▌\n\n♔歡迎來到我的國度♔ \n\n是位人夫，帶著小獅子兒子努力育兒跟分享生活的國王\n\n王國問答箱(棉花糖)\nhttps://reurl.cc/bV2VdE\n\n𝙻𝚒𝚟𝚎𝚝𝚊𝚐　#萊覲見 \n𝙵𝚊𝚗𝚊𝚛𝚝      #希飯𝚊𝚛𝚝  \n𝙼𝚎𝚖𝚎𝚝𝚊𝚐    #希的𝚖𝚎𝚖𝚎帽帽 \n𝙵𝚊𝚗𝚗𝚊𝚖𝚎    #拿拿\n粉絲剪輯    #希有精華\n周邊打卡    #天天開希\n\n繪師母后　大介 X @yala1453\n動作指導　笨蛋希 X @Sherloh64\n　　　　　Mimu　X @Mimu_Live2D\nED\n　　　　　大介 X @yala1453 \n　　　　　Mimu　X/Twitter@Mimu_Live2D\n\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1430,7 +1571,8 @@
       "modelId": "ship-01",
       "url": "https://www.youtube.com/@Nekokaifuka22",
       "linkText": "https://www.youtube.com/@Nekokaifuka22",
-      "description": "量產型猫飼步歌貳貳機 Fuka22\n\n說明\n預見娛樂所屬 ✦ 音雲漫步計畫｜量產型猫飼步歌貳貳機 Fuka22 🤖🐱\n\n嗨喵 ฅ^•ﻌ•^ฅ\n給我罐罐！喵！ฅ^✧ﻌ✧^ฅ\n給我貓貓也可以喔！ฅ^ↀﻌↀ^ฅ\n\n\n- - - - -  ヾ_(*ↀ 𓆟 ↀ*)_シ  - - - - -\n✦ 給貳貳好吃罐罐 ✦\n嗨嗶抖內 ‣ https://www.hivebee.com.tw/nekokaifuka22/Donate\n\n- - - - - ヾ(⌒(_*ↀ ﻌ ↀ*)_っ𓆟 - - - - -\n✦ 聊天室規範 ✦\n\n・尊重、友善、包容，請避免洗版、謾罵、吵架。\n・請勿討論宗教、政治，或種族等具爭議的議題。\n・請勿提及貳貳未主動提及到的人物，也請勿於他人實況中擅自提及貳貳。\n・請勿劇透、勿於貳貳未主動請教時過分指導。\n・貳貳就是真理，貳貳永遠不會錯，惹貳貳不開心的人就該被蛋雕。\n\n- - - - - 𓆟ヾ_(*ↀ ﻌ ↀ*_)⌒)っ - - - - -\n✦ 各種標籤＃Hashtags ✦\n\nLiveTag ‣ #步期貳遇\nFanArt ‣ #咪圖之飯\n萬用+Meme ‣ #迷咪冒卯\nNSFW ‣ #面紅貳赤\nEmoji ‣ 🤖🐱\n\n- - - - -  ヾ_(*ↀ 𓆟 ↀ*)_シ  - - - - -\n✦ 社群 ✦\n\nTwitch ‣ https://www.twitch.tv/nekokaifuka\nTwitter ‣ https://x.com/nekokaifuka22\nEnVision官網 ‣ https://www.envisionvtuber.com.tw/artist/view/NekokaiFuka22\n音雲漫步計畫 ‣ https://www.facebook.com/NekumoWanderProject\n棉花糖 ‣ https://reurl.cc/NQgz9Q\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw"
+      "description": "量產型猫飼步歌貳貳機 Fuka22\n\n說明\n預見娛樂所屬 ✦ 音雲漫步計畫｜量產型猫飼步歌貳貳機 Fuka22 🤖🐱\n\n嗨喵 ฅ^•ﻌ•^ฅ\n給我罐罐！喵！ฅ^✧ﻌ✧^ฅ\n給我貓貓也可以喔！ฅ^ↀﻌↀ^ฅ\n\n\n- - - - -  ヾ_(*ↀ 𓆟 ↀ*)_シ  - - - - -\n✦ 給貳貳好吃罐罐 ✦\n嗨嗶抖內 ‣ https://www.hivebee.com.tw/nekokaifuka22/Donate\n\n- - - - - ヾ(⌒(_*ↀ ﻌ ↀ*)_っ𓆟 - - - - -\n✦ 聊天室規範 ✦\n\n・尊重、友善、包容，請避免洗版、謾罵、吵架。\n・請勿討論宗教、政治，或種族等具爭議的議題。\n・請勿提及貳貳未主動提及到的人物，也請勿於他人實況中擅自提及貳貳。\n・請勿劇透、勿於貳貳未主動請教時過分指導。\n・貳貳就是真理，貳貳永遠不會錯，惹貳貳不開心的人就該被蛋雕。\n\n- - - - - 𓆟ヾ_(*ↀ ﻌ ↀ*_)⌒)っ - - - - -\n✦ 各種標籤＃Hashtags ✦\n\nLiveTag ‣ #步期貳遇\nFanArt ‣ #咪圖之飯\n萬用+Meme ‣ #迷咪冒卯\nNSFW ‣ #面紅貳赤\nEmoji ‣ 🤖🐱\n\n- - - - -  ヾ_(*ↀ 𓆟 ↀ*)_シ  - - - - -\n✦ 社群 ✦\n\nTwitch ‣ https://www.twitch.tv/nekokaifuka\nTwitter ‣ https://x.com/nekokaifuka22\nEnVision官網 ‣ https://www.envisionvtuber.com.tw/artist/view/NekokaiFuka22\n音雲漫步計畫 ‣ https://www.facebook.com/NekumoWanderProject\n棉花糖 ‣ https://reurl.cc/NQgz9Q\n\n商案合作洽談信箱：sales@mesports.com.tw \n聯動邀約合作信箱：VTcollab@mesports.com.tw",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1440,7 +1582,8 @@
       "modelId": "astronaut-24",
       "url": "https://www.youtube.com/@MukuruCh",
       "linkText": "https://www.youtube.com/@MukuruCh",
-      "description": "各種進行中的表單連結：\nhttps://sites.google.com/view/mukuruprojert/%E9%A6%96%E9%A0%81\n\n✪預見娛樂所屬Alluria-穆克蕗Mukuru\n想要成為水豚的煉金術師\n\n✪カピバラになりたい錬金術師、ムクルです。\nどうぞよろしくお願いします！\n\n---------zzz---------\n\n✪合作邀約\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n---------zzz---------\n\n✪Link\nX ✈https://twitter.com/Mukuruvtuber\nFacebook ✈https://www.facebook.com/profile.php?...\nMarshmallow/棉花糖 ✈https://marshmallow-qa.com/oahdwpbhn2...\nPortal ✈https://lit.link/mukuru\n\n---------zzz---------\n\n✪Hashtag \nLive ✈#蕗Live\nCall 呼叫 ✈#穆Call\nCreation 創作 ✈#克畫\nMeme ✈#咩蕗\nNSFW ✈#不可穆"
+      "description": "各種進行中的表單連結：\nhttps://sites.google.com/view/mukuruprojert/%E9%A6%96%E9%A0%81\n\n✪預見娛樂所屬Alluria-穆克蕗Mukuru\n想要成為水豚的煉金術師\n\n✪カピバラになりたい錬金術師、ムクルです。\nどうぞよろしくお願いします！\n\n---------zzz---------\n\n✪合作邀約\n✉️  商案合作洽談信箱：sales@mesports.com.tw \n✉️  聯動邀約合作信箱：VTcollab@mesports.com.tw\n\n---------zzz---------\n\n✪Link\nX ✈https://twitter.com/Mukuruvtuber\nFacebook ✈https://www.facebook.com/profile.php?...\nMarshmallow/棉花糖 ✈https://marshmallow-qa.com/oahdwpbhn2...\nPortal ✈https://lit.link/mukuru\n\n---------zzz---------\n\n✪Hashtag \nLive ✈#蕗Live\nCall 呼叫 ✈#穆Call\nCreation 創作 ✈#克畫\nMeme ✈#咩蕗\nNSFW ✈#不可穆",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1450,7 +1593,8 @@
       "modelId": "astronaut-10",
       "url": "https://www.youtube.com/@Hamiyonuxu",
       "linkText": "https://www.youtube.com/@Hamiyonuxu",
-      "description": " ✦ 個人勢 ✦ 自己作業系一體機✦\n💚 滿足至上！要活夠一輩子⊂(´･◡･⊂ )∘˚˳°\n🩶  Shorts每天 21:00 定期更新\n💚  實際上是外星人？！（假的）\n\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨ ✦ 觀測Hamiyon的生物約定 ✦ ୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n✦ 請務必放鬆心態觀看🩶\n✦ 請不要在其他直播/影片擅自提起Hamiyon\n✦ 玩得開心！\n\n🔽 事不過三行為 🔽\n偽裝初見．指示廚．中離發言\n\n🔽 絕對絕對禁止行為 🔽\n飛鴿傳書 ．吵架．洗板\n\n💚 犯規的話小心被Hamiyon擊飛（禁言）處理ᕦ༼ •́ ‸ •̀ ༽ᕤ 💚\n\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨ ✦ 成就 ✦ ୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n✦ 頻道誕生日 → 2025/11/01\n✦ 初投稿 → 2025/12/21\n✦ 100訂閱！ → 2025/12/31\n✦ 200訂閱！ → 2026/1/10\n✦ 500訂閱！ → 2026/2/15\n✦ 1000訂閱！ → 2026/4/06\n✦ 2000訂閱！ → 2026/8/19\n\n\n✦ 初配信 → 2026/3/7\n\n✦ 10萬觀看 → 2026/4/02\n\n✦ 看到這裏真的不訂閱嘛？"
+      "description": " ✦ 個人勢 ✦ 自己作業系一體機✦\n💚 滿足至上！要活夠一輩子⊂(´･◡･⊂ )∘˚˳°\n🩶  Shorts每天 21:00 定期更新\n💚  實際上是外星人？！（假的）\n\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨ ✦ 觀測Hamiyon的生物約定 ✦ ୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n✦ 請務必放鬆心態觀看🩶\n✦ 請不要在其他直播/影片擅自提起Hamiyon\n✦ 玩得開心！\n\n🔽 事不過三行為 🔽\n偽裝初見．指示廚．中離發言\n\n🔽 絕對絕對禁止行為 🔽\n飛鴿傳書 ．吵架．洗板\n\n💚 犯規的話小心被Hamiyon擊飛（禁言）處理ᕦ༼ •́ ‸ •̀ ༽ᕤ 💚\n\n⋆˖ ┈︎┈︎┈︎┈┈︎ ᵕ୨ ✦ 成就 ✦ ୧ᵕ ┈︎┈︎┈︎┈┈︎ ˖⋆\n✦ 頻道誕生日 → 2025/11/01\n✦ 初投稿 → 2025/12/21\n✦ 100訂閱！ → 2025/12/31\n✦ 200訂閱！ → 2026/1/10\n✦ 500訂閱！ → 2026/2/15\n✦ 1000訂閱！ → 2026/4/06\n✦ 2000訂閱！ → 2026/8/19\n\n\n✦ 初配信 → 2026/3/7\n\n✦ 10萬觀看 → 2026/4/02\n\n✦ 看到這裏真的不訂閱嘛？",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1460,7 +1604,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@Pibi_vtuber",
       "linkText": "https://www.youtube.com/@Pibi_vtuber",
-      "description": "這裡是電玩小白狐 ㄟ嘿(σﾟ∀ﾟ)σ..:*☆~ 皮比です\n═════════════════════════\n合作聯絡請洽:ktkaia3668@gmail.com\n═════════════════════════\n▶︎遊戲勢Vtuber 遊戲攻略\n▶︎立志當個硬核玩家\n▶︎雜談、唱歌等日常聊天活動\n▶︎目標全職主播\n▶︎目標不出門上班"
+      "description": "這裡是電玩小白狐 ㄟ嘿(σﾟ∀ﾟ)σ..:*☆~ 皮比です\n═════════════════════════\n合作聯絡請洽:ktkaia3668@gmail.com\n═════════════════════════\n▶︎遊戲勢Vtuber 遊戲攻略\n▶︎立志當個硬核玩家\n▶︎雜談、唱歌等日常聊天活動\n▶︎目標全職主播\n▶︎目標不出門上班",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1470,7 +1615,8 @@
       "modelId": "astronaut-20",
       "url": "https://www.youtube.com/@ZolarBlue",
       "linkText": "https://www.youtube.com/@ZolarBlue",
-      "description": "藍色外星人Vtuber✨藍色星期一下午５點固定開台💙\n\n請記得訂閱佐藍的頻道！歡迎每月75元加入頻道會員實際支持佐藍💌\n綠界贊助飛船維修費💰https://donate.proxima.tw/Zolar.aspx\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n台灣團隊開發✨可洛斯創作者平台，來這裡訂閱會員價格更優惠喔！\nhttps://clusters.tw/profile/933D3661-C197-402A-87DA-5FEC7AFA81BD/works\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n💙社群帳號💙\nＸ：https://x.com/ZolarBlue\nPlurk ：https://www.plurk.com/vtzolar\nFB：https://www.facebook.com/VTzolarblue\nIG：https://www.instagram.com/zolarblue/\n\n💙比鄰星域💙\n官網：https://www.wix.proxima.tw/\n買動漫商城：https://reurl.cc/x1yZV1\nDC群組：https://pse.is/3kbdqs\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n💙聊天室規則💙\n➤ 講中文或英文都可。\n➤ 冒名者 / 洗版仔 / 說教仔 永BAN。\n➤ 請勿主動提起其他VTuber，禁止傳信鴿行為。視情況600秒 或 永BAN。\n➤ 若佐藍無視怪人的話，也請跟著無視；若佐藍剛好心情不好被惹怒了，歡迎在聊天室輸入三個藍色愛心💙\n➤ 開限度內的黃腔可以，但騷擾不行。若您分不出差異，說話前請三思。視情況600秒 或 永BAN。\n➤ 佐藍玩遊戲有時會卡關，若沒有問您就不要主動指示，單純禮貌引導OK。指示廚 / 暴雷 永BAN。\n➤ 一切判斷依據為佐藍為準，以觀看體驗與秩序為優先，視直播當下情況或聊天室氛圍懲處。\n➤ 若您有委屈，歡迎私訊比鄰星域營運佐藤P，禮貌描述原委後詢問是否能解BAN，如果不行就請您接受；如果您真的還想看台，可轉生到新帳號從零開始。\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n👽繪師：佐藍\n👽Live2D：流浪動物S 老師\n👽Logo設計：Roo"
+      "description": "藍色外星人Vtuber✨藍色星期一下午５點固定開台💙\n\n請記得訂閱佐藍的頻道！歡迎每月75元加入頻道會員實際支持佐藍💌\n綠界贊助飛船維修費💰https://donate.proxima.tw/Zolar.aspx\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n台灣團隊開發✨可洛斯創作者平台，來這裡訂閱會員價格更優惠喔！\nhttps://clusters.tw/profile/933D3661-C197-402A-87DA-5FEC7AFA81BD/works\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n💙社群帳號💙\nＸ：https://x.com/ZolarBlue\nPlurk ：https://www.plurk.com/vtzolar\nFB：https://www.facebook.com/VTzolarblue\nIG：https://www.instagram.com/zolarblue/\n\n💙比鄰星域💙\n官網：https://www.wix.proxima.tw/\n買動漫商城：https://reurl.cc/x1yZV1\nDC群組：https://pse.is/3kbdqs\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n💙聊天室規則💙\n➤ 講中文或英文都可。\n➤ 冒名者 / 洗版仔 / 說教仔 永BAN。\n➤ 請勿主動提起其他VTuber，禁止傳信鴿行為。視情況600秒 或 永BAN。\n➤ 若佐藍無視怪人的話，也請跟著無視；若佐藍剛好心情不好被惹怒了，歡迎在聊天室輸入三個藍色愛心💙\n➤ 開限度內的黃腔可以，但騷擾不行。若您分不出差異，說話前請三思。視情況600秒 或 永BAN。\n➤ 佐藍玩遊戲有時會卡關，若沒有問您就不要主動指示，單純禮貌引導OK。指示廚 / 暴雷 永BAN。\n➤ 一切判斷依據為佐藍為準，以觀看體驗與秩序為優先，視直播當下情況或聊天室氛圍懲處。\n➤ 若您有委屈，歡迎私訊比鄰星域營運佐藤P，禮貌描述原委後詢問是否能解BAN，如果不行就請您接受；如果您真的還想看台，可轉生到新帳號從零開始。\n\n✦－－－－－－－－－－－－✦－－－－－－－－－－－－✦\n\n👽繪師：佐藍\n👽Live2D：流浪動物S 老師\n👽Logo設計：Roo",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1480,7 +1626,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@shukukozmii1116",
       "linkText": "https://www.youtube.com/@shukukozmii1116",
-      "description": "✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n因為失憶的關係，現在正在當vtuber尋找我的身世\n希望你/妳也可以幫助我一起尋找我的身世(ง •̀ω•́)ง\n\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n🤍【TAG】：\n       [直播tag]：#心宿live  #shukulive\n       [fan art tag]：#百萬月心  #shukuFA\n       [R18 tag]：#月心嬌妻 #R18shuku\n       [迷因tag]：#心宿咪咪  #shukuMEME\n\n🤍【社群】：\n       [Twitter]：https://twitter.com/vtshinshuku\n       [Plurk ]：https://www.plurk.com/vtshinshuku\n       [FB]：https://www.facebook.com/ShirotsukiShinshuku/\n\n🤍【誕生】：\n       [繪師麻麻]：芦川ゆる►https://twitter.com/yuru_Ashikawa\n       [live2D魔法師]：茂矢門►https://twitter.com/mon_moya\n       [overlay老師]：Roo►https://twitter.com/roo_kie_art\n       [LOGO老師]：Tanz嘆子►https://twitter.com/Tanz0908\n\n🤍【所屬企業】：比鄰星域 ProximaSector\n       [官方網站]：https://www.wix.proxima.tw/\n       [官方Twitter]：https://twitter.com/proximasector\n\n💸【綠界】：為白月貢獻一點精靈之力 🤍 \n                    👉https://donate.proxima.tw/Shirotsuki.aspx\n\n💌【工商聯絡】：info@proxima.tw \n\n\n#白月心宿 #台v #比鄰星域 #ProximaSector"
+      "description": "✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n因為失憶的關係，現在正在當vtuber尋找我的身世\n希望你/妳也可以幫助我一起尋找我的身世(ง •̀ω•́)ง\n\n✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆✦ ⋆ • ☁️☾ ⋆ • ⋆ ✦ • ⋆ ☁️ • ⋆\n\n🤍【TAG】：\n       [直播tag]：#心宿live  #shukulive\n       [fan art tag]：#百萬月心  #shukuFA\n       [R18 tag]：#月心嬌妻 #R18shuku\n       [迷因tag]：#心宿咪咪  #shukuMEME\n\n🤍【社群】：\n       [Twitter]：https://twitter.com/vtshinshuku\n       [Plurk ]：https://www.plurk.com/vtshinshuku\n       [FB]：https://www.facebook.com/ShirotsukiShinshuku/\n\n🤍【誕生】：\n       [繪師麻麻]：芦川ゆる►https://twitter.com/yuru_Ashikawa\n       [live2D魔法師]：茂矢門►https://twitter.com/mon_moya\n       [overlay老師]：Roo►https://twitter.com/roo_kie_art\n       [LOGO老師]：Tanz嘆子►https://twitter.com/Tanz0908\n\n🤍【所屬企業】：比鄰星域 ProximaSector\n       [官方網站]：https://www.wix.proxima.tw/\n       [官方Twitter]：https://twitter.com/proximasector\n\n💸【綠界】：為白月貢獻一點精靈之力 🤍 \n                    👉https://donate.proxima.tw/Shirotsuki.aspx\n\n💌【工商聯絡】：info@proxima.tw \n\n\n#白月心宿 #台v #比鄰星域 #ProximaSector",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1490,7 +1637,8 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@vtsara0326",
       "linkText": "https://www.youtube.com/@vtsara0326",
-      "description": "虛擬中文系研究生，朝知識型Vtuber的方向努力著。\n夢想是在家裡打造一座圖書館。\n隸屬於臺灣Vtuber企業團體「比鄰星域Proxima Sector」。\n\n▷ Art：水日比   https://twitter.com/SHUI_RI_BI\n▷ Live2D：李安瑟羅   https://twitter.com/LeeAnZelo\n▷ Logo：與松   https://www.plurk.com/withhold0525"
+      "description": "虛擬中文系研究生，朝知識型Vtuber的方向努力著。\n夢想是在家裡打造一座圖書館。\n隸屬於臺灣Vtuber企業團體「比鄰星域Proxima Sector」。\n\n▷ Art：水日比   https://twitter.com/SHUI_RI_BI\n▷ Live2D：李安瑟羅   https://twitter.com/LeeAnZelo\n▷ Logo：與松   https://www.plurk.com/withhold0525",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1500,7 +1648,8 @@
       "modelId": "astronaut-06",
       "url": "https://www.youtube.com/@yasaihimevp6243",
       "linkText": "https://www.youtube.com/@yasaihimevp6243",
-      "description": "住在雲霧繚繞的山上的大嘴鳥，平常的生活就是幫助周遭的朋友們，想到自己的長才就是溫暖力跟搞笑親和力，或許除了幫助人們以外，可以用自己的可愛跟搞笑來給大家歡笑吧！\n\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ \n菜姬Twitter：https://twitter.com/vp_yasaihime\n菜姬粉絲名：#菜蟲 跟 #里民\n呼叫小菜姬：＃vpsb\n畫畫小菜姬：＃vpart\n色色小菜姬：＃vpart18\n(為了避免媽媽擔心，Ｒ-18G暫時不可w)\n你們的可愛畫畫或素材會給菜姬做布達使用，如有介意請告知＞ｗ＜\n\n菜姬棉花糖：https://reurl.cc/MdaQZW\n\n菜姬的綠界開通啦!: https://p.ecpay.com.tw/1446943\n\n聯繫方式：推特私訊Twitter：https://twitter.com/vp_yasaihime\n　　　　　email：yasaihimevp@gmail.com\n　　　　　Discord：https://discord.gg/pqbaFUYSmC\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ \n\n森林之主（菜姬媽媽）：\n飆飆　https://twitter.com/animalK_\n靈魂行者(菜姬爸爸)：\n笨蛋希　https://www.twitch.tv/sherloh64\n\n菜姬如果有做美工圖片背景小素材東西，素材皆來自illustac：\nhttps://ac-illust.com/tw\n菜姬LOGO設計：緋千夜@お仕事募集中@Hisenya\n菜姬的可愛小鳥設計：云加@YunPekoo\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ "
+      "description": "住在雲霧繚繞的山上的大嘴鳥，平常的生活就是幫助周遭的朋友們，想到自己的長才就是溫暖力跟搞笑親和力，或許除了幫助人們以外，可以用自己的可愛跟搞笑來給大家歡笑吧！\n\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ \n菜姬Twitter：https://twitter.com/vp_yasaihime\n菜姬粉絲名：#菜蟲 跟 #里民\n呼叫小菜姬：＃vpsb\n畫畫小菜姬：＃vpart\n色色小菜姬：＃vpart18\n(為了避免媽媽擔心，Ｒ-18G暫時不可w)\n你們的可愛畫畫或素材會給菜姬做布達使用，如有介意請告知＞ｗ＜\n\n菜姬棉花糖：https://reurl.cc/MdaQZW\n\n菜姬的綠界開通啦!: https://p.ecpay.com.tw/1446943\n\n聯繫方式：推特私訊Twitter：https://twitter.com/vp_yasaihime\n　　　　　email：yasaihimevp@gmail.com\n　　　　　Discord：https://discord.gg/pqbaFUYSmC\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ \n\n森林之主（菜姬媽媽）：\n飆飆　https://twitter.com/animalK_\n靈魂行者(菜姬爸爸)：\n笨蛋希　https://www.twitch.tv/sherloh64\n\n菜姬如果有做美工圖片背景小素材東西，素材皆來自illustac：\nhttps://ac-illust.com/tw\n菜姬LOGO設計：緋千夜@お仕事募集中@Hisenya\n菜姬的可愛小鳥設計：云加@YunPekoo\n♥♫o‧°♥∴☆ ♥‧°☆∴°★‧° ♥♫o‧°♥∴☆ ♥‧°☆∴♥♫o‧ ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1510,7 +1659,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@nyoro0606tw",
       "linkText": "https://www.youtube.com/@nyoro0606tw",
-      "description": "❤️你最需要最疼愛的蠑螈女友❤️\n\n浪海數位旗下Vtuber\n在雲端生活數個月後，不幸發生火災意外，直接往海裡一躍。\n失去了所有，但夢想仍在，決心在蒼藍的大海再次啟程！\n\n業務諮詢 \tnyoro0606@gmail.com"
+      "description": "❤️你最需要最疼愛的蠑螈女友❤️\n\n浪海數位旗下Vtuber\n在雲端生活數個月後，不幸發生火災意外，直接往海裡一躍。\n失去了所有，但夢想仍在，決心在蒼藍的大海再次啟程！\n\n業務諮詢 \tnyoro0606@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1520,7 +1670,8 @@
       "modelId": "astronaut-28",
       "url": "https://www.youtube.com/@CowellVtuber",
       "linkText": "https://www.youtube.com/@CowellVtuber",
-      "description": "大家好我是 Cowell ，也可以叫我高維爾，是一隻暫居在室友家的DD龍。醒來後發現翅膀不見，正在努力找翅膀中🐲✨ \n\n【合作夥伴】\n浪海數位 https://twitter.com/RiyarDigital\n\n【各式Tag】※可能會作為素材使用！\n粉絲/粉絲用 #龍民\n粉絲繪圖 #ArtforCowell \n旅遊找翅膀拍照TAG #帶高維爾找翅膀\n迷因創作 #Cowellmeme\nR18創作 #R18Cowell\n代表花：杏花\n\n【讓錢飛到我口袋的綠界】\nhttps://p.ecpay.com.tw/CDE3B7B\nhttps://cowell-ecpay.onrender.com"
+      "description": "大家好我是 Cowell ，也可以叫我高維爾，是一隻暫居在室友家的DD龍。醒來後發現翅膀不見，正在努力找翅膀中🐲✨ \n\n【合作夥伴】\n浪海數位 https://twitter.com/RiyarDigital\n\n【各式Tag】※可能會作為素材使用！\n粉絲/粉絲用 #龍民\n粉絲繪圖 #ArtforCowell \n旅遊找翅膀拍照TAG #帶高維爾找翅膀\n迷因創作 #Cowellmeme\nR18創作 #R18Cowell\n代表花：杏花\n\n【讓錢飛到我口袋的綠界】\nhttps://p.ecpay.com.tw/CDE3B7B\nhttps://cowell-ecpay.onrender.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1530,7 +1681,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@KummaNOTE",
       "linkText": "https://www.youtube.com/@KummaNOTE",
-      "description": "原本是人類，因為＿＿＿變成了熊\n每個月１號、１５號會變回人類\n最近學習到了變回人類的方式...但要付出一些＿＿代價\n\n服裝設計師/九壹、左右子、隱岐、七肯\nKummaSTAFF@gmail.com"
+      "description": "原本是人類，因為＿＿＿變成了熊\n每個月１號、１５號會變回人類\n最近學習到了變回人類的方式...但要付出一些＿＿代價\n\n服裝設計師/九壹、左右子、隱岐、七肯\nKummaSTAFF@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1540,7 +1692,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@jinbee_v",
       "linkText": "https://www.youtube.com/@jinbee_v",
-      "description": "◇個人勢Vtuber◇\n旅人好，歡迎光臨小金碧碧的頻道。\n一隻台灣特有高山鳥金翼白眉\n金碧塘塘主，有一池塘的魚\n粉絲名：金乓乓、龍膽石斑\n歡迎加入DC群【🐮🐥金金蘆損ㄓ】https://discord.gg/5Nab8UrpVB\n任何直播聯動、合作等窗口對接，歡迎Email聯絡：holdjinclub2026@gmail.com\n歐付寶會員編號: 2363194\n平安喜樂"
+      "description": "◇個人勢Vtuber◇\n旅人好，歡迎光臨小金碧碧的頻道。\n一隻台灣特有高山鳥金翼白眉\n金碧塘塘主，有一池塘的魚\n粉絲名：金乓乓、龍膽石斑\n歡迎加入DC群【🐮🐥金金蘆損ㄓ】https://discord.gg/5Nab8UrpVB\n任何直播聯動、合作等窗口對接，歡迎Email聯絡：holdjinclub2026@gmail.com\n歐付寶會員編號: 2363194\n平安喜樂",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1550,7 +1703,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@銀河GalaxyVt",
       "linkText": "https://www.youtube.com/@銀河GalaxyVt",
-      "description": "個人勢Vsinger✨每週歌回💙\n歡迎訂閱我的頻道\n\nLive tag #Galaxystream\nFan tag #星辰蟲洞\nFan art #GingaArt \n\n工商、聯動、疑難雜症請洽經紀人：北辰 \nDiscord：1o3tp6\nTwitter(X)：@1o3tp6\n\n工作聯繫用E-mail：diantang2023@gmail.com"
+      "description": "個人勢Vsinger✨每週歌回💙\n歡迎訂閱我的頻道\n\nLive tag #Galaxystream\nFan tag #星辰蟲洞\nFan art #GingaArt \n\n工商、聯動、疑難雜症請洽經紀人：北辰 \nDiscord：1o3tp6\nTwitter(X)：@1o3tp6\n\n工作聯繫用E-mail：diantang2023@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1560,7 +1714,8 @@
       "modelId": "astronaut-14",
       "url": "https://www.youtube.com/@紫茗ZiMingCh",
       "linkText": "https://www.youtube.com/@紫茗ZiMingCh",
-      "description": "🌷斜咖個人勢VTuber🌷\n永生花的靈魂，活力氣質美少女的肉體\n最喜歡的花是牛五花、豆花、有錢花\n\n個人資訊主頁：lit.link/ziming0623\n商業合作信箱：diantang2023@gmail.com\n☆－－－－－－－－－－－－－－－－－－－☆\n✿【Twitter/X】https://x.com/zimingnew\n✿【Twitch】https://www.twitch.tv/ziming0623\n✿【Discord】https://discord.com/invite/diantangvt\n✿【Facebook】https://www.facebook.com/profile.php?id=61556295382890\n✿【Instagram】https://www.instagram.com/ziming0623/\n\n☆－－－－－－－－－－－－－－－－－－－☆\n❥ FanName｜三茗治\n❥ LiveTag｜#ziminglive\n❥ Fan Tag｜#未聞花茗\n❥ Fan Art｜#茗謝繪故\n\n☆－－－－－－－－－－－－－－－－－－－－－☆\n連動與基本聯繫：經紀人北辰\nDiscord：1o3tp6｜Twitter(X)：@1o3tp6\n\n個人信箱：mingwork0623@gmail.com"
+      "description": "🌷斜咖個人勢VTuber🌷\n永生花的靈魂，活力氣質美少女的肉體\n最喜歡的花是牛五花、豆花、有錢花\n\n個人資訊主頁：lit.link/ziming0623\n商業合作信箱：diantang2023@gmail.com\n☆－－－－－－－－－－－－－－－－－－－☆\n✿【Twitter/X】https://x.com/zimingnew\n✿【Twitch】https://www.twitch.tv/ziming0623\n✿【Discord】https://discord.com/invite/diantangvt\n✿【Facebook】https://www.facebook.com/profile.php?id=61556295382890\n✿【Instagram】https://www.instagram.com/ziming0623/\n\n☆－－－－－－－－－－－－－－－－－－－☆\n❥ FanName｜三茗治\n❥ LiveTag｜#ziminglive\n❥ Fan Tag｜#未聞花茗\n❥ Fan Art｜#茗謝繪故\n\n☆－－－－－－－－－－－－－－－－－－－－－☆\n連動與基本聯繫：經紀人北辰\nDiscord：1o3tp6｜Twitter(X)：@1o3tp6\n\n個人信箱：mingwork0623@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1570,7 +1725,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@-Rutanbuna",
       "linkText": "https://www.youtube.com/@-Rutanbuna",
-      "description": "萬兔萬兔大家早安！\n我是土芒果社一期生，蘆棠布奈！\n\n社群連結♉ https://portaly.cc/Rutanbuna\n給蘆棠的點歌單♉ https://forms.gle/zHrzNyFtZracVe5J8\n綠界♉ https://p.ecpay.com.tw/FD4BF86\n\n\n#台V #蘆棠萬兔 #VTUBER #台灣VTUBER #偷摔阿"
+      "description": "萬兔萬兔大家早安！\n我是土芒果社一期生，蘆棠布奈！\n\n社群連結♉ https://portaly.cc/Rutanbuna\n給蘆棠的點歌單♉ https://forms.gle/zHrzNyFtZracVe5J8\n綠界♉ https://p.ecpay.com.tw/FD4BF86\n\n\n#台V #蘆棠萬兔 #VTUBER #台灣VTUBER #偷摔阿",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1580,7 +1736,8 @@
       "modelId": "astronaut-13",
       "url": "https://www.youtube.com/@shiliyahamster/streams",
       "linkText": "https://www.youtube.com/@shiliyahamster/streams",
-      "description": "こんにちは、ここがハムスターの新しいおうちだよ！\n 同じ雑貨屋だけど、場所が変わったよ！\nでもワープで自由に移動できるからね～\nメインの配信内容：ゲーム・歌練習・雑談エンジニア（笑）\nTwitter→ https://twitter.com/Shiliyahamster \nお仕事のご依頼→ shiliyahamster@gmail.com"
+      "description": "こんにちは、ここがハムスターの新しいおうちだよ！\n 同じ雑貨屋だけど、場所が変わったよ！\nでもワープで自由に移動できるからね～\nメインの配信内容：ゲーム・歌練習・雑談エンジニア（笑）\nTwitter→ https://twitter.com/Shiliyahamster \nお仕事のご依頼→ shiliyahamster@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1590,7 +1747,8 @@
       "modelId": "astronaut-01",
       "url": "https://www.youtube.com/@YamuMousse",
       "linkText": "https://www.youtube.com/@YamuMousse",
-      "description": "ご機嫌よう、夜夢ムースです♪ \nJust a unicorn who loves the World so much heheh.\n\nI LOVE learning languages, so please feel free to talk to me in your language! \nLanguages﹕Cantonese, Chinese, Eng, Jap, KR, FR \n\nStreaming content: games/chatting(murmuring)/drawing\n\nIf you like my content, please subscribe to my channel and leave comments!"
+      "description": "ご機嫌よう、夜夢ムースです♪ \nJust a unicorn who loves the World so much heheh.\n\nI LOVE learning languages, so please feel free to talk to me in your language! \nLanguages﹕Cantonese, Chinese, Eng, Jap, KR, FR \n\nStreaming content: games/chatting(murmuring)/drawing\n\nIf you like my content, please subscribe to my channel and leave comments!",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1600,7 +1758,8 @@
       "modelId": "astronaut-11",
       "url": "https://www.youtube.com/@hanabibureya",
       "linkText": "https://www.youtube.com/@hanabibureya",
-      "description": "▌StarChaser逐星工作室所屬 ｜花火布蕾亞｜花火 ブレア｜台灣Vsinger\n\n花火永遠絢爛🎇\n本喵是娜比喵嗚🐈🐉\n在本喵有生之年\n唱歌給全世界聽是我的夢想\n\n💰綠界贊助\nhttps://p.ecpay.com.tw/279D78A\n🍬棉花糖\nhttps://t.co/yar4xY1nEY\n\n▌Fan mark | 🎇🔥🍮\n▌中国語OK | 英語尚可｜日語韓語精進中\n▌直播配信Tag | #NABIONAIR\n▌Fan name | #小布蕾\n▌Fan art tag | #畫花啦\n▌R18 art tag | #布能澀澀\n▌迷因 MEME tag | #看布懂\n▌ママたち｜米豆綠（@Midori_fufu）、YUI（@yui930_log）\n▌頻道美術&場景美術｜七氏（@ForfunNanashi）\n▌專屬LOGO設計｜娟娟（@juan_juan_0124）\n▌工商、合作邀約信件｜StarChaser2893@gmail.com"
+      "description": "▌StarChaser逐星工作室所屬 ｜花火布蕾亞｜花火 ブレア｜台灣Vsinger\n\n花火永遠絢爛🎇\n本喵是娜比喵嗚🐈🐉\n在本喵有生之年\n唱歌給全世界聽是我的夢想\n\n💰綠界贊助\nhttps://p.ecpay.com.tw/279D78A\n🍬棉花糖\nhttps://t.co/yar4xY1nEY\n\n▌Fan mark | 🎇🔥🍮\n▌中国語OK | 英語尚可｜日語韓語精進中\n▌直播配信Tag | #NABIONAIR\n▌Fan name | #小布蕾\n▌Fan art tag | #畫花啦\n▌R18 art tag | #布能澀澀\n▌迷因 MEME tag | #看布懂\n▌ママたち｜米豆綠（@Midori_fufu）、YUI（@yui930_log）\n▌頻道美術&場景美術｜七氏（@ForfunNanashi）\n▌專屬LOGO設計｜娟娟（@juan_juan_0124）\n▌工商、合作邀約信件｜StarChaser2893@gmail.com",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1610,7 +1769,8 @@
       "modelId": "astronaut-08",
       "url": "https://www.youtube.com/@HaNa247_TW",
       "linkText": "https://www.youtube.com/@HaNa247_TW",
-      "description": "自我介紹:花莉絲娜(小花)\n興趣:種菜🧅玩遊戲🎮旅遊🚘看動漫📺、畫畫🎨(毀滅等級)\n開台時間:目前都是9點過後開台居多，也可以參考周表~\n現況:目前只是個小小實況主，所以請大家多多指教!有問題我盡量解答(?\n------------------------------------------------------------------------------\n碎碎念:\n主要在twitch直播，直播完再放上youtube這邊，但是我還不會剪輯，之後有空學會後會剪輯完再放上來\n20/09/04 開始在twitch直播\n20/11/06 才發現前面沒設定14天影片保存，所以直播完瞬間消失(哭\n25/10/11 YT終於500訂閱了🎉"
+      "description": "自我介紹:花莉絲娜(小花)\n興趣:種菜🧅玩遊戲🎮旅遊🚘看動漫📺、畫畫🎨(毀滅等級)\n開台時間:目前都是9點過後開台居多，也可以參考周表~\n現況:目前只是個小小實況主，所以請大家多多指教!有問題我盡量解答(?\n------------------------------------------------------------------------------\n碎碎念:\n主要在twitch直播，直播完再放上youtube這邊，但是我還不會剪輯，之後有空學會後會剪輯完再放上來\n20/09/04 開始在twitch直播\n20/11/06 才發現前面沒設定14天影片保存，所以直播完瞬間消失(哭\n25/10/11 YT終於500訂閱了🎉",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1620,7 +1780,8 @@
       "modelId": "astronaut-03",
       "url": "https://www.youtube.com/@famych",
       "linkText": "https://www.youtube.com/@famych",
-      "description": "我是鵂鶹繪師！可以叫我粉米!ಠ⁠ᴥ⁠ಠ\n歡迎各位來看看我畫圖、遊戲、唱歌、聊天\n工商合作- famy900402@gmail.com\n園區抖抖-https://deerdonate.herokuapp.com/donation/%E7%B2%89%E7%B1%B3\n委託網站:https://famyowl.weebly.com/\n✧✦✧✦✧✦✧✦✧✦✧✦\n\nDC:https://discord.gg/hkUG4aYtgv\nTwitter : http://twitter.com/Famy_Owl\nTwitch : https://www.twitch.tv/famyowl\nIG : https://www.instagram.com/famy_owl/\nThreads : https://www.threads.net/@famy_owl\n\n✑．✑．✑．✑．✑．✑．✑．✑．✑\n聊天室規定:\n⚠本直播節目允許觀看，純聽音樂，提問題，或是聊天，也歡迎提供指教，但請不要惡意性的謾罵或批評!(拜託了T-T)\n⚠若粉米沒看留言，表示已經走火入魔，等到回神後就會回覆了，所以請勿洗頻~\n⚠可針對主播進行文字建議，但傳送網址或影片，我們進入DC好好交流。\n*有任何音量上的問題盡管提出\n\n✑．✑．✑．✑．✑．✑．✑．✑．✑\n\n#台v #台灣vtuber #FamyYT #drawchannel #drawing #talking #繪師v #繪師 #singing"
+      "description": "我是鵂鶹繪師！可以叫我粉米!ಠ⁠ᴥ⁠ಠ\n歡迎各位來看看我畫圖、遊戲、唱歌、聊天\n工商合作- famy900402@gmail.com\n園區抖抖-https://deerdonate.herokuapp.com/donation/%E7%B2%89%E7%B1%B3\n委託網站:https://famyowl.weebly.com/\n✧✦✧✦✧✦✧✦✧✦✧✦\n\nDC:https://discord.gg/hkUG4aYtgv\nTwitter : http://twitter.com/Famy_Owl\nTwitch : https://www.twitch.tv/famyowl\nIG : https://www.instagram.com/famy_owl/\nThreads : https://www.threads.net/@famy_owl\n\n✑．✑．✑．✑．✑．✑．✑．✑．✑\n聊天室規定:\n⚠本直播節目允許觀看，純聽音樂，提問題，或是聊天，也歡迎提供指教，但請不要惡意性的謾罵或批評!(拜託了T-T)\n⚠若粉米沒看留言，表示已經走火入魔，等到回神後就會回覆了，所以請勿洗頻~\n⚠可針對主播進行文字建議，但傳送網址或影片，我們進入DC好好交流。\n*有任何音量上的問題盡管提出\n\n✑．✑．✑．✑．✑．✑．✑．✑．✑\n\n#台v #台灣vtuber #FamyYT #drawchannel #drawing #talking #繪師v #繪師 #singing",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1630,7 +1791,8 @@
       "modelId": "astronaut-12",
       "url": "https://www.youtube.com/@米婭Miaflamel",
       "linkText": "https://www.youtube.com/@米婭Miaflamel",
-      "description": "♡°ஂ જ⁀➴♡ ♡°ஂ જ⁀➴♡\n\n來自400年前的\n天真可愛無敵氣質的技術台主播\n一點都不PON\n一點都不綜藝笑果\n\n每週一三五早上 09:30\n固定遊戲台 ฅ˙Ⱉ˙ฅ\n\n⭐來這裡找米婭⭐\nDiscord：https://discord.gg/zNmTAKH59N\nTwitch：https://www.twitch.tv/miaflamel\n推特：https://twitter.com/MiaFlamel\n棉花糖：https://marshmallow-qa.com/miaflamel\n工作用聯絡信箱：vtuber0823@gmail.com\n\n\n#台灣Vtuber\n#vtuber \n#初見さん大歓迎 "
+      "description": "♡°ஂ જ⁀➴♡ ♡°ஂ જ⁀➴♡\n\n來自400年前的\n天真可愛無敵氣質的技術台主播\n一點都不PON\n一點都不綜藝笑果\n\n每週一三五早上 09:30\n固定遊戲台 ฅ˙Ⱉ˙ฅ\n\n⭐來這裡找米婭⭐\nDiscord：https://discord.gg/zNmTAKH59N\nTwitch：https://www.twitch.tv/miaflamel\n推特：https://twitter.com/MiaFlamel\n棉花糖：https://marshmallow-qa.com/miaflamel\n工作用聯絡信箱：vtuber0823@gmail.com\n\n\n#台灣Vtuber\n#vtuber \n#初見さん大歓迎 ",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1640,7 +1802,8 @@
       "modelId": "astronaut-16",
       "url": "https://www.youtube.com/@hoshinoyume_vt/streams",
       "linkText": "https://www.youtube.com/@hoshinoyume_vt/streams",
-      "description": "大家安安！我是星野夢 Hoshino Yume ♥\n\n是一隻喜愛料理和唱歌的魔法兔兔喔 ₍ᐢ ̥ ̞ ̥ᐢ₎ ♥\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n專屬tag: # 星野夢 Hoshino Yume\n\n直播tag: # 兔兔施法中\n\n- 唱歌tag: # 大家一起唱咒語\n\n- 烘培tag: # 魔法點心時間\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n粉絲名: 兔几\n\n萬用粉絲創作: 兔几的魔法產物\n\n粉絲繪圖tag: # 兔几畫法陣\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n棉花糖: https://marshmallow-qa.com/hoshinoyume_vt\n\nDiscord: https://discord.gg/zSFyJYqUdw\n\nTwitter: https://twitter.com/hoshinoyume_vt\n\nYoutube: https://youtube.com/@hoshinoyume_vt\n\n綠界贊助兔子: https://p.ecpay.com.tw/A5AA8ED \n\n合作郵箱: hoshinoyume.vt@gmail.com\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n繪師馬麻: 姝媛shuyaun https://www.facebook.com/%E5%A7%9D%E5%AA%9Bshuyaun-1485456351783744/\n\n建模師馬麻: @DeathNino https://twitter.com/DeathNino\n\nLogo: @524AGI https://twitter.com/524AGI\n\n配信室: @laipeng16  https://twitter.com/laipeng16"
+      "description": "大家安安！我是星野夢 Hoshino Yume ♥\n\n是一隻喜愛料理和唱歌的魔法兔兔喔 ₍ᐢ ̥ ̞ ̥ᐢ₎ ♥\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n專屬tag: # 星野夢 Hoshino Yume\n\n直播tag: # 兔兔施法中\n\n- 唱歌tag: # 大家一起唱咒語\n\n- 烘培tag: # 魔法點心時間\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n粉絲名: 兔几\n\n萬用粉絲創作: 兔几的魔法產物\n\n粉絲繪圖tag: # 兔几畫法陣\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n棉花糖: https://marshmallow-qa.com/hoshinoyume_vt\n\nDiscord: https://discord.gg/zSFyJYqUdw\n\nTwitter: https://twitter.com/hoshinoyume_vt\n\nYoutube: https://youtube.com/@hoshinoyume_vt\n\n綠界贊助兔子: https://p.ecpay.com.tw/A5AA8ED \n\n合作郵箱: hoshinoyume.vt@gmail.com\n\n♥,.*,.♥,.*,.♥,.*,.♥,.*♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥,.*,.♥\n\n繪師馬麻: 姝媛shuyaun https://www.facebook.com/%E5%A7%9D%E5%AA%9Bshuyaun-1485456351783744/\n\n建模師馬麻: @DeathNino https://twitter.com/DeathNino\n\nLogo: @524AGI https://twitter.com/524AGI\n\n配信室: @laipeng16  https://twitter.com/laipeng16",
+      "glbUrl": ""
     },
     "Separator",
     {
@@ -1650,7 +1813,19 @@
       "modelId": "astronaut-07",
       "url": "https://www.youtube.com/@yuetai7013",
       "linkText": "https://www.youtube.com/@yuetai7013",
-      "description": "✦個人勢Vtuber　本體是白色博美\n\n✦Art #YueTaiArt (可能作為素材) \n✦Fan name 台民\n✦MEME #迷因胎胎\n\n✦ママ：@GanNiDer \n✦パパ：@miday46319586 \n\n✦合作邀約：yuetaivtuber@gmail.com"
+      "description": "✦個人勢Vtuber　本體是白色博美\n\n✦Art #YueTaiArt (可能作為素材) \n✦Fan name 台民\n✦MEME #迷因胎胎\n\n✦ママ：@GanNiDer \n✦パパ：@miday46319586 \n\n✦合作邀約：yuetaivtuber@gmail.com",
+      "glbUrl": ""
+    },
+    "Separator",
+    {
+      "id": "p03-resident-157",
+      "bodyId": "P03",
+      "name": "토키노 메리",
+      "modelId": "ship-01",
+      "url": "https://stellive.me/mary",
+      "linkText": "https://stellive.me/mary",
+      "glbUrl": "https://glb.anshaer.com/토키노 메리.glb",
+      "description": "무시무시한 저주인형 메리다요오!!!! 💛✨"
     },
     "Separator"
   ]
