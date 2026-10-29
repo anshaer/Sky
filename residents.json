@@ -1484,9 +1484,9 @@
       "description": "✦個人勢Vtuber　本體是白色博美\n\n✦Art #YueTaiArt (可能作為素材) \n✦Fan name 台民\n✦MEME #迷因胎胎\n\n✦ママ：@GanNiDer \n✦パパ：@miday46319586 \n\n✦合作邀約：yuetaivtuber@gmail.com"
     }
   ],
-  "floating": {
-     "refreshSeconds": 60,
+"floating": {
+  "refreshSeconds": 60,
   "maxCountPortrait": 30,
-  "maxCountLandscape": 120,
-  }
+  "maxCountLandscape": 120
+}
 }
