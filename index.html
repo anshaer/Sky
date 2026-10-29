@@ -935,7 +935,7 @@
         }
         function refreshResidentMarkers(){}
         function setupResidents(){}
-        function clearResidentOrbit(){residentFocus=null;residentOrbiters.forEach(r=>r.label.remove());residentOrbiters=[];if(residentOrbitGroup){residentOrbitGroup.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});residentOrbitGroup.parent?.remove(residentOrbitGroup);}residentOrbitGroup=null;residentAnchor=null;currentResidentRows=[];}
+        function clearResidentOrbit(){residentFocus=null;residentOrbiters.forEach(r=>r.label.remove());residentOrbiters=[];if(residentOrbitGroup){StarModelLibrary.dispose(residentOrbitGroup);residentOrbitGroup.parent?.remove(residentOrbitGroup);}residentOrbitGroup=null;residentAnchor=null;currentResidentRows=[];}
         function makeResidentShip(index,size){
             const g=new THREE.Group(),palette=[0x67e8f9,0xfda4af,0xc4b5fd,0xfde68a,0x86efac],color=palette[index%5];
             const mat=c=>new THREE.MeshStandardMaterial({color:c,metalness:.45,roughness:.4});
@@ -949,7 +949,7 @@
             const glow=new THREE.Mesh(new THREE.SphereGeometry(.12,10,8),new THREE.MeshBasicMaterial({color:0x6ee7ff}));glow.position.z=.65;g.add(glow);g.scale.setScalar(size);return g;
         }
         function populateResidentOrbit(now=performance.now(),forcedRow=null){
-            if(!residentAnchor||!residentOrbitGroup)return;residentOrbiters.forEach(r=>{r.label.remove();r.dot.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});residentOrbitGroup.remove(r.dot);});residentOrbiters=[];
+            if(!residentAnchor||!residentOrbitGroup)return;residentOrbiters.forEach(r=>{r.label.remove();StarModelLibrary.dispose(r.dot);residentOrbitGroup.remove(r.dot);});residentOrbiters=[];
             const candidates=orbitKind==='toolbox'?toolboxConfig.links:residentsFor(residentTargetKey);const previous=currentResidentRows;const pinned=candidates.filter(r=>r.alwaysVisible);const priority=[...(forcedRow?[forcedRow]:[]),...pinned.filter(r=>r.id!==forcedRow?.id)].slice(0,5);currentResidentRows=[...priority,...randomFive(candidates.filter(r=>!priority.some(p=>p.id===r.id))).slice(0,5-priority.length)];if(!forcedRow&&candidates.length>5 && currentResidentRows.every(r=>previous.includes(r))){const outsider=candidates.filter(r=>!previous.includes(r)),slot=currentResidentRows.findIndex(r=>!r.alwaysVisible);if(slot>=0&&outsider.length)currentResidentRows[slot]=outsider[Math.floor(Math.random()*outsider.length)];}residentCycleStarted=now;
             const bodyRadius=residentAnchor.userData.radius||residentAnchor.geometry?.parameters.radius||1;
             currentResidentRows.forEach((row,i)=>{
@@ -1442,7 +1442,7 @@
                 if (activeSatelliteGroup.parent) {
                     activeSatelliteGroup.parent.remove(activeSatelliteGroup);
                 }
-                activeSatelliteGroup.traverse(o=>{if(o.geometry)o.geometry.dispose();if(o.material){const ms=Array.isArray(o.material)?o.material:[o.material];ms.forEach(m=>m.dispose());}});
+                StarModelLibrary.dispose(activeSatelliteGroup);
                 activeSatelliteGroup = null;
                 activeSatelliteData = [];
             }
@@ -2078,6 +2078,7 @@
             camera.updateMatrixWorld(true);scene.updateMatrixWorld(true);
             updateLabelsOverlay();
             updateResidentLabels();
+            StarModelLibrary.update(scene,camera,window.innerHeight);
             renderer.render(scene, camera);
             renderMotherOverview();
         }
